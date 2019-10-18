@@ -18,7 +18,7 @@ File.open(TEST_SCRIPT, "w") do |f|
   f.write("#!/bin/bash\n\n## build test script for mrbgems\n\n")
   f.write(%q|BASEDIR="$(cd $(dirname $0); pwd)"|+"\n")
 
-  Dir.glob("./mgem-list/*.gem") do |gem|
+  Dir.glob("./mgem-list/*.gem").sort.each do |gem|
     content = YAML.load_file(gem)
 
     bc_file = <<-EOB
