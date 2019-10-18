@@ -21,7 +21,39 @@ RUN set -ex && \
             bison \
             git \
             tzdata \
-            zlib1g-dev
+            zlib1g-dev \
+            ruby \
+            libglib2.0-dev \
+            libgsl-dev \
+            libsqlite3-dev \
+            openssl \
+            libzmq3-dev \
+            iproute2 \
+            autotools-dev automake \
+            libhiredis-dev \
+            libpcap-dev \
+            libgles2-mesa-dev \
+            libuv1-dev \
+            libxml2-dev \
+            libclang-6.0-dev \
+            clang \
+            graphicsmagick-libmagick-dev-compat \
+            libmecab-dev \
+            libgtk2.0-dev \
+            libgtk-3-dev \
+            libczmq-dev \
+            libpq-dev \
+            libv8-dev \
+            libssh2-1-dev \
+            libncursesw5 \
+            libgmp10 libmpc3 libmpfr6 \
+            libmemcached-dev \
+            libmysqlclient-dev \
+            mysql-client \
+            libmaxminddb0 \
+            libcurl4-openssl-dev \
+            liblua5.2-dev \
+            libunbound-dev
 
 # Install production dependencies.
 WORKDIR /app
