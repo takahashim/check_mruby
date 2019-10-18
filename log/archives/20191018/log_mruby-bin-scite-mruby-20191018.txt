@@ -1,0 +1,21 @@
+GIT   https://github.com/sdottaka/mruby-bin-scite-mruby.git -> build/repos/test/mruby-bin-scite-mruby
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-bin-scite-mruby'...
+Cleaned up target build folder
+CC    build/repos/test/mruby-bin-scite-mruby/tools/scintilla/src/Document.cxx -> build/test/mrbgems/mruby-bin-scite-mruby/tools/scintilla/src/Document.o
+sh: 1: g++: not found
+sh: 1: g++: not found
+rake aborted!
+Command failed with status (127): [g++ -g -O3 -Wall -Wundef -g3 -O0 -pthread ...]
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:31:in `_run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:36:in `rescue in _run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:32:in `_run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:90:in `run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:114:in `block (2 levels) in define_rules'
+
+Caused by:
+Command failed with status (127): [g++ -g -O3 -Wall -Wundef -g3 -O0 -pthread ...]
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:33:in `_run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:90:in `run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:114:in `block (2 levels) in define_rules'
+Tasks: TOP => test => test_test => all => /home/maki/check_mruby/mruby/build/test/bin/scite => /home/maki/check_mruby/mruby/build/test/mrbgems/mruby-bin-scite-mruby/tools/scintilla/src/Document.o
+(See full trace by running task with --trace)

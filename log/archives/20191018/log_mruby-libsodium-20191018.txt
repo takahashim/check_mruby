@@ -1,0 +1,37 @@
+GIT   https://github.com/Asmod4n/mruby-libsodium.git -> build/repos/test/mruby-libsodium
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-libsodium'...
+Submodule 'libsodium' (https://github.com/jedisct1/libsodium.git) registered for path 'libsodium'
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-libsodium/libsodium'...
+error: Server does not allow request for unadvertised object 8d021b3f4980b924e0eb9cd0d491981b875c71f6
+Fetched in submodule path 'libsodium', but it did not contain 8d021b3f4980b924e0eb9cd0d491981b875c71f6. Direct fetching of that commit failed.
+fatal: destination path '/home/maki/check_mruby/mruby/build/repos/test/mruby-libsodium' already exists and is not an empty directory.
+rake aborted!
+Command failed with status (128): [git clone  --recursive --branch "master" -...]
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:31:in `_run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:36:in `rescue in _run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:32:in `_run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:288:in `run_clone'
+/home/maki/check_mruby/mruby/lib/mruby/build/load_gems.rb:105:in `load_special_path_gem'
+/home/maki/check_mruby/mruby/lib/mruby/build/load_gems.rb:19:in `gem'
+/home/maki/check_mruby/conf/build_config_mruby-libsodium.rb:23:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:99:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:99:in `initialize'
+/home/maki/check_mruby/conf/build_config_mruby-libsodium.rb:11:in `new'
+/home/maki/check_mruby/conf/build_config_mruby-libsodium.rb:11:in `<top (required)>'
+/home/maki/check_mruby/mruby/Rakefile:16:in `load'
+/home/maki/check_mruby/mruby/Rakefile:16:in `<top (required)>'
+
+Caused by:
+Command failed with status (1): [git clone  --recursive --branch "master" -...]
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:33:in `_run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:288:in `run_clone'
+/home/maki/check_mruby/mruby/lib/mruby/build/load_gems.rb:105:in `load_special_path_gem'
+/home/maki/check_mruby/mruby/lib/mruby/build/load_gems.rb:19:in `gem'
+/home/maki/check_mruby/conf/build_config_mruby-libsodium.rb:23:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:99:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:99:in `initialize'
+/home/maki/check_mruby/conf/build_config_mruby-libsodium.rb:11:in `new'
+/home/maki/check_mruby/conf/build_config_mruby-libsodium.rb:11:in `<top (required)>'
+/home/maki/check_mruby/mruby/Rakefile:16:in `load'
+/home/maki/check_mruby/mruby/Rakefile:16:in `<top (required)>'
+(See full trace by running task with --trace)

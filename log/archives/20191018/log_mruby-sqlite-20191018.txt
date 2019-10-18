@@ -1,0 +1,2246 @@
+GIT   https://github.com/jbreeden/mruby-sqlite.git -> build/repos/test/mruby-sqlite
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite'...
+Cleaned up target build folder
+CC    src/variable.c -> build/host/src/variable.o
+CC    src/range.c -> build/host/src/range.o
+CC    src/codedump.c -> build/host/src/codedump.o
+CC    src/load.c -> build/host/src/load.o
+CC    src/compar.c -> build/host/src/compar.o
+CC    src/gc.c -> build/host/src/gc.o
+CC    src/backtrace.c -> build/host/src/backtrace.o
+CC    src/array.c -> build/host/src/array.o
+CC    src/print.c -> build/host/src/print.o
+CC    src/fmt_fp.c -> build/host/src/fmt_fp.o
+CC    src/init.c -> build/host/src/init.o
+CC    src/proc.c -> build/host/src/proc.o
+CC    src/debug.c -> build/host/src/debug.o
+CC    src/symbol.c -> build/host/src/symbol.o
+CC    src/version.c -> build/host/src/version.o
+CC    src/class.c -> build/host/src/class.o
+CC    src/state.c -> build/host/src/state.o
+CC    src/hash.c -> build/host/src/hash.o
+CC    src/numeric.c -> build/host/src/numeric.o
+CC    src/crc.c -> build/host/src/crc.o
+CC    src/etc.c -> build/host/src/etc.o
+CC    src/string.c -> build/host/src/string.o
+CC    src/kernel.c -> build/host/src/kernel.o
+CC    src/error.c -> build/host/src/error.o
+CC    src/vm.c -> build/host/src/vm.o
+CC    src/dump.c -> build/host/src/dump.o
+CC    src/pool.c -> build/host/src/pool.o
+CC    src/object.c -> build/host/src/object.o
+CC    src/enum.c -> build/host/src/enum.o
+CC    mrbgems/mruby-bin-mrbc/tools/mrbc/mrbc.c -> build/host/mrbgems/mruby-bin-mrbc/tools/mrbc/mrbc.o
+CC    mrbgems/mruby-compiler/core/codegen.c -> build/host/mrbgems/mruby-compiler/core/codegen.o
+YACC  mrbgems/mruby-compiler/core/parse.y -> build/host/mrbgems/mruby-compiler/core/y.tab.c
+CC    build/host/mrbgems/mruby-compiler/core/y.tab.c -> build/host/mrbgems/mruby-compiler/core/y.tab.o
+AR    build/host/lib/libmruby_core.a 
+ar: creating /home/maki/check_mruby/mruby/build/host/lib/libmruby_core.a
+LD    build/host/bin/mrbc 
+GEN   *.rb -> build/host/mrblib/mrblib.c
+      MRBC mrblib/00class.rb 
+      MRBC mrblib/10error.rb 
+      MRBC mrblib/array.rb 
+      MRBC mrblib/compar.rb 
+      MRBC mrblib/enum.rb 
+      MRBC mrblib/hash.rb 
+      MRBC mrblib/kernel.rb 
+      MRBC mrblib/numeric.rb 
+      MRBC mrblib/range.rb 
+      MRBC mrblib/string.rb 
+      MRBC mrblib/symbol.rb 
+CC    build/host/mrblib/mrblib.c -> build/host/mrblib/mrblib.o
+CC    mrbgems/mruby-metaprog/src/metaprog.c -> build/host/mrbgems/mruby-metaprog/src/metaprog.o
+CC    build/host/mrbgems/mruby-metaprog/gem_init.c -> build/host/mrbgems/mruby-metaprog/gem_init.o
+CC    mrbgems/mruby-io/src/io.c -> build/host/mrbgems/mruby-io/src/io.o
+CC    mrbgems/mruby-io/src/mruby_io_gem.c -> build/host/mrbgems/mruby-io/src/mruby_io_gem.o
+CC    mrbgems/mruby-io/src/file.c -> build/host/mrbgems/mruby-io/src/file.o
+CC    mrbgems/mruby-io/src/file_test.c -> build/host/mrbgems/mruby-io/src/file_test.o
+      MRBC mrbgems/mruby-io/mrblib/file.rb 
+      MRBC mrbgems/mruby-io/mrblib/file_constants.rb 
+      MRBC mrbgems/mruby-io/mrblib/io.rb 
+      MRBC mrbgems/mruby-io/mrblib/kernel.rb 
+CC    build/host/mrbgems/mruby-io/gem_init.c -> build/host/mrbgems/mruby-io/gem_init.o
+CC    mrbgems/mruby-pack/src/pack.c -> build/host/mrbgems/mruby-pack/src/pack.o
+CC    build/host/mrbgems/mruby-pack/gem_init.c -> build/host/mrbgems/mruby-pack/gem_init.o
+CC    mrbgems/mruby-sprintf/src/sprintf.c -> build/host/mrbgems/mruby-sprintf/src/sprintf.o
+CC    mrbgems/mruby-sprintf/src/kernel.c -> build/host/mrbgems/mruby-sprintf/src/kernel.o
+      MRBC mrbgems/mruby-sprintf/mrblib/string.rb 
+CC    build/host/mrbgems/mruby-sprintf/gem_init.c -> build/host/mrbgems/mruby-sprintf/gem_init.o
+CC    mrbgems/mruby-print/src/print.c -> build/host/mrbgems/mruby-print/src/print.o
+      MRBC mrbgems/mruby-print/mrblib/print.rb 
+CC    build/host/mrbgems/mruby-print/gem_init.c -> build/host/mrbgems/mruby-print/gem_init.o
+CC    mrbgems/mruby-math/src/math.c -> build/host/mrbgems/mruby-math/src/math.o
+CC    build/host/mrbgems/mruby-math/gem_init.c -> build/host/mrbgems/mruby-math/gem_init.o
+CC    mrbgems/mruby-time/src/time.c -> build/host/mrbgems/mruby-time/src/time.o
+      MRBC mrbgems/mruby-time/mrblib/time.rb 
+CC    build/host/mrbgems/mruby-time/gem_init.c -> build/host/mrbgems/mruby-time/gem_init.o
+CC    mrbgems/mruby-struct/src/struct.c -> build/host/mrbgems/mruby-struct/src/struct.o
+      MRBC mrbgems/mruby-struct/mrblib/struct.rb 
+CC    build/host/mrbgems/mruby-struct/gem_init.c -> build/host/mrbgems/mruby-struct/gem_init.o
+      MRBC mrbgems/mruby-compar-ext/mrblib/compar.rb 
+CC    build/host/mrbgems/mruby-compar-ext/gem_init.c -> build/host/mrbgems/mruby-compar-ext/gem_init.o
+      MRBC mrbgems/mruby-enum-ext/mrblib/enum.rb 
+CC    build/host/mrbgems/mruby-enum-ext/gem_init.c -> build/host/mrbgems/mruby-enum-ext/gem_init.o
+CC    mrbgems/mruby-string-ext/src/string.c -> build/host/mrbgems/mruby-string-ext/src/string.o
+      MRBC mrbgems/mruby-string-ext/mrblib/string.rb 
+CC    build/host/mrbgems/mruby-string-ext/gem_init.c -> build/host/mrbgems/mruby-string-ext/gem_init.o
+CC    mrbgems/mruby-numeric-ext/src/numeric_ext.c -> build/host/mrbgems/mruby-numeric-ext/src/numeric_ext.o
+      MRBC mrbgems/mruby-numeric-ext/mrblib/numeric_ext.rb 
+CC    build/host/mrbgems/mruby-numeric-ext/gem_init.c -> build/host/mrbgems/mruby-numeric-ext/gem_init.o
+CC    mrbgems/mruby-array-ext/src/array.c -> build/host/mrbgems/mruby-array-ext/src/array.o
+      MRBC mrbgems/mruby-array-ext/mrblib/array.rb 
+CC    build/host/mrbgems/mruby-array-ext/gem_init.c -> build/host/mrbgems/mruby-array-ext/gem_init.o
+CC    mrbgems/mruby-hash-ext/src/hash-ext.c -> build/host/mrbgems/mruby-hash-ext/src/hash-ext.o
+      MRBC mrbgems/mruby-hash-ext/mrblib/hash.rb 
+CC    build/host/mrbgems/mruby-hash-ext/gem_init.c -> build/host/mrbgems/mruby-hash-ext/gem_init.o
+CC    mrbgems/mruby-range-ext/src/range.c -> build/host/mrbgems/mruby-range-ext/src/range.o
+      MRBC mrbgems/mruby-range-ext/mrblib/range.rb 
+CC    build/host/mrbgems/mruby-range-ext/gem_init.c -> build/host/mrbgems/mruby-range-ext/gem_init.o
+CC    mrbgems/mruby-proc-ext/src/proc.c -> build/host/mrbgems/mruby-proc-ext/src/proc.o
+      MRBC mrbgems/mruby-proc-ext/mrblib/proc.rb 
+CC    build/host/mrbgems/mruby-proc-ext/gem_init.c -> build/host/mrbgems/mruby-proc-ext/gem_init.o
+CC    mrbgems/mruby-symbol-ext/src/symbol.c -> build/host/mrbgems/mruby-symbol-ext/src/symbol.o
+      MRBC mrbgems/mruby-symbol-ext/mrblib/symbol.rb 
+CC    build/host/mrbgems/mruby-symbol-ext/gem_init.c -> build/host/mrbgems/mruby-symbol-ext/gem_init.o
+CC    mrbgems/mruby-random/src/random.c -> build/host/mrbgems/mruby-random/src/random.o
+CC    build/host/mrbgems/mruby-random/gem_init.c -> build/host/mrbgems/mruby-random/gem_init.o
+CC    mrbgems/mruby-object-ext/src/object.c -> build/host/mrbgems/mruby-object-ext/src/object.o
+      MRBC mrbgems/mruby-object-ext/mrblib/object.rb 
+CC    build/host/mrbgems/mruby-object-ext/gem_init.c -> build/host/mrbgems/mruby-object-ext/gem_init.o
+CC    mrbgems/mruby-objectspace/src/mruby_objectspace.c -> build/host/mrbgems/mruby-objectspace/src/mruby_objectspace.o
+CC    build/host/mrbgems/mruby-objectspace/gem_init.c -> build/host/mrbgems/mruby-objectspace/gem_init.o
+CC    mrbgems/mruby-fiber/src/fiber.c -> build/host/mrbgems/mruby-fiber/src/fiber.o
+CC    build/host/mrbgems/mruby-fiber/gem_init.c -> build/host/mrbgems/mruby-fiber/gem_init.o
+      MRBC mrbgems/mruby-enumerator/mrblib/enumerator.rb 
+CC    build/host/mrbgems/mruby-enumerator/gem_init.c -> build/host/mrbgems/mruby-enumerator/gem_init.o
+      MRBC mrbgems/mruby-enum-lazy/mrblib/lazy.rb 
+CC    build/host/mrbgems/mruby-enum-lazy/gem_init.c -> build/host/mrbgems/mruby-enum-lazy/gem_init.o
+      MRBC mrbgems/mruby-toplevel-ext/mrblib/toplevel.rb 
+CC    build/host/mrbgems/mruby-toplevel-ext/gem_init.c -> build/host/mrbgems/mruby-toplevel-ext/gem_init.o
+CC    mrbgems/mruby-kernel-ext/src/kernel.c -> build/host/mrbgems/mruby-kernel-ext/src/kernel.o
+CC    build/host/mrbgems/mruby-kernel-ext/gem_init.c -> build/host/mrbgems/mruby-kernel-ext/gem_init.o
+CC    mrbgems/mruby-class-ext/src/class.c -> build/host/mrbgems/mruby-class-ext/src/class.o
+      MRBC mrbgems/mruby-class-ext/mrblib/module.rb 
+CC    build/host/mrbgems/mruby-class-ext/gem_init.c -> build/host/mrbgems/mruby-class-ext/gem_init.o
+CC    mrbgems/mruby-method/src/method.c -> build/host/mrbgems/mruby-method/src/method.o
+      MRBC mrbgems/mruby-method/mrblib/kernel.rb 
+      MRBC mrbgems/mruby-method/mrblib/method.rb 
+CC    build/host/mrbgems/mruby-method/gem_init.c -> build/host/mrbgems/mruby-method/gem_init.o
+CC    mrbgems/mruby-error/src/exception.c -> build/host/mrbgems/mruby-error/src/exception.o
+CC    build/host/mrbgems/mruby-error/gem_init.c -> build/host/mrbgems/mruby-error/gem_init.o
+CC    build/host/mrbgems/gem_init.c -> build/host/mrbgems/gem_init.o
+AR    build/host/lib/libmruby.a 
+ar: creating /home/maki/check_mruby/mruby/build/host/lib/libmruby.a
+CC    src/variable.c -> build/test/src/variable.o
+CC    src/range.c -> build/test/src/range.o
+CC    src/codedump.c -> build/test/src/codedump.o
+CC    src/load.c -> build/test/src/load.o
+CC    src/compar.c -> build/test/src/compar.o
+CC    src/gc.c -> build/test/src/gc.o
+CC    src/backtrace.c -> build/test/src/backtrace.o
+CC    src/array.c -> build/test/src/array.o
+CC    src/print.c -> build/test/src/print.o
+CC    src/fmt_fp.c -> build/test/src/fmt_fp.o
+CC    src/init.c -> build/test/src/init.o
+CC    src/proc.c -> build/test/src/proc.o
+CC    src/debug.c -> build/test/src/debug.o
+CC    src/symbol.c -> build/test/src/symbol.o
+CC    src/version.c -> build/test/src/version.o
+CC    src/class.c -> build/test/src/class.o
+CC    src/state.c -> build/test/src/state.o
+CC    src/hash.c -> build/test/src/hash.o
+CC    src/numeric.c -> build/test/src/numeric.o
+CC    src/crc.c -> build/test/src/crc.o
+CC    src/etc.c -> build/test/src/etc.o
+CC    src/string.c -> build/test/src/string.o
+CC    src/kernel.c -> build/test/src/kernel.o
+CC    src/error.c -> build/test/src/error.o
+CC    src/vm.c -> build/test/src/vm.o
+CC    src/dump.c -> build/test/src/dump.o
+CC    src/pool.c -> build/test/src/pool.o
+CC    src/object.c -> build/test/src/object.o
+CC    src/enum.c -> build/test/src/enum.o
+GEN   *.rb -> build/test/mrblib/mrblib.c
+      MRBC mrblib/00class.rb 
+      MRBC mrblib/10error.rb 
+      MRBC mrblib/array.rb 
+      MRBC mrblib/compar.rb 
+      MRBC mrblib/enum.rb 
+      MRBC mrblib/hash.rb 
+      MRBC mrblib/kernel.rb 
+      MRBC mrblib/numeric.rb 
+      MRBC mrblib/range.rb 
+      MRBC mrblib/string.rb 
+      MRBC mrblib/symbol.rb 
+CC    build/test/mrblib/mrblib.c -> build/test/mrblib/mrblib.o
+CC    mrbgems/mruby-metaprog/src/metaprog.c -> build/test/mrbgems/mruby-metaprog/src/metaprog.o
+CC    build/test/mrbgems/mruby-metaprog/gem_init.c -> build/test/mrbgems/mruby-metaprog/gem_init.o
+CC    mrbgems/mruby-io/src/io.c -> build/test/mrbgems/mruby-io/src/io.o
+CC    mrbgems/mruby-io/src/mruby_io_gem.c -> build/test/mrbgems/mruby-io/src/mruby_io_gem.o
+CC    mrbgems/mruby-io/src/file.c -> build/test/mrbgems/mruby-io/src/file.o
+CC    mrbgems/mruby-io/src/file_test.c -> build/test/mrbgems/mruby-io/src/file_test.o
+      MRBC mrbgems/mruby-io/mrblib/file.rb 
+      MRBC mrbgems/mruby-io/mrblib/file_constants.rb 
+      MRBC mrbgems/mruby-io/mrblib/io.rb 
+      MRBC mrbgems/mruby-io/mrblib/kernel.rb 
+CC    build/test/mrbgems/mruby-io/gem_init.c -> build/test/mrbgems/mruby-io/gem_init.o
+CC    mrbgems/mruby-pack/src/pack.c -> build/test/mrbgems/mruby-pack/src/pack.o
+CC    build/test/mrbgems/mruby-pack/gem_init.c -> build/test/mrbgems/mruby-pack/gem_init.o
+CC    mrbgems/mruby-sprintf/src/sprintf.c -> build/test/mrbgems/mruby-sprintf/src/sprintf.o
+CC    mrbgems/mruby-sprintf/src/kernel.c -> build/test/mrbgems/mruby-sprintf/src/kernel.o
+      MRBC mrbgems/mruby-sprintf/mrblib/string.rb 
+CC    build/test/mrbgems/mruby-sprintf/gem_init.c -> build/test/mrbgems/mruby-sprintf/gem_init.o
+CC    mrbgems/mruby-print/src/print.c -> build/test/mrbgems/mruby-print/src/print.o
+      MRBC mrbgems/mruby-print/mrblib/print.rb 
+CC    build/test/mrbgems/mruby-print/gem_init.c -> build/test/mrbgems/mruby-print/gem_init.o
+CC    mrbgems/mruby-math/src/math.c -> build/test/mrbgems/mruby-math/src/math.o
+CC    build/test/mrbgems/mruby-math/gem_init.c -> build/test/mrbgems/mruby-math/gem_init.o
+CC    mrbgems/mruby-time/src/time.c -> build/test/mrbgems/mruby-time/src/time.o
+      MRBC mrbgems/mruby-time/mrblib/time.rb 
+CC    build/test/mrbgems/mruby-time/gem_init.c -> build/test/mrbgems/mruby-time/gem_init.o
+CC    mrbgems/mruby-struct/src/struct.c -> build/test/mrbgems/mruby-struct/src/struct.o
+      MRBC mrbgems/mruby-struct/mrblib/struct.rb 
+CC    build/test/mrbgems/mruby-struct/gem_init.c -> build/test/mrbgems/mruby-struct/gem_init.o
+      MRBC mrbgems/mruby-compar-ext/mrblib/compar.rb 
+CC    build/test/mrbgems/mruby-compar-ext/gem_init.c -> build/test/mrbgems/mruby-compar-ext/gem_init.o
+      MRBC mrbgems/mruby-enum-ext/mrblib/enum.rb 
+CC    build/test/mrbgems/mruby-enum-ext/gem_init.c -> build/test/mrbgems/mruby-enum-ext/gem_init.o
+CC    mrbgems/mruby-string-ext/src/string.c -> build/test/mrbgems/mruby-string-ext/src/string.o
+      MRBC mrbgems/mruby-string-ext/mrblib/string.rb 
+CC    build/test/mrbgems/mruby-string-ext/gem_init.c -> build/test/mrbgems/mruby-string-ext/gem_init.o
+CC    mrbgems/mruby-numeric-ext/src/numeric_ext.c -> build/test/mrbgems/mruby-numeric-ext/src/numeric_ext.o
+      MRBC mrbgems/mruby-numeric-ext/mrblib/numeric_ext.rb 
+CC    build/test/mrbgems/mruby-numeric-ext/gem_init.c -> build/test/mrbgems/mruby-numeric-ext/gem_init.o
+CC    mrbgems/mruby-array-ext/src/array.c -> build/test/mrbgems/mruby-array-ext/src/array.o
+      MRBC mrbgems/mruby-array-ext/mrblib/array.rb 
+CC    build/test/mrbgems/mruby-array-ext/gem_init.c -> build/test/mrbgems/mruby-array-ext/gem_init.o
+CC    mrbgems/mruby-hash-ext/src/hash-ext.c -> build/test/mrbgems/mruby-hash-ext/src/hash-ext.o
+      MRBC mrbgems/mruby-hash-ext/mrblib/hash.rb 
+CC    build/test/mrbgems/mruby-hash-ext/gem_init.c -> build/test/mrbgems/mruby-hash-ext/gem_init.o
+CC    mrbgems/mruby-range-ext/src/range.c -> build/test/mrbgems/mruby-range-ext/src/range.o
+      MRBC mrbgems/mruby-range-ext/mrblib/range.rb 
+CC    build/test/mrbgems/mruby-range-ext/gem_init.c -> build/test/mrbgems/mruby-range-ext/gem_init.o
+CC    mrbgems/mruby-proc-ext/src/proc.c -> build/test/mrbgems/mruby-proc-ext/src/proc.o
+      MRBC mrbgems/mruby-proc-ext/mrblib/proc.rb 
+CC    build/test/mrbgems/mruby-proc-ext/gem_init.c -> build/test/mrbgems/mruby-proc-ext/gem_init.o
+CC    mrbgems/mruby-symbol-ext/src/symbol.c -> build/test/mrbgems/mruby-symbol-ext/src/symbol.o
+      MRBC mrbgems/mruby-symbol-ext/mrblib/symbol.rb 
+CC    build/test/mrbgems/mruby-symbol-ext/gem_init.c -> build/test/mrbgems/mruby-symbol-ext/gem_init.o
+CC    mrbgems/mruby-random/src/random.c -> build/test/mrbgems/mruby-random/src/random.o
+CC    build/test/mrbgems/mruby-random/gem_init.c -> build/test/mrbgems/mruby-random/gem_init.o
+CC    mrbgems/mruby-object-ext/src/object.c -> build/test/mrbgems/mruby-object-ext/src/object.o
+      MRBC mrbgems/mruby-object-ext/mrblib/object.rb 
+CC    build/test/mrbgems/mruby-object-ext/gem_init.c -> build/test/mrbgems/mruby-object-ext/gem_init.o
+CC    mrbgems/mruby-objectspace/src/mruby_objectspace.c -> build/test/mrbgems/mruby-objectspace/src/mruby_objectspace.o
+CC    build/test/mrbgems/mruby-objectspace/gem_init.c -> build/test/mrbgems/mruby-objectspace/gem_init.o
+CC    mrbgems/mruby-fiber/src/fiber.c -> build/test/mrbgems/mruby-fiber/src/fiber.o
+CC    build/test/mrbgems/mruby-fiber/gem_init.c -> build/test/mrbgems/mruby-fiber/gem_init.o
+      MRBC mrbgems/mruby-enumerator/mrblib/enumerator.rb 
+CC    build/test/mrbgems/mruby-enumerator/gem_init.c -> build/test/mrbgems/mruby-enumerator/gem_init.o
+      MRBC mrbgems/mruby-enum-lazy/mrblib/lazy.rb 
+CC    build/test/mrbgems/mruby-enum-lazy/gem_init.c -> build/test/mrbgems/mruby-enum-lazy/gem_init.o
+      MRBC mrbgems/mruby-toplevel-ext/mrblib/toplevel.rb 
+CC    build/test/mrbgems/mruby-toplevel-ext/gem_init.c -> build/test/mrbgems/mruby-toplevel-ext/gem_init.o
+CC    mrbgems/mruby-kernel-ext/src/kernel.c -> build/test/mrbgems/mruby-kernel-ext/src/kernel.o
+CC    build/test/mrbgems/mruby-kernel-ext/gem_init.c -> build/test/mrbgems/mruby-kernel-ext/gem_init.o
+CC    mrbgems/mruby-class-ext/src/class.c -> build/test/mrbgems/mruby-class-ext/src/class.o
+      MRBC mrbgems/mruby-class-ext/mrblib/module.rb 
+CC    build/test/mrbgems/mruby-class-ext/gem_init.c -> build/test/mrbgems/mruby-class-ext/gem_init.o
+CC    mrbgems/mruby-method/src/method.c -> build/test/mrbgems/mruby-method/src/method.o
+      MRBC mrbgems/mruby-method/mrblib/kernel.rb 
+      MRBC mrbgems/mruby-method/mrblib/method.rb 
+CC    build/test/mrbgems/mruby-method/gem_init.c -> build/test/mrbgems/mruby-method/gem_init.o
+CC    mrbgems/mruby-compiler/core/codegen.c -> build/test/mrbgems/mruby-compiler/core/codegen.o
+YACC  mrbgems/mruby-compiler/core/parse.y -> build/test/mrbgems/mruby-compiler/core/y.tab.c
+CC    build/test/mrbgems/mruby-compiler/core/y.tab.c -> build/test/mrbgems/mruby-compiler/core/y.tab.o
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint_usage.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_index_raint_usage.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint_usage.c: In function ‘mrb_SQLite_Sqlite3IndexConstraintUsage_set_argvIndex’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint_usage.c:62:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint_usage.c: In function ‘mrb_SQLite_Sqlite3IndexConstraintUsage_set_omit’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint_usage.c:97:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint_usage.c: In function ‘mrb_SQLite_Sqlite3IndexConstraintUsage_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint_usage.c:117:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3IndexConstraintUsage_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3IndexConstraintUsage", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_blob.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_blob.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_blob.c: In function ‘mrb_SQLite_Sqlite3Blob_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_blob.c:43:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3Blob_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3Blob", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_module.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_module.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_module.c: In function ‘mrb_SQLite_Sqlite3Module_set_iVersion’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_module.c:62:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_module.c: In function ‘mrb_SQLite_Sqlite3Module_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_module.c:962:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3Module_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3Module", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/sqlite3.c -> build/test/mrbgems/mruby-sqlite/src/sqlite3.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:9170:7: warning: "SQLITE_ENABLE_STAT3" is not defined, evaluates to 0 [-Wundef]
+ #elif SQLITE_ENABLE_STAT3
+       ^~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:9172:7: warning: "SQLITE_ENABLE_STAT3_OR_STAT4" is not defined, evaluates to 0 [-Wundef]
+ #elif SQLITE_ENABLE_STAT3_OR_STAT4
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14087:5: warning: "SQLITE_32BIT_ROWID" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_32BIT_ROWID
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14090:5: warning: "SQLITE_4_BYTE_ALIGNED_MALLOC" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_4_BYTE_ALIGNED_MALLOC
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14093:5: warning: "SQLITE_CASE_SENSITIVE_LIKE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_CASE_SENSITIVE_LIKE
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14096:5: warning: "SQLITE_CHECK_PAGES" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_CHECK_PAGES
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14099:5: warning: "SQLITE_COVERAGE_TEST" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_COVERAGE_TEST
+     ^~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14102:5: warning: "SQLITE_DEBUG" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_DEBUG
+     ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14105:5: warning: "SQLITE_DEFAULT_LOCKING_MODE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_DEFAULT_LOCKING_MODE
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14111:5: warning: "SQLITE_DISABLE_DIRSYNC" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_DISABLE_DIRSYNC
+     ^~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14114:5: warning: "SQLITE_DISABLE_LFS" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_DISABLE_LFS
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14117:5: warning: "SQLITE_ENABLE_API_ARMOR" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_API_ARMOR
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14120:5: warning: "SQLITE_ENABLE_ATOMIC_WRITE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_ATOMIC_WRITE
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14123:5: warning: "SQLITE_ENABLE_CEROD" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_CEROD
+     ^~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14129:5: warning: "SQLITE_ENABLE_DBSTAT_VTAB" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_DBSTAT_VTAB
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14132:5: warning: "SQLITE_ENABLE_EXPENSIVE_ASSERT" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_EXPENSIVE_ASSERT
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14135:5: warning: "SQLITE_ENABLE_FTS1" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_FTS1
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14138:5: warning: "SQLITE_ENABLE_FTS2" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_FTS2
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14141:5: warning: "SQLITE_ENABLE_FTS3" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_FTS3
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14144:5: warning: "SQLITE_ENABLE_FTS3_PARENTHESIS" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_FTS3_PARENTHESIS
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14147:5: warning: "SQLITE_ENABLE_FTS4" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_FTS4
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14150:5: warning: "SQLITE_ENABLE_ICU" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_ICU
+     ^~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14153:5: warning: "SQLITE_ENABLE_IOTRACE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_IOTRACE
+     ^~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14156:5: warning: "SQLITE_ENABLE_LOAD_EXTENSION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_LOAD_EXTENSION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14159:5: warning: "SQLITE_ENABLE_LOCKING_STYLE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_LOCKING_STYLE
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14162:5: warning: "SQLITE_ENABLE_MEMORY_MANAGEMENT" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_MEMORY_MANAGEMENT
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14165:5: warning: "SQLITE_ENABLE_MEMSYS3" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_MEMSYS3
+     ^~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14168:5: warning: "SQLITE_ENABLE_MEMSYS5" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_MEMSYS5
+     ^~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14171:5: warning: "SQLITE_ENABLE_OVERSIZE_CELL_CHECK" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_OVERSIZE_CELL_CHECK
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14174:5: warning: "SQLITE_ENABLE_RTREE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_RTREE
+     ^~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14182:5: warning: "SQLITE_ENABLE_UNLOCK_NOTIFY" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_UNLOCK_NOTIFY
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14185:5: warning: "SQLITE_ENABLE_UPDATE_DELETE_LIMIT" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_UPDATE_DELETE_LIMIT
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14188:5: warning: "SQLITE_HAS_CODEC" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_HAS_CODEC
+     ^~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14191:5: warning: "HAVE_ISNAN" is not defined, evaluates to 0 [-Wundef]
+ #if HAVE_ISNAN || SQLITE_HAVE_ISNAN
+     ^~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14191:19: warning: "SQLITE_HAVE_ISNAN" is not defined, evaluates to 0 [-Wundef]
+ #if HAVE_ISNAN || SQLITE_HAVE_ISNAN
+                   ^~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14194:5: warning: "SQLITE_HOMEGROWN_RECURSIVE_MUTEX" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_HOMEGROWN_RECURSIVE_MUTEX
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14197:5: warning: "SQLITE_IGNORE_AFP_LOCK_ERRORS" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_IGNORE_AFP_LOCK_ERRORS
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14200:5: warning: "SQLITE_IGNORE_FLOCK_LOCK_ERRORS" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_IGNORE_FLOCK_LOCK_ERRORS
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14206:5: warning: "SQLITE_LOCK_TRACE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_LOCK_TRACE
+     ^~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14215:5: warning: "SQLITE_MEMDEBUG" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_MEMDEBUG
+     ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14218:5: warning: "SQLITE_MIXED_ENDIAN_64BIT_FLOAT" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_MIXED_ENDIAN_64BIT_FLOAT
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14221:5: warning: "SQLITE_NO_SYNC" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_NO_SYNC
+     ^~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14224:5: warning: "SQLITE_OMIT_ALTERTABLE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_ALTERTABLE
+     ^~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14227:5: warning: "SQLITE_OMIT_ANALYZE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_ANALYZE
+     ^~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14230:5: warning: "SQLITE_OMIT_ATTACH" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_ATTACH
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14233:5: warning: "SQLITE_OMIT_AUTHORIZATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_AUTHORIZATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14236:5: warning: "SQLITE_OMIT_AUTOINCREMENT" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_AUTOINCREMENT
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14239:5: warning: "SQLITE_OMIT_AUTOINIT" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_AUTOINIT
+     ^~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14242:5: warning: "SQLITE_OMIT_AUTOMATIC_INDEX" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_AUTOMATIC_INDEX
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14245:5: warning: "SQLITE_OMIT_AUTORESET" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_AUTORESET
+     ^~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14248:5: warning: "SQLITE_OMIT_AUTOVACUUM" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_AUTOVACUUM
+     ^~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14251:5: warning: "SQLITE_OMIT_BETWEEN_OPTIMIZATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_BETWEEN_OPTIMIZATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14254:5: warning: "SQLITE_OMIT_BLOB_LITERAL" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_BLOB_LITERAL
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14257:5: warning: "SQLITE_OMIT_BTREECOUNT" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_BTREECOUNT
+     ^~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14260:5: warning: "SQLITE_OMIT_BUILTIN_TEST" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_BUILTIN_TEST
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14263:5: warning: "SQLITE_OMIT_CAST" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_CAST
+     ^~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14266:5: warning: "SQLITE_OMIT_CHECK" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_CHECK
+     ^~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14269:5: warning: "SQLITE_OMIT_COMPLETE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_COMPLETE
+     ^~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14272:5: warning: "SQLITE_OMIT_COMPOUND_SELECT" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_COMPOUND_SELECT
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14275:5: warning: "SQLITE_OMIT_CTE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_CTE
+     ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14278:5: warning: "SQLITE_OMIT_DATETIME_FUNCS" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_DATETIME_FUNCS
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14281:5: warning: "SQLITE_OMIT_DECLTYPE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_DECLTYPE
+     ^~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14284:5: warning: "SQLITE_OMIT_DEPRECATED" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_DEPRECATED
+     ^~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14287:5: warning: "SQLITE_OMIT_DISKIO" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_DISKIO
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14290:5: warning: "SQLITE_OMIT_EXPLAIN" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_EXPLAIN
+     ^~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14293:5: warning: "SQLITE_OMIT_FLAG_PRAGMAS" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_FLAG_PRAGMAS
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14296:5: warning: "SQLITE_OMIT_FLOATING_POINT" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_FLOATING_POINT
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14299:5: warning: "SQLITE_OMIT_FOREIGN_KEY" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_FOREIGN_KEY
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14302:5: warning: "SQLITE_OMIT_GET_TABLE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_GET_TABLE
+     ^~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14305:5: warning: "SQLITE_OMIT_INCRBLOB" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_INCRBLOB
+     ^~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14308:5: warning: "SQLITE_OMIT_INTEGRITY_CHECK" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_INTEGRITY_CHECK
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14311:5: warning: "SQLITE_OMIT_LIKE_OPTIMIZATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_LIKE_OPTIMIZATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14314:5: warning: "SQLITE_OMIT_LOAD_EXTENSION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_LOAD_EXTENSION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14317:5: warning: "SQLITE_OMIT_LOCALTIME" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_LOCALTIME
+     ^~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14320:5: warning: "SQLITE_OMIT_LOOKASIDE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_LOOKASIDE
+     ^~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14323:5: warning: "SQLITE_OMIT_MEMORYDB" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_MEMORYDB
+     ^~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14326:5: warning: "SQLITE_OMIT_OR_OPTIMIZATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_OR_OPTIMIZATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14329:5: warning: "SQLITE_OMIT_PAGER_PRAGMAS" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_PAGER_PRAGMAS
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14332:5: warning: "SQLITE_OMIT_PRAGMA" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_PRAGMA
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14335:5: warning: "SQLITE_OMIT_PROGRESS_CALLBACK" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_PROGRESS_CALLBACK
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14338:5: warning: "SQLITE_OMIT_QUICKBALANCE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_QUICKBALANCE
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14341:5: warning: "SQLITE_OMIT_REINDEX" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_REINDEX
+     ^~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14344:5: warning: "SQLITE_OMIT_SCHEMA_PRAGMAS" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_SCHEMA_PRAGMAS
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14347:5: warning: "SQLITE_OMIT_SCHEMA_VERSION_PRAGMAS" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_SCHEMA_VERSION_PRAGMAS
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14350:5: warning: "SQLITE_OMIT_SHARED_CACHE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_SHARED_CACHE
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14353:5: warning: "SQLITE_OMIT_SUBQUERY" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_SUBQUERY
+     ^~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14356:5: warning: "SQLITE_OMIT_TCL_VARIABLE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_TCL_VARIABLE
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14359:5: warning: "SQLITE_OMIT_TEMPDB" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_TEMPDB
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14362:5: warning: "SQLITE_OMIT_TRACE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_TRACE
+     ^~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14365:5: warning: "SQLITE_OMIT_TRIGGER" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_TRIGGER
+     ^~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14368:5: warning: "SQLITE_OMIT_TRUNCATE_OPTIMIZATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_TRUNCATE_OPTIMIZATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14371:5: warning: "SQLITE_OMIT_UTF16" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_UTF16
+     ^~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14374:5: warning: "SQLITE_OMIT_VACUUM" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_VACUUM
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14377:5: warning: "SQLITE_OMIT_VIEW" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_VIEW
+     ^~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14380:5: warning: "SQLITE_OMIT_VIRTUALTABLE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_VIRTUALTABLE
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14383:5: warning: "SQLITE_OMIT_WAL" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_WAL
+     ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14386:5: warning: "SQLITE_OMIT_WSD" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_WSD
+     ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14389:5: warning: "SQLITE_OMIT_XFER_OPT" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OMIT_XFER_OPT
+     ^~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14392:5: warning: "SQLITE_PERFORMANCE_TRACE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_PERFORMANCE_TRACE
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14395:5: warning: "SQLITE_PROXY_DEBUG" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_PROXY_DEBUG
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14398:5: warning: "SQLITE_RTREE_INT_ONLY" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_RTREE_INT_ONLY
+     ^~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14401:5: warning: "SQLITE_SECURE_DELETE" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_SECURE_DELETE
+     ^~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14404:5: warning: "SQLITE_SMALL_STACK" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_SMALL_STACK
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14407:5: warning: "SQLITE_SOUNDEX" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_SOUNDEX
+     ^~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14413:5: warning: "SQLITE_TCL" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_TCL
+     ^~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14419:5: warning: "SQLITE_TEST" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_TEST
+     ^~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14425:5: warning: "SQLITE_USE_ALLOCA" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_USE_ALLOCA
+     ^~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14428:5: warning: "SQLITE_USER_AUTHENTICATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_USER_AUTHENTICATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14431:5: warning: "SQLITE_WIN32_MALLOC" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_WIN32_MALLOC
+     ^~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14434:5: warning: "SQLITE_ZERO_MALLOC" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ZERO_MALLOC
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3_compileoption_used’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:14449:5: warning: "SQLITE_ENABLE_API_ARMOR" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_API_ARMOR
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: At top level:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:15739:6: warning: "HAVE_LOCALTIME_R" is not defined, evaluates to 0 [-Wundef]
+ #if !HAVE_LOCALTIME_R && !HAVE_LOCALTIME_S \
+      ^~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:15739:27: warning: "HAVE_LOCALTIME_S" is not defined, evaluates to 0 [-Wundef]
+ #if !HAVE_LOCALTIME_R && !HAVE_LOCALTIME_S \
+                           ^~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘osLocaltime’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:15761:6: warning: "HAVE_LOCALTIME_R" is not defined, evaluates to 0 [-Wundef]
+ #if !HAVE_LOCALTIME_R && !HAVE_LOCALTIME_S
+      ^~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:15761:27: warning: "HAVE_LOCALTIME_S" is not defined, evaluates to 0 [-Wundef]
+ #if !HAVE_LOCALTIME_R && !HAVE_LOCALTIME_S
+                           ^~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3RegisterDateTimeFunctions’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:16442:56: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(julianday,        -1, 0, 0, juliandayFunc ),
+                                                        ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:16443:56: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(date,             -1, 0, 0, dateFunc      ),
+                                                        ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:16444:56: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(time,             -1, 0, 0, timeFunc      ),
+                                                        ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:16445:56: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(datetime,         -1, 0, 0, datetimeFunc  ),
+                                                        ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:16446:56: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(strftime,         -1, 0, 0, strftimeFunc  ),
+                                                        ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:16447:56: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(current_time,      0, 0, 0, ctimeFunc     ),
+                                                        ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:16448:56: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(current_timestamp, 0, 0, 0, ctimestampFunc),
+                                                        ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:16449:56: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(current_date,      0, 0, 0, cdateFunc     ),
+                                                        ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: At top level:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:17093:5: warning: "HAVE_MALLOC_H" is not defined, evaluates to 0 [-Wundef]
+ #if HAVE_MALLOC_H && HAVE_MALLOC_USABLE_SIZE
+     ^~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘pthreadMutexFree’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:19676:5: warning: "SQLITE_ENABLE_API_ARMOR" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_API_ARMOR
+     ^~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3DbFree’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:21039:5: warning: "SQLITE_DEBUG" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_DEBUG
+     ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3VXPrintf’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:21570:5: warning: "HAVE_STRCHRNUL" is not defined, evaluates to 0 [-Wundef]
+ #if HAVE_STRCHRNUL
+     ^~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:21809:17: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+           bufpt = "NaN";
+                 ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:21824:21: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+               bufpt = "-Inf";
+                     ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:21826:21: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+               bufpt = "+Inf";
+                     ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:21828:21: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+               bufpt = "Inf";
+                     ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:21983:17: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+           bufpt = "";
+                 ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:22008:29: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         if( isnull ) escarg = (xtype==etSQLESCAPE2 ? "NULL" : "(NULL)");
+                             ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: At top level:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:22732:5: warning: "SQLITE_OS_WIN_THREADS" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OS_WIN_THREADS
+     ^~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:23446:5: warning: "HAVE_ISNAN" is not defined, evaluates to 0 [-Wundef]
+ #if HAVE_ISNAN || SQLITE_HAVE_ISNAN
+     ^~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:23446:19: warning: "SQLITE_HAVE_ISNAN" is not defined, evaluates to 0 [-Wundef]
+ #if HAVE_ISNAN || SQLITE_HAVE_ISNAN
+                   ^~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3IsNaN’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:23487:6: warning: "SQLITE_HAVE_ISNAN" is not defined, evaluates to 0 [-Wundef]
+ #if !SQLITE_HAVE_ISNAN && !HAVE_ISNAN
+      ^~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:23487:28: warning: "HAVE_ISNAN" is not defined, evaluates to 0 [-Wundef]
+ #if !SQLITE_HAVE_ISNAN && !HAVE_ISNAN
+                            ^~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘unixLogErrorAtLine’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:26595:8: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   zErr = "";
+        ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: At top level:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:28847:29: warning: "HAVE_FDATASYNC" is not defined, evaluates to 0 [-Wundef]
+ #if !defined(fdatasync) && !HAVE_FDATASYNC
+                             ^~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3BtreeSetPageSize’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:55469:5: warning: "SQLITE_HAS_CODEC" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_HAS_CODEC
+     ^~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: At top level:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:57580:5: warning: "SQLITE_DEBUG" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_DEBUG
+     ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘fillInCell’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:58939:5: warning: "SQLITE_DEBUG" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_DEBUG
+     ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘displayP4’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:65896:13: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         zP4 = "(blob)";
+             ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: At top level:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:68037:5: warning: "SQLITE_DEBUG" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_DEBUG
+     ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:68141:5: warning: "SQLITE_DEBUG" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_DEBUG
+     ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3_get_auxdata’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:69700:5: warning: "SQLITE_ENABLE_STAT3_OR_STAT4" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_ENABLE_STAT3_OR_STAT4
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3VdbeExec’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:72884:5: warning: "SQLITE_DEBUG" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_DEBUG
+     ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3ExprCacheClear’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:85307:5: warning: "SQLITE_DEBUG" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_DEBUG
+     ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3AlterFunctions’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:87460:61: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(sqlite_rename_table,   2, 0, 0, renameTableFunc),
+                                                             ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:87462:63: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(sqlite_rename_trigger, 2, 0, 0, renameTriggerFunc),
+                                                               ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:87465:62: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(sqlite_rename_parent,  3, 0, 0, renameParentFunc),
+                                                              ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: At top level:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:88545:3: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   "stat_init",     /* zName */
+   ^~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:88846:3: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   "stat_push",     /* zName */
+   ^~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:88993:3: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   "stat_get",      /* zName */
+   ^~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘callStatGet’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:89002:7: warning: "SQLITE_DEBUG" is not defined, evaluates to 0 [-Wundef]
+ #elif SQLITE_DEBUG
+       ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3Detach’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:90349:5: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "sqlite_detach",  /* zName */
+     ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3Attach’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:90370:5: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "sqlite_attach",  /* zName */
+     ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3FinishCoding’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:90964:5: warning: "SQLITE_USER_AUTHENTICATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_USER_AUTHENTICATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: At top level:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:91090:5: warning: "SQLITE_USER_AUTHENTICATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_USER_AUTHENTICATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3FindTable’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:91118:5: warning: "SQLITE_USER_AUTHENTICATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_USER_AUTHENTICATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3LocateTable’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:91169:5: warning: "SQLITE_USER_AUTHENICATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_USER_AUTHENICATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘createTableStmt’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:92337:10: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     zSep = "";
+          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:92338:11: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     zSep2 = ",";
+           ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:92339:10: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     zEnd = ")";
+          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:92341:10: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     zSep = "\n  ";
+          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:92342:11: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     zSep2 = ",\n  ";
+           ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:92343:10: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     zEnd = "\n)";
+          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘convertToWithoutRowidTable’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:92580:24: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         pPk->azColl[j] = "BINARY";
+                        ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3EndTable’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:92695:13: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       zType = "table";
+             ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:92696:14: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       zType2 = "TABLE";
+              ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:92700:13: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       zType = "view";
+             ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:92701:14: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       zType2 = "VIEW";
+              ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3CreateIndex’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:93728:5: warning: "SQLITE_USER_AUTHENTICATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_USER_AUTHENTICATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:93906:26: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       if( !zColl ) zColl = "BINARY";
+                          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:93931:23: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     pIndex->azColl[i] = "BINARY";
+                       ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3RegisterGlobalFunctions’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98129:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(ltrim,              1, 1, 0, trimFunc         ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98130:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(ltrim,              2, 1, 0, trimFunc         ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98131:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(rtrim,              1, 2, 0, trimFunc         ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98132:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(rtrim,              2, 2, 0, trimFunc         ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98133:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(trim,               1, 3, 0, trimFunc         ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98134:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(trim,               2, 3, 0, trimFunc         ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98135:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(min,               -1, 0, 1, minmaxFunc       ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98136:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(min,                0, 0, 1, 0                ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98138:62: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+                                           SQLITE_FUNC_MINMAX ),
+                                                              ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11327:48: note: in definition of macro ‘AGGREGATE2’
+    SQLITE_INT_TO_PTR(arg), 0, 0, xStep,xFinal,#zName,0,0}
+                                                ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98139:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(max,               -1, 1, 1, minmaxFunc       ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98140:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(max,                0, 1, 1, 0                ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98142:62: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+                                           SQLITE_FUNC_MINMAX ),
+                                                              ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11327:48: note: in definition of macro ‘AGGREGATE2’
+    SQLITE_INT_TO_PTR(arg), 0, 0, xStep,xFinal,#zName,0,0}
+                                                ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98143:74: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION2(typeof,            1, 0, 0, typeofFunc,  SQLITE_FUNC_TYPEOF),
+                                                                          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11315:46: note: in definition of macro ‘FUNCTION2’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98144:74: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION2(length,            1, 0, 0, lengthFunc,  SQLITE_FUNC_LENGTH),
+                                                                          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11315:46: note: in definition of macro ‘FUNCTION2’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98145:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(instr,              2, 0, 0, instrFunc        ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98146:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(substr,             2, 0, 0, substrFunc       ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98147:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(substr,             3, 0, 0, substrFunc       ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98148:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(printf,            -1, 0, 0, printfFunc       ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98149:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(unicode,            1, 0, 0, unicodeFunc      ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98150:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(char,              -1, 0, 0, charFunc         ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98151:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(abs,                1, 0, 0, absFunc          ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98153:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(round,              1, 0, 0, roundFunc        ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98154:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(round,              2, 0, 0, roundFunc        ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98156:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(upper,              1, 0, 0, upperFunc        ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98157:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(lower,              1, 0, 0, lowerFunc        ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98158:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(coalesce,           1, 0, 0, 0                ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98159:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(coalesce,           0, 0, 0, 0                ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98160:74: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION2(coalesce,         -1, 0, 0, noopFunc,  SQLITE_FUNC_COALESCE),
+                                                                          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11315:46: note: in definition of macro ‘FUNCTION2’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98161:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(hex,                1, 0, 0, hexFunc          ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98162:74: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION2(ifnull,            2, 0, 0, noopFunc,  SQLITE_FUNC_COALESCE),
+                                                                          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11315:46: note: in definition of macro ‘FUNCTION2’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98163:74: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION2(unlikely,          1, 0, 0, noopFunc,  SQLITE_FUNC_UNLIKELY),
+                                                                          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11315:46: note: in definition of macro ‘FUNCTION2’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98164:74: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION2(likelihood,        2, 0, 0, noopFunc,  SQLITE_FUNC_UNLIKELY),
+                                                                          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11315:46: note: in definition of macro ‘FUNCTION2’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98165:74: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION2(likely,            1, 0, 0, noopFunc,  SQLITE_FUNC_UNLIKELY),
+                                                                          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11315:46: note: in definition of macro ‘FUNCTION2’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98166:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     VFUNCTION(random,            0, 0, 0, randomFunc       ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11312:46: note: in definition of macro ‘VFUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98167:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     VFUNCTION(randomblob,        1, 0, 0, randomBlob       ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11312:46: note: in definition of macro ‘VFUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98168:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(nullif,             2, 0, 1, nullifFunc       ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98169:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(sqlite_version,     0, 0, 0, versionFunc      ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98170:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(sqlite_source_id,   0, 0, 0, sourceidFunc     ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98171:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(sqlite_log,         2, 0, 0, errlogFunc       ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98172:5: warning: "SQLITE_USER_AUTHENTICATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_USER_AUTHENTICATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98176:72: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(sqlite_compileoption_used,1, 0, 0, compileoptionusedFunc  ),
+                                                                        ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98177:71: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(sqlite_compileoption_get, 1, 0, 0, compileoptiongetFunc  ),
+                                                                       ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98179:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(quote,              1, 0, 0, quoteFunc        ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98180:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     VFUNCTION(last_insert_rowid, 0, 0, 0, last_insert_rowid),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11312:46: note: in definition of macro ‘VFUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98181:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     VFUNCTION(changes,           0, 0, 0, changes          ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11312:46: note: in definition of macro ‘VFUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98182:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     VFUNCTION(total_changes,     0, 0, 0, total_changes    ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11312:46: note: in definition of macro ‘VFUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98183:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(replace,            3, 0, 0, replaceFunc      ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98184:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(zeroblob,           1, 0, 0, zeroblobFunc     ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98189:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(load_extension,     1, 0, 0, loadExt          ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98190:60: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     FUNCTION(load_extension,     2, 0, 0, loadExt          ),
+                                                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11309:46: note: in definition of macro ‘FUNCTION’
+    SQLITE_INT_TO_PTR(iArg), 0, xFunc, 0, 0, #zName, 0, 0}
+                                              ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98192:75: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     AGGREGATE(sum,               1, 0, 0, sumStep,         sumFinalize    ),
+                                                                           ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11324:48: note: in definition of macro ‘AGGREGATE’
+    SQLITE_INT_TO_PTR(arg), 0, 0, xStep,xFinal,#zName,0,0}
+                                                ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98193:77: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     AGGREGATE(total,             1, 0, 0, sumStep,         totalFinalize    ),
+                                                                             ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11324:48: note: in definition of macro ‘AGGREGATE’
+    SQLITE_INT_TO_PTR(arg), 0, 0, xStep,xFinal,#zName,0,0}
+                                                ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98194:75: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     AGGREGATE(avg,               1, 0, 0, sumStep,         avgFinalize    ),
+                                                                           ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11324:48: note: in definition of macro ‘AGGREGATE’
+    SQLITE_INT_TO_PTR(arg), 0, 0, xStep,xFinal,#zName,0,0}
+                                                ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98196:35: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+                SQLITE_FUNC_COUNT  ),
+                                   ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11327:48: note: in definition of macro ‘AGGREGATE2’
+    SQLITE_INT_TO_PTR(arg), 0, 0, xStep,xFinal,#zName,0,0}
+                                                ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98197:75: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     AGGREGATE(count,             1, 0, 0, countStep,       countFinalize  ),
+                                                                           ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11324:48: note: in definition of macro ‘AGGREGATE’
+    SQLITE_INT_TO_PTR(arg), 0, 0, xStep,xFinal,#zName,0,0}
+                                                ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98198:79: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     AGGREGATE(group_concat,      1, 0, 0, groupConcatStep, groupConcatFinalize),
+                                                                               ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11324:48: note: in definition of macro ‘AGGREGATE’
+    SQLITE_INT_TO_PTR(arg), 0, 0, xStep,xFinal,#zName,0,0}
+                                                ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98199:79: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     AGGREGATE(group_concat,      2, 0, 0, groupConcatStep, groupConcatFinalize),
+                                                                               ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11324:48: note: in definition of macro ‘AGGREGATE’
+    SQLITE_INT_TO_PTR(arg), 0, 0, xStep,xFinal,#zName,0,0}
+                                                ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98201:67: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     LIKEFUNC(glob, 2, &globInfo, SQLITE_FUNC_LIKE|SQLITE_FUNC_CASE),
+                                                                   ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11321:37: note: in definition of macro ‘LIKEFUNC’
+    (void *)arg, 0, likeFunc, 0, 0, #zName, 0, 0}
+                                     ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98206:54: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     LIKEFUNC(like, 2, &likeInfoNorm, SQLITE_FUNC_LIKE),
+                                                      ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11321:37: note: in definition of macro ‘LIKEFUNC’
+    (void *)arg, 0, likeFunc, 0, 0, #zName, 0, 0}
+                                     ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98207:54: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     LIKEFUNC(like, 3, &likeInfoNorm, SQLITE_FUNC_LIKE),
+                                                      ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:11321:37: note: in definition of macro ‘LIKEFUNC’
+    (void *)arg, 0, likeFunc, 0, 0, #zName, 0, 0}
+                                     ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3FkLocateIndex’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:98487:23: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+             zDfltColl = "BINARY";
+                       ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3JournalModename’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:103824:5: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "delete", "persist", "off", "truncate", "memory"
+     ^~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:103824:15: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "delete", "persist", "off", "truncate", "memory"
+               ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:103824:26: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "delete", "persist", "off", "truncate", "memory"
+                          ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:103824:33: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "delete", "persist", "off", "truncate", "memory"
+                                 ^~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:103824:45: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     "delete", "persist", "off", "truncate", "memory"
+                                             ^~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:103826:8: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+      , "wal"
+        ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3Pragma’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:104560:5: warning: "SQLITE_USER_AUTHENTICATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_USER_AUTHENTICATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:105237:9: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       { "UTF8",     SQLITE_UTF8        },
+         ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:105238:9: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       { "UTF-8",    SQLITE_UTF8        },  /* Must be element [1] */
+         ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:105239:9: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       { "UTF-16le", SQLITE_UTF16LE     },  /* Must be element [2] */
+         ^~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:105240:9: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       { "UTF-16be", SQLITE_UTF16BE     },  /* Must be element [3] */
+         ^~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:105241:9: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       { "UTF16le",  SQLITE_UTF16LE     },
+         ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:105242:9: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       { "UTF16be",  SQLITE_UTF16BE     },
+         ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:105243:9: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       { "UTF-16",   0                  }, /* SQLITE_UTF16NATIVE */
+         ^~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:105244:9: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       { "UTF16",    0                  }, /* SQLITE_UTF16NATIVE */
+         ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘selectOpName’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:107543:26: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     case TK_ALL:       z = "UNION ALL";   break;
+                          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:107544:26: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     case TK_INTERSECT: z = "INTERSECT";   break;
+                          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:107545:26: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     case TK_EXCEPT:    z = "EXCEPT";      break;
+                          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:107546:26: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     default:           z = "UNION";       break;
+                          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘generateColumnNames’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:108008:14: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         zCol = "rowid";
+              ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3RunVacuum’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:114342:10: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     zSql = "ATTACH ':memory:' AS vacuum_db;";
+          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:114344:10: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     zSql = "ATTACH '' AS vacuum_db;";
+          ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘constructAutomaticIndex’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:117969:15: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   pIdx->zName = "auto-index";
+               ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:117984:25: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+         pIdx->azColl[n] = pColl ? pColl->zName : "BINARY";
+                         ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:117996:23: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       pIdx->azColl[n] = "BINARY";
+                       ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:118003:23: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+       pIdx->azColl[n] = "BINARY";
+                       ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:118009:19: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   pIdx->azColl[n] = "BINARY";
+                   ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘explainIndexRange’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:119218:15: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     char *z = aiColumn[i] < 0 ? "rowid" : aCol[aiColumn[i]].zName;
+               ^~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:119229:15: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     char *z = aiColumn[j] < 0 ? "rowid" : aCol[aiColumn[j]].zName;
+               ^~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:119233:15: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     char *z = aiColumn[j] < 0 ? "rowid" : aCol[aiColumn[j]].zName;
+               ^~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘whereLoopInsert’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:120683:5: warning: "WHERETRACE_ENABLED" is not defined, evaluates to 0 [-Wundef]
+ #if WHERETRACE_ENABLED
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:120689:5: warning: "WHERETRACE_ENABLED" is not defined, evaluates to 0 [-Wundef]
+ #if WHERETRACE_ENABLED /* 0x8 */
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:120706:5: warning: "WHERETRACE_ENABLED" is not defined, evaluates to 0 [-Wundef]
+ #if WHERETRACE_ENABLED /* 0x8 */
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:120721:5: warning: "WHERETRACE_ENABLED" is not defined, evaluates to 0 [-Wundef]
+ #if WHERETRACE_ENABLED /* 0x8 */
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:120749:5: warning: "WHERETRACE_ENABLED" is not defined, evaluates to 0 [-Wundef]
+ #if WHERETRACE_ENABLED /* 0x8 */
+     ^~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3LeaveMutexAndCloseZombie’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:129120:5: warning: "SQLITE_USER_AUTHENTICATION" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_USER_AUTHENTICATION
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqliteDefaultBusyCallback’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:129366:22: warning: "HAVE_USLEEP" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_OS_WIN || HAVE_USLEEP
+                      ^~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘sqlite3ParseUri’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:130551:21: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+           zModeType = "cache";
+                     ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:130566:21: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+           zModeType = "access";
+                     ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c: In function ‘openDatabase’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:130735:5: warning: "SQLITE_DEFAULT_CKPTFULLFSYNC" is not defined, evaluates to 0 [-Wundef]
+ #if SQLITE_DEFAULT_CKPTFULLFSYNC
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:130809:20: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   db->aDb[0].zName = "main";
+                    ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:130811:20: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   db->aDb[1].zName = "temp";
+                    ^
+At top level:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:9057:26: warning: ‘sqlite3one’ defined but not used [-Wunused-const-variable=]
+ SQLITE_PRIVATE const int sqlite3one = 1;
+                          ^~~~~~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_mem_methods.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_mem_methods.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_mem_methods.c: In function ‘mrb_SQLite_Sqlite3MemMethods_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_mem_methods.c:367:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3MemMethods_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3MemMethods", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_orderby.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_index_orderby.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_orderby.c: In function ‘mrb_SQLite_Sqlite3IndexOrderby_set_iColumn’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_orderby.c:62:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_orderby.c: In function ‘mrb_SQLite_Sqlite3IndexOrderby_set_desc’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_orderby.c:97:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_orderby.c: In function ‘mrb_SQLite_Sqlite3IndexOrderby_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_orderby.c:117:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3IndexOrderby_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3IndexOrderby", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_index_raint.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint.c: In function ‘mrb_SQLite_Sqlite3IndexConstraint_set_iColumn’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint.c:62:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint.c: In function ‘mrb_SQLite_Sqlite3IndexConstraint_set_op’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint.c:97:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint.c: In function ‘mrb_SQLite_Sqlite3IndexConstraint_set_usable’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint.c:132:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint.c: In function ‘mrb_SQLite_Sqlite3IndexConstraint_set_iTermOffset’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint.c:167:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint.c: In function ‘mrb_SQLite_Sqlite3IndexConstraint_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_raint.c:187:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3IndexConstraint_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3IndexConstraint", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache_page.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_pcache_page.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache_page.c: In function ‘mrb_SQLite_Sqlite3PcachePage_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache_page.c:127:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3PcachePage_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3PcachePage", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_geometry.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_rtree_geometry.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_geometry.c: In function ‘mrb_SQLite_Sqlite3RtreeGeometry_set_nParam’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_geometry.c:102:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_geometry.c: In function ‘mrb_SQLite_Sqlite3RtreeGeometry_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_geometry.c:242:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3RtreeGeometry_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3RtreeGeometry", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_backup.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_backup.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_backup.c: In function ‘mrb_SQLite_Sqlite3Backup_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_backup.c:43:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3Backup_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3Backup", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_stmt.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_stmt.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_stmt.c: In function ‘mrb_SQLite_Sqlite3Stmt_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_stmt.c:43:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3Stmt_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3Stmt", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_index_info.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c: In function ‘mrb_SQLite_Sqlite3IndexInfo_set_nConstraint’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:62:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c: In function ‘mrb_SQLite_Sqlite3IndexInfo_set_aConstraint’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:101:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct sqlite3_index_constraint * native_aConstraint = (mrb_nil_p(aConstraint) ? NULL : mruby_unbox_sqlite3_index_raint(aConstraint));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:105:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c: In function ‘mrb_SQLite_Sqlite3IndexInfo_set_nOrderBy’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:140:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c: In function ‘mrb_SQLite_Sqlite3IndexInfo_set_aOrderBy’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:179:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct sqlite3_index_orderby * native_aOrderBy = (mrb_nil_p(aOrderBy) ? NULL : mruby_unbox_sqlite3_index_orderby(aOrderBy));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:183:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c: In function ‘mrb_SQLite_Sqlite3IndexInfo_set_aConstraintUsage’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:222:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct sqlite3_index_constraint_usage * native_aConstraintUsage = (mrb_nil_p(aConstraintUsage) ? NULL : mruby_unbox_sqlite3_index_raint_usage(aConstraintUsage));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:226:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c: In function ‘mrb_SQLite_Sqlite3IndexInfo_set_idxNum’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:261:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c: In function ‘mrb_SQLite_Sqlite3IndexInfo_set_needToFreeIdxStr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:336:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c: In function ‘mrb_SQLite_Sqlite3IndexInfo_set_orderByConsumed’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:371:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c: In function ‘mrb_SQLite_Sqlite3IndexInfo_set_estimatedCost’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:406:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c: In function ‘mrb_SQLite_Sqlite3IndexInfo_set_estimatedRows’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:441:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c: In function ‘mrb_SQLite_Sqlite3IndexInfo_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_index_info.c:461:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3IndexInfo_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3IndexInfo", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_file.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_file.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_file.c: In function ‘mrb_SQLite_Sqlite3File_get_pMethods’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_file.c:43:103: warning: passing argument 2 of ‘mruby_box_sqlite3_io_methods’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   mrb_value pMethods = (native_pMethods == NULL ? mrb_nil_value() : mruby_box_sqlite3_io_methods(mrb, native_pMethods));
+                                                                                                       ^~~~~~~~~~~~~~~
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/mruby_SQLite.h:39:0,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_file.c:6:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/mruby_SQLite_boxing.h:252:1: note: expected ‘sqlite3_io_methods * {aka struct sqlite3_io_methods *}’ but argument is of type ‘const struct sqlite3_io_methods *’
+ mruby_box_sqlite3_io_methods(mrb_state* mrb, sqlite3_io_methods *unboxed);
+ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_file.c: In function ‘mrb_SQLite_Sqlite3File_set_pMethods’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_file.c:66:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const struct sqlite3_io_methods * native_pMethods = (mrb_nil_p(pMethods) ? NULL : mruby_unbox_sqlite3_io_methods(pMethods));
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_file.c:70:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_file.c: In function ‘mrb_SQLite_Sqlite3File_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_file.c:90:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3File_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3File", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_io_methods.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_io_methods.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_io_methods.c: In function ‘mrb_SQLite_Sqlite3IoMethods_set_iVersion’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_io_methods.c:62:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_io_methods.c: In function ‘mrb_SQLite_Sqlite3IoMethods_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_io_methods.c:802:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3IoMethods_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3IoMethods", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3.c: In function ‘mrb_SQLite_Sqlite3_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3.c:43:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_value.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_value.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_value.c: In function ‘mrb_SQLite_Sqlite3Value_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_value.c:43:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3Value_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3Value", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache_methods2.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_pcache_methods2.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache_methods2.c: In function ‘mrb_SQLite_Sqlite3PcacheMethods2_set_iVersion’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache_methods2.c:62:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache_methods2.c: In function ‘mrb_SQLite_Sqlite3PcacheMethods2_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache_methods2.c:562:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3PcacheMethods2_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3PcacheMethods2", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_mutex_methods.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_mutex_methods.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_mutex_methods.c: In function ‘mrb_SQLite_Sqlite3MutexMethods_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_mutex_methods.c:407:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3MutexMethods_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3MutexMethods", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_SQLite_enum_constants.c -> build/test/mrbgems/mruby-sqlite/src/mruby_SQLite_enum_constants.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_enum_constants.c: In function ‘mruby_SQLite_define_enum_constants’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_enum_constants.c:11:13: warning: unused variable ‘SQLite_mod’ [-Wunused-variable]
+   mrb_value SQLite_mod = mrb_obj_value(SQLite_module(mrb));
+             ^~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_enum_constants.c:10:19: warning: unused variable ‘SQLite_module’ [-Wunused-variable]
+   struct RClass * SQLite_module = SQLite_module(mrb);
+                   ^~~~~~~~~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c: In function ‘mrb_SQLite_Sqlite3RtreeQueryInfo_set_nParam’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c:102:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c: In function ‘mrb_SQLite_Sqlite3RtreeQueryInfo_set_nCoord’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c:337:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c: In function ‘mrb_SQLite_Sqlite3RtreeQueryInfo_set_iLevel’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c:372:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c: In function ‘mrb_SQLite_Sqlite3RtreeQueryInfo_set_mxLevel’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c:407:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c: In function ‘mrb_SQLite_Sqlite3RtreeQueryInfo_set_iRowid’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c:442:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c: In function ‘mrb_SQLite_Sqlite3RtreeQueryInfo_set_rParentScore’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c:477:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c: In function ‘mrb_SQLite_Sqlite3RtreeQueryInfo_set_eParentWithin’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c:512:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c: In function ‘mrb_SQLite_Sqlite3RtreeQueryInfo_set_eWithin’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c:547:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c: In function ‘mrb_SQLite_Sqlite3RtreeQueryInfo_set_rScore’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c:582:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c: In function ‘mrb_SQLite_Sqlite3RtreeQueryInfo_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_rtree_query_info.c:602:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3RtreeQueryInfo_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3RtreeQueryInfo", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_SQLite.c -> build/test/mrbgems/mruby-sqlite/src/mruby_SQLite.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_aggregate_count’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:66:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_context * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_context(arg1));
+   ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_backup_finish’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:129:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_backup * native_p = (mrb_nil_p(p) ? NULL : mruby_unbox_sqlite3_backup(p));
+   ^~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_backup_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:169:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_pDest = (mrb_nil_p(pDest) ? NULL : mruby_unbox_sqlite3(pDest));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_backup_pagecount’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:205:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_backup * native_p = (mrb_nil_p(p) ? NULL : mruby_unbox_sqlite3_backup(p));
+   ^~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_backup_remaining’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:238:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_backup * native_p = (mrb_nil_p(p) ? NULL : mruby_unbox_sqlite3_backup(p));
+   ^~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_backup_step’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:272:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_backup * native_p = (mrb_nil_p(p) ? NULL : mruby_unbox_sqlite3_backup(p));
+   ^~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_bind_blob’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:318:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:306:13: warning: unused variable ‘arg5’ [-Wunused-variable]
+   mrb_value arg5;
+             ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_bind_double’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:404:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_bind_int’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:439:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_bind_int64’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:474:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_bind_null’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:508:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_bind_parameter_count’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:541:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_bind_parameter_index’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:575:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_bind_parameter_name’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:609:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_bind_text’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:654:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_bind_zeroblob’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:828:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_blob_bytes’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:861:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_blob * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_blob(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_blob_close’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:894:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_blob * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_blob(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_blob_reopen’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1011:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_blob * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_blob(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_busy_timeout’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1128:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_changes’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1191:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_clear_bindings’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1224:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_close’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1257:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_close_v2’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1295:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1302:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value return_value = mrb_fixnum_value(native_return_value);
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_blob’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1422:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_bytes’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1457:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_bytes16’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1491:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_count’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1524:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_pStmt = (mrb_nil_p(pStmt) ? NULL : mruby_unbox_sqlite3_stmt(pStmt));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_database_name’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1558:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_decltype’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1626:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_double’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1694:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_int’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1728:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_int64’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1762:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_name’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1796:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_origin_name’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1864:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_table_name’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:1932:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_text’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:2006:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_column_type’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:2075:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_compileoption_get’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:2185:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const char * native_return_value = sqlite3_compileoption_get(native_N);
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_compileoption_used’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:2209:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int native_return_value = sqlite3_compileoption_used(native_zOptName);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_complete’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:2233:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int native_return_value = sqlite3_complete(native_sql);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_config’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:2287:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int native_return_value = sqlite3_config(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_context_db_handle’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:2317:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_context * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_context(arg1));
+   ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_data_count’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:2770:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_pStmt = (mrb_nil_p(pStmt) ? NULL : mruby_unbox_sqlite3_stmt(pStmt));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_db_config’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:2804:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_db_filename’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:2838:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_db = (mrb_nil_p(db) ? NULL : mruby_unbox_sqlite3(db));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_db_handle’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:2871:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_db_readonly’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:2905:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_db = (mrb_nil_p(db) ? NULL : mruby_unbox_sqlite3(db));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_db_release_memory’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:2938:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_declare_vtab’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3017:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_enable_load_extension’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3051:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_db = (mrb_nil_p(db) ? NULL : mruby_unbox_sqlite3(db));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_enable_shared_cache’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3078:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int native_return_value = sqlite3_enable_shared_cache(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_errcode’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3108:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_db = (mrb_nil_p(db) ? NULL : mruby_unbox_sqlite3(db));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_errmsg’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3141:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_errstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3201:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const char * native_return_value = sqlite3_errstr(native_arg1);
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_expired’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3280:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_extended_errcode’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3313:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_db = (mrb_nil_p(db) ? NULL : mruby_unbox_sqlite3(db));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_extended_result_codes’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3347:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_finalize’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3425:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_pStmt = (mrb_nil_p(pStmt) ? NULL : mruby_unbox_sqlite3_stmt(pStmt));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3429:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int native_return_value = sqlite3_finalize(native_pStmt);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_get_autocommit’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3513:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_interrupt’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3672:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_last_insert_rowid’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3702:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_limit’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3775:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_memory_highwater’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:3948:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_int64 native_return_value = sqlite3_memory_highwater(native_resetFlag);
+   ^~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_next_stmt’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4056:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_pDb = (mrb_nil_p(pDb) ? NULL : mruby_unbox_sqlite3(pDb));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_open’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4094:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int native_return_value = sqlite3_open(native_filename, &native_ppDb);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4101:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value ppDb = mruby_giftwrap_sqlite3(mrb, native_ppDb);
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_overload_function’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4239:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_prepare_v2’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4429:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_db = (mrb_nil_p(db) ? NULL : mruby_unbox_sqlite3(db));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4439:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value ppStmt = native_ppStmt == NULL
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_release_memory’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4643:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int native_return_value = sqlite3_release_memory(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_reset’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4673:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_pStmt = (mrb_nil_p(pStmt) ? NULL : mruby_unbox_sqlite3_stmt(pStmt));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_result_double’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4805:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_context * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_context(arg1));
+   ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_result_error’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4837:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_context * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_context(arg1));
+   ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_result_error_code’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4904:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_context * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_context(arg1));
+   ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_result_error_nomem’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4934:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_context * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_context(arg1));
+   ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_result_error_toobig’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4964:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_context * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_context(arg1));
+   ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_result_int’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:4995:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_context * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_context(arg1));
+   ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_result_int64’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:5026:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_context * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_context(arg1));
+   ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_result_null’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:5056:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_context * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_context(arg1));
+   ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_result_zeroblob’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:5329:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_context * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_context(arg1));
+   ^~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_sleep’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:5592:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int native_return_value = sqlite3_sleep(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_soft_heap_limit64’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:5669:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_int64 native_return_value = sqlite3_soft_heap_limit64(native_N);
+   ^~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_sql’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:5718:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_pStmt = (mrb_nil_p(pStmt) ? NULL : mruby_unbox_sqlite3_stmt(pStmt));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_step’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:5825:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_stmt_busy’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:5858:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_stmt_readonly’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:5891:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_pStmt = (mrb_nil_p(pStmt) ? NULL : mruby_unbox_sqlite3_stmt(pStmt));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_stmt_status’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:5966:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_strglob’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:5994:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int native_return_value = sqlite3_strglob(native_zGlob, native_zStr);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_stricmp’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:6019:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int native_return_value = sqlite3_stricmp(native_arg1, native_arg2);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_strnicmp’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:6045:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int native_return_value = sqlite3_strnicmp(native_arg1, native_arg2, native_arg3);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_test_control’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:6130:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int native_return_value = sqlite3_test_control(native_op);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_total_changes’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:6195:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_transfer_bindings’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:6276:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_stmt * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_stmt(arg1));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_uri_boolean’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:6394:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int native_return_value = sqlite3_uri_boolean(native_zFile, native_zParam, native_bDefault);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_uri_int64’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:6420:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_int64 native_return_value = sqlite3_uri_int64(native_arg1, native_arg2, native_arg3);
+   ^~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_uri_parameter’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:6445:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const char * native_return_value = sqlite3_uri_parameter(native_zFilename, native_zParam);
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_vfs_find’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:6958:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_vfs * native_return_value = sqlite3_vfs_find(native_zVfsName);
+   ^~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_vfs_register’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:6989:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_vfs * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_vfs(arg1));
+   ^~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_vfs_unregister’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:7022:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_vfs * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3_vfs(arg1));
+   ^~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_vtab_config’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:7114:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_vtab_on_conflict’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:7147:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_sqlite3(arg1));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_wal_autocheckpoint’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:7181:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_db = (mrb_nil_p(db) ? NULL : mruby_unbox_sqlite3(db));
+   ^~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c: In function ‘mrb_SQLite_sqlite3_wal_checkpoint’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite.c:7215:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3 * native_db = (mrb_nil_p(db) ? NULL : mruby_unbox_sqlite3(db));
+   ^~~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_Mem.c -> build/test/mrbgems/mruby-sqlite/src/mruby_Mem.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_Mem.c: In function ‘mrb_SQLite_Mem_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_Mem.c:43:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Mem_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Mem", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab_cursor.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_vtab_cursor.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab_cursor.c: In function ‘mrb_SQLite_Sqlite3VtabCursor_set_pVtab’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab_cursor.c:66:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_vtab * native_pVtab = (mrb_nil_p(pVtab) ? NULL : mruby_unbox_sqlite3_vtab(pVtab));
+   ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab_cursor.c:70:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab_cursor.c: In function ‘mrb_SQLite_Sqlite3VtabCursor_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab_cursor.c:90:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3VtabCursor_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3VtabCursor", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_vtab.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab.c: In function ‘mrb_SQLite_Sqlite3Vtab_get_pModule’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab.c:43:97: warning: passing argument 2 of ‘mruby_box_sqlite3_module’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   mrb_value pModule = (native_pModule == NULL ? mrb_nil_value() : mruby_box_sqlite3_module(mrb, native_pModule));
+                                                                                                 ^~~~~~~~~~~~~~
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/mruby_SQLite.h:39:0,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab.c:6:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/mruby_SQLite_boxing.h:292:1: note: expected ‘sqlite3_module * {aka struct sqlite3_module *}’ but argument is of type ‘const sqlite3_module * {aka const struct sqlite3_module *}’
+ mruby_box_sqlite3_module(mrb_state* mrb, sqlite3_module *unboxed);
+ ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab.c: In function ‘mrb_SQLite_Sqlite3Vtab_set_pModule’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab.c:66:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const sqlite3_module * native_pModule = (mrb_nil_p(pModule) ? NULL : mruby_unbox_sqlite3_module(pModule));
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab.c:70:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab.c: In function ‘mrb_SQLite_Sqlite3Vtab_set_nRef’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab.c:105:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab.c: In function ‘mrb_SQLite_Sqlite3Vtab_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vtab.c:165:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3Vtab_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3Vtab", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_SQLite_macro_constants.c -> build/test/mrbgems/mruby-sqlite/src/mruby_SQLite_macro_constants.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/mruby_SQLite.h:35:0,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_macro_constants.c:1:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_macro_constants.c: In function ‘mruby_SQLite_define_macro_constants’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/sqlite3.h:116:31: warning: passing argument 1 of ‘mrb_fixnum_value’ makes integer from pointer without a cast [-Wint-conversion]
+ #define SQLITE_SOURCE_ID      "2015-05-20 18:17:19 2ef4f3a5b1d1d0c4338f8243d40a2452cc1f7fe4"
+                               ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/sqlite3.h:116:31: note: in definition of macro ‘SQLITE_SOURCE_ID’
+ #define SQLITE_SOURCE_ID      "2015-05-20 18:17:19 2ef4f3a5b1d1d0c4338f8243d40a2452cc1f7fe4"
+                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/maki/check_mruby/mruby/include/mruby.h:92:0,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/mruby_SQLite.h:26,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_macro_constants.c:1:
+/home/maki/check_mruby/mruby/include/mruby/value.h:294:22: note: expected ‘mrb_int {aka long int}’ but argument is of type ‘const char *’
+ MRB_INLINE mrb_value mrb_fixnum_value(mrb_int i)
+                      ^~~~~~~~~~~~~~~~
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/mruby_SQLite.h:35:0,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_macro_constants.c:1:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/sqlite3.h:4494:28: warning: passing argument 1 of ‘mrb_fixnum_value’ makes integer from pointer without a cast [-Wint-conversion]
+ #define SQLITE_STATIC      ((sqlite3_destructor_type)0)
+                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_macro_constants.c:1607:40: note: in expansion of macro ‘SQLITE_STATIC’
+     mrb_value macro = mrb_fixnum_value(SQLITE_STATIC);
+                                        ^~~~~~~~~~~~~
+In file included from /home/maki/check_mruby/mruby/include/mruby.h:92:0,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/mruby_SQLite.h:26,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_macro_constants.c:1:
+/home/maki/check_mruby/mruby/include/mruby/value.h:294:22: note: expected ‘mrb_int {aka long int}’ but argument is of type ‘void (*)(void *)’
+ MRB_INLINE mrb_value mrb_fixnum_value(mrb_int i)
+                      ^~~~~~~~~~~~~~~~
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/mruby_SQLite.h:35:0,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_macro_constants.c:1:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/sqlite3.h:4495:28: warning: passing argument 1 of ‘mrb_fixnum_value’ makes integer from pointer without a cast [-Wint-conversion]
+ #define SQLITE_TRANSIENT   ((sqlite3_destructor_type)-1)
+                            ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_macro_constants.c:1871:40: note: in expansion of macro ‘SQLITE_TRANSIENT’
+     mrb_value macro = mrb_fixnum_value(SQLITE_TRANSIENT);
+                                        ^~~~~~~~~~~~~~~~
+In file included from /home/maki/check_mruby/mruby/include/mruby.h:92:0,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/mruby_SQLite.h:26,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_macro_constants.c:1:
+/home/maki/check_mruby/mruby/include/mruby/value.h:294:22: note: expected ‘mrb_int {aka long int}’ but argument is of type ‘void (*)(void *)’
+ MRB_INLINE mrb_value mrb_fixnum_value(mrb_int i)
+                      ^~~~~~~~~~~~~~~~
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/mruby_SQLite.h:35:0,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_macro_constants.c:1:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/sqlite3.h:114:31: warning: passing argument 1 of ‘mrb_fixnum_value’ makes integer from pointer without a cast [-Wint-conversion]
+ #define SQLITE_VERSION        "3.8.10.2"
+                               ^
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_macro_constants.c:1913:40: note: in expansion of macro ‘SQLITE_VERSION’
+     mrb_value macro = mrb_fixnum_value(SQLITE_VERSION);
+                                        ^~~~~~~~~~~~~~
+In file included from /home/maki/check_mruby/mruby/include/mruby.h:92:0,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/include/mruby_SQLite.h:26,
+                 from /home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_SQLite_macro_constants.c:1:
+/home/maki/check_mruby/mruby/include/mruby/value.h:294:22: note: expected ‘mrb_int {aka long int}’ but argument is of type ‘const char *’
+ MRB_INLINE mrb_value mrb_fixnum_value(mrb_int i)
+                      ^~~~~~~~~~~~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_context.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_context.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_context.c: In function ‘mrb_SQLite_Sqlite3Context_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_context.c:43:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3Context_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3Context", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache_methods.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_pcache_methods.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache_methods.c: In function ‘mrb_SQLite_Sqlite3PcacheMethods_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache_methods.c:487:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3PcacheMethods_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3PcacheMethods", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_SQLite_boxing.c -> build/test/mrbgems/mruby-sqlite/src/mruby_SQLite_boxing.o
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_pcache.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache.c: In function ‘mrb_SQLite_Sqlite3Pcache_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_pcache.c:43:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3Pcache_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3Pcache", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_mutex.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_mutex.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_mutex.c: In function ‘mrb_SQLite_Sqlite3Mutex_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_mutex.c:43:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3Mutex_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3Mutex", mrb->object_class);
+   ^~~~~~
+CC    build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c -> build/test/mrbgems/mruby-sqlite/src/mruby_sqlite3_vfs.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c: In function ‘mrb_SQLite_Sqlite3Vfs_set_iVersion’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c:62:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c: In function ‘mrb_SQLite_Sqlite3Vfs_set_szOsFile’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c:97:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c: In function ‘mrb_SQLite_Sqlite3Vfs_set_mxPathname’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c:132:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c: In function ‘mrb_SQLite_Sqlite3Vfs_set_pNext’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c:171:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   sqlite3_vfs * native_pNext = (mrb_nil_p(pNext) ? NULL : mruby_unbox_sqlite3_vfs(pNext));
+   ^~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c:175:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c: In function ‘mrb_SQLite_Sqlite3Vfs_set_zName’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c:210:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   mrb_value value_as_mrb_value;
+   ^~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c: In function ‘mrb_SQLite_Sqlite3Vfs_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/mruby_sqlite3_vfs.c:910:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct RClass* Sqlite3Vfs_class = mrb_define_class_under(mrb, SQLite_module(mrb), "Sqlite3Vfs", mrb->object_class);
+   ^~~~~~
+      MRBC build/repos/test/mruby-sqlite/mrblib/sqlite3.rb 
+      MRBC build/repos/test/mruby-sqlite/mrblib/sqlite3_database.rb 
+      MRBC build/repos/test/mruby-sqlite/mrblib/sqlite3_resultset.rb 
+      MRBC build/repos/test/mruby-sqlite/mrblib/sqlite3_statement.rb 
+CC    build/test/mrbgems/mruby-sqlite/gem_init.c -> build/test/mrbgems/mruby-sqlite/gem_init.o
+CC    mrbgems/mruby-error/src/exception.c -> build/test/mrbgems/mruby-error/src/exception.o
+CC    build/test/mrbgems/mruby-error/gem_init.c -> build/test/mrbgems/mruby-error/gem_init.o
+CC    build/test/mrbgems/gem_init.c -> build/test/mrbgems/gem_init.o
+AR    build/test/lib/libmruby.a 
+ar: creating /home/maki/check_mruby/mruby/build/test/lib/libmruby.a
+CC    mrbgems/mruby-bin-mirb/tools/mirb/mirb.c -> build/host/mrbgems/mruby-bin-mirb/tools/mirb/mirb.o
+LD    build/host/bin/mirb 
+CC    mrbgems/mruby-bin-mruby/tools/mruby/mruby.c -> build/host/mrbgems/mruby-bin-mruby/tools/mruby/mruby.o
+LD    build/host/bin/mruby 
+CC    mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.c -> build/host/mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.o
+LD    build/host/bin/mruby-strip 
+CC    mrbgems/mruby-bin-mirb/tools/mirb/mirb.c -> build/test/mrbgems/mruby-bin-mirb/tools/mirb/mirb.o
+LD    build/test/bin/mirb 
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `pthreadMutexAlloc':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:19636: undefined reference to `pthread_mutexattr_init'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:19637: undefined reference to `pthread_mutexattr_settype'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:19639: undefined reference to `pthread_mutexattr_destroy'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `pthreadMutexTry':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:19775: undefined reference to `pthread_mutex_trylock'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `sqlite3ThreadCreate':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:22701: undefined reference to `pthread_create'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `sqlite3ThreadJoin':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:22721: undefined reference to `pthread_join'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `unixDlOpen':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:31507: undefined reference to `dlopen'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `unixDlError':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:31521: undefined reference to `dlerror'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `unixDlSym':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:31547: undefined reference to `dlsym'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `unixDlClose':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:31552: undefined reference to `dlclose'
+collect2: error: ld returned 1 exit status
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `pthreadMutexAlloc':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:19636: undefined reference to `pthread_mutexattr_init'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:19637: undefined reference to `pthread_mutexattr_settype'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:19639: undefined reference to `pthread_mutexattr_destroy'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `pthreadMutexTry':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:19775: undefined reference to `pthread_mutex_trylock'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `sqlite3ThreadCreate':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:22701: undefined reference to `pthread_create'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `sqlite3ThreadJoin':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:22721: undefined reference to `pthread_join'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `unixDlOpen':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:31507: undefined reference to `dlopen'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `unixDlError':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:31521: undefined reference to `dlerror'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `unixDlSym':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:31547: undefined reference to `dlsym'
+/home/maki/check_mruby/mruby/build/test/lib/libmruby.a(sqlite3.o): In function `unixDlClose':
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sqlite/src/sqlite3.c:31552: undefined reference to `dlclose'
+collect2: error: ld returned 1 exit status
+rake aborted!
+Command failed with status (1): [gcc  -o /home/maki/check_mruby/mruby/build...]
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:31:in `_run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:36:in `rescue in _run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:32:in `_run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:211:in `run'
+/home/maki/check_mruby/mruby/Rakefile:79:in `block (4 levels) in <top (required)>'
+
+Caused by:
+Command failed with status (1): [gcc  -o /home/maki/check_mruby/mruby/build...]
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:33:in `_run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:211:in `run'
+/home/maki/check_mruby/mruby/Rakefile:79:in `block (4 levels) in <top (required)>'
+Tasks: TOP => test => test_test => all => /home/maki/check_mruby/mruby/build/test/bin/mirb
+(See full trace by running task with --trace)

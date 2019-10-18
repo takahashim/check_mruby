@@ -1,0 +1,1331 @@
+GIT   https://github.com/jbreeden/mruby-curses.git -> build/repos/test/mruby-curses
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-curses'...
+PKG-CONFIG ncurses 
+PKG-CONFIG panel 
+Cleaned up target build folder
+CC    src/variable.c -> build/host/src/variable.o
+CC    src/range.c -> build/host/src/range.o
+CC    src/codedump.c -> build/host/src/codedump.o
+CC    src/load.c -> build/host/src/load.o
+CC    src/compar.c -> build/host/src/compar.o
+CC    src/gc.c -> build/host/src/gc.o
+CC    src/backtrace.c -> build/host/src/backtrace.o
+CC    src/array.c -> build/host/src/array.o
+CC    src/print.c -> build/host/src/print.o
+CC    src/fmt_fp.c -> build/host/src/fmt_fp.o
+CC    src/init.c -> build/host/src/init.o
+CC    src/proc.c -> build/host/src/proc.o
+CC    src/debug.c -> build/host/src/debug.o
+CC    src/symbol.c -> build/host/src/symbol.o
+CC    src/version.c -> build/host/src/version.o
+CC    src/class.c -> build/host/src/class.o
+CC    src/state.c -> build/host/src/state.o
+CC    src/hash.c -> build/host/src/hash.o
+CC    src/numeric.c -> build/host/src/numeric.o
+CC    src/crc.c -> build/host/src/crc.o
+CC    src/etc.c -> build/host/src/etc.o
+CC    src/string.c -> build/host/src/string.o
+CC    src/kernel.c -> build/host/src/kernel.o
+CC    src/error.c -> build/host/src/error.o
+CC    src/vm.c -> build/host/src/vm.o
+CC    src/dump.c -> build/host/src/dump.o
+CC    src/pool.c -> build/host/src/pool.o
+CC    src/object.c -> build/host/src/object.o
+CC    src/enum.c -> build/host/src/enum.o
+CC    mrbgems/mruby-bin-mrbc/tools/mrbc/mrbc.c -> build/host/mrbgems/mruby-bin-mrbc/tools/mrbc/mrbc.o
+CC    mrbgems/mruby-compiler/core/codegen.c -> build/host/mrbgems/mruby-compiler/core/codegen.o
+YACC  mrbgems/mruby-compiler/core/parse.y -> build/host/mrbgems/mruby-compiler/core/y.tab.c
+CC    build/host/mrbgems/mruby-compiler/core/y.tab.c -> build/host/mrbgems/mruby-compiler/core/y.tab.o
+AR    build/host/lib/libmruby_core.a 
+ar: creating /home/maki/check_mruby/mruby/build/host/lib/libmruby_core.a
+LD    build/host/bin/mrbc 
+GEN   *.rb -> build/host/mrblib/mrblib.c
+      MRBC mrblib/00class.rb 
+      MRBC mrblib/10error.rb 
+      MRBC mrblib/array.rb 
+      MRBC mrblib/compar.rb 
+      MRBC mrblib/enum.rb 
+      MRBC mrblib/hash.rb 
+      MRBC mrblib/kernel.rb 
+      MRBC mrblib/numeric.rb 
+      MRBC mrblib/range.rb 
+      MRBC mrblib/string.rb 
+      MRBC mrblib/symbol.rb 
+CC    build/host/mrblib/mrblib.c -> build/host/mrblib/mrblib.o
+CC    mrbgems/mruby-metaprog/src/metaprog.c -> build/host/mrbgems/mruby-metaprog/src/metaprog.o
+CC    build/host/mrbgems/mruby-metaprog/gem_init.c -> build/host/mrbgems/mruby-metaprog/gem_init.o
+CC    mrbgems/mruby-io/src/io.c -> build/host/mrbgems/mruby-io/src/io.o
+CC    mrbgems/mruby-io/src/mruby_io_gem.c -> build/host/mrbgems/mruby-io/src/mruby_io_gem.o
+CC    mrbgems/mruby-io/src/file.c -> build/host/mrbgems/mruby-io/src/file.o
+CC    mrbgems/mruby-io/src/file_test.c -> build/host/mrbgems/mruby-io/src/file_test.o
+      MRBC mrbgems/mruby-io/mrblib/file.rb 
+      MRBC mrbgems/mruby-io/mrblib/file_constants.rb 
+      MRBC mrbgems/mruby-io/mrblib/io.rb 
+      MRBC mrbgems/mruby-io/mrblib/kernel.rb 
+CC    build/host/mrbgems/mruby-io/gem_init.c -> build/host/mrbgems/mruby-io/gem_init.o
+CC    mrbgems/mruby-pack/src/pack.c -> build/host/mrbgems/mruby-pack/src/pack.o
+CC    build/host/mrbgems/mruby-pack/gem_init.c -> build/host/mrbgems/mruby-pack/gem_init.o
+CC    mrbgems/mruby-sprintf/src/sprintf.c -> build/host/mrbgems/mruby-sprintf/src/sprintf.o
+CC    mrbgems/mruby-sprintf/src/kernel.c -> build/host/mrbgems/mruby-sprintf/src/kernel.o
+      MRBC mrbgems/mruby-sprintf/mrblib/string.rb 
+CC    build/host/mrbgems/mruby-sprintf/gem_init.c -> build/host/mrbgems/mruby-sprintf/gem_init.o
+CC    mrbgems/mruby-print/src/print.c -> build/host/mrbgems/mruby-print/src/print.o
+      MRBC mrbgems/mruby-print/mrblib/print.rb 
+CC    build/host/mrbgems/mruby-print/gem_init.c -> build/host/mrbgems/mruby-print/gem_init.o
+CC    mrbgems/mruby-math/src/math.c -> build/host/mrbgems/mruby-math/src/math.o
+CC    build/host/mrbgems/mruby-math/gem_init.c -> build/host/mrbgems/mruby-math/gem_init.o
+CC    mrbgems/mruby-time/src/time.c -> build/host/mrbgems/mruby-time/src/time.o
+      MRBC mrbgems/mruby-time/mrblib/time.rb 
+CC    build/host/mrbgems/mruby-time/gem_init.c -> build/host/mrbgems/mruby-time/gem_init.o
+CC    mrbgems/mruby-struct/src/struct.c -> build/host/mrbgems/mruby-struct/src/struct.o
+      MRBC mrbgems/mruby-struct/mrblib/struct.rb 
+CC    build/host/mrbgems/mruby-struct/gem_init.c -> build/host/mrbgems/mruby-struct/gem_init.o
+      MRBC mrbgems/mruby-compar-ext/mrblib/compar.rb 
+CC    build/host/mrbgems/mruby-compar-ext/gem_init.c -> build/host/mrbgems/mruby-compar-ext/gem_init.o
+      MRBC mrbgems/mruby-enum-ext/mrblib/enum.rb 
+CC    build/host/mrbgems/mruby-enum-ext/gem_init.c -> build/host/mrbgems/mruby-enum-ext/gem_init.o
+CC    mrbgems/mruby-string-ext/src/string.c -> build/host/mrbgems/mruby-string-ext/src/string.o
+      MRBC mrbgems/mruby-string-ext/mrblib/string.rb 
+CC    build/host/mrbgems/mruby-string-ext/gem_init.c -> build/host/mrbgems/mruby-string-ext/gem_init.o
+CC    mrbgems/mruby-numeric-ext/src/numeric_ext.c -> build/host/mrbgems/mruby-numeric-ext/src/numeric_ext.o
+      MRBC mrbgems/mruby-numeric-ext/mrblib/numeric_ext.rb 
+CC    build/host/mrbgems/mruby-numeric-ext/gem_init.c -> build/host/mrbgems/mruby-numeric-ext/gem_init.o
+CC    mrbgems/mruby-array-ext/src/array.c -> build/host/mrbgems/mruby-array-ext/src/array.o
+      MRBC mrbgems/mruby-array-ext/mrblib/array.rb 
+CC    build/host/mrbgems/mruby-array-ext/gem_init.c -> build/host/mrbgems/mruby-array-ext/gem_init.o
+CC    mrbgems/mruby-hash-ext/src/hash-ext.c -> build/host/mrbgems/mruby-hash-ext/src/hash-ext.o
+      MRBC mrbgems/mruby-hash-ext/mrblib/hash.rb 
+CC    build/host/mrbgems/mruby-hash-ext/gem_init.c -> build/host/mrbgems/mruby-hash-ext/gem_init.o
+CC    mrbgems/mruby-range-ext/src/range.c -> build/host/mrbgems/mruby-range-ext/src/range.o
+      MRBC mrbgems/mruby-range-ext/mrblib/range.rb 
+CC    build/host/mrbgems/mruby-range-ext/gem_init.c -> build/host/mrbgems/mruby-range-ext/gem_init.o
+CC    mrbgems/mruby-proc-ext/src/proc.c -> build/host/mrbgems/mruby-proc-ext/src/proc.o
+      MRBC mrbgems/mruby-proc-ext/mrblib/proc.rb 
+CC    build/host/mrbgems/mruby-proc-ext/gem_init.c -> build/host/mrbgems/mruby-proc-ext/gem_init.o
+CC    mrbgems/mruby-symbol-ext/src/symbol.c -> build/host/mrbgems/mruby-symbol-ext/src/symbol.o
+      MRBC mrbgems/mruby-symbol-ext/mrblib/symbol.rb 
+CC    build/host/mrbgems/mruby-symbol-ext/gem_init.c -> build/host/mrbgems/mruby-symbol-ext/gem_init.o
+CC    mrbgems/mruby-random/src/random.c -> build/host/mrbgems/mruby-random/src/random.o
+CC    build/host/mrbgems/mruby-random/gem_init.c -> build/host/mrbgems/mruby-random/gem_init.o
+CC    mrbgems/mruby-object-ext/src/object.c -> build/host/mrbgems/mruby-object-ext/src/object.o
+      MRBC mrbgems/mruby-object-ext/mrblib/object.rb 
+CC    build/host/mrbgems/mruby-object-ext/gem_init.c -> build/host/mrbgems/mruby-object-ext/gem_init.o
+CC    mrbgems/mruby-objectspace/src/mruby_objectspace.c -> build/host/mrbgems/mruby-objectspace/src/mruby_objectspace.o
+CC    build/host/mrbgems/mruby-objectspace/gem_init.c -> build/host/mrbgems/mruby-objectspace/gem_init.o
+CC    mrbgems/mruby-fiber/src/fiber.c -> build/host/mrbgems/mruby-fiber/src/fiber.o
+CC    build/host/mrbgems/mruby-fiber/gem_init.c -> build/host/mrbgems/mruby-fiber/gem_init.o
+      MRBC mrbgems/mruby-enumerator/mrblib/enumerator.rb 
+CC    build/host/mrbgems/mruby-enumerator/gem_init.c -> build/host/mrbgems/mruby-enumerator/gem_init.o
+      MRBC mrbgems/mruby-enum-lazy/mrblib/lazy.rb 
+CC    build/host/mrbgems/mruby-enum-lazy/gem_init.c -> build/host/mrbgems/mruby-enum-lazy/gem_init.o
+      MRBC mrbgems/mruby-toplevel-ext/mrblib/toplevel.rb 
+CC    build/host/mrbgems/mruby-toplevel-ext/gem_init.c -> build/host/mrbgems/mruby-toplevel-ext/gem_init.o
+CC    mrbgems/mruby-kernel-ext/src/kernel.c -> build/host/mrbgems/mruby-kernel-ext/src/kernel.o
+CC    build/host/mrbgems/mruby-kernel-ext/gem_init.c -> build/host/mrbgems/mruby-kernel-ext/gem_init.o
+CC    mrbgems/mruby-class-ext/src/class.c -> build/host/mrbgems/mruby-class-ext/src/class.o
+      MRBC mrbgems/mruby-class-ext/mrblib/module.rb 
+CC    build/host/mrbgems/mruby-class-ext/gem_init.c -> build/host/mrbgems/mruby-class-ext/gem_init.o
+CC    mrbgems/mruby-method/src/method.c -> build/host/mrbgems/mruby-method/src/method.o
+      MRBC mrbgems/mruby-method/mrblib/kernel.rb 
+      MRBC mrbgems/mruby-method/mrblib/method.rb 
+CC    build/host/mrbgems/mruby-method/gem_init.c -> build/host/mrbgems/mruby-method/gem_init.o
+CC    mrbgems/mruby-error/src/exception.c -> build/host/mrbgems/mruby-error/src/exception.o
+CC    build/host/mrbgems/mruby-error/gem_init.c -> build/host/mrbgems/mruby-error/gem_init.o
+CC    build/host/mrbgems/gem_init.c -> build/host/mrbgems/gem_init.o
+AR    build/host/lib/libmruby.a 
+ar: creating /home/maki/check_mruby/mruby/build/host/lib/libmruby.a
+CC    src/variable.c -> build/test/src/variable.o
+CC    src/range.c -> build/test/src/range.o
+CC    src/codedump.c -> build/test/src/codedump.o
+CC    src/load.c -> build/test/src/load.o
+CC    src/compar.c -> build/test/src/compar.o
+CC    src/gc.c -> build/test/src/gc.o
+CC    src/backtrace.c -> build/test/src/backtrace.o
+CC    src/array.c -> build/test/src/array.o
+CC    src/print.c -> build/test/src/print.o
+CC    src/fmt_fp.c -> build/test/src/fmt_fp.o
+CC    src/init.c -> build/test/src/init.o
+CC    src/proc.c -> build/test/src/proc.o
+CC    src/debug.c -> build/test/src/debug.o
+CC    src/symbol.c -> build/test/src/symbol.o
+CC    src/version.c -> build/test/src/version.o
+CC    src/class.c -> build/test/src/class.o
+CC    src/state.c -> build/test/src/state.o
+CC    src/hash.c -> build/test/src/hash.o
+CC    src/numeric.c -> build/test/src/numeric.o
+CC    src/crc.c -> build/test/src/crc.o
+CC    src/etc.c -> build/test/src/etc.o
+CC    src/string.c -> build/test/src/string.o
+CC    src/kernel.c -> build/test/src/kernel.o
+CC    src/error.c -> build/test/src/error.o
+CC    src/vm.c -> build/test/src/vm.o
+CC    src/dump.c -> build/test/src/dump.o
+CC    src/pool.c -> build/test/src/pool.o
+CC    src/object.c -> build/test/src/object.o
+CC    src/enum.c -> build/test/src/enum.o
+GEN   *.rb -> build/test/mrblib/mrblib.c
+      MRBC mrblib/00class.rb 
+      MRBC mrblib/10error.rb 
+      MRBC mrblib/array.rb 
+      MRBC mrblib/compar.rb 
+      MRBC mrblib/enum.rb 
+      MRBC mrblib/hash.rb 
+      MRBC mrblib/kernel.rb 
+      MRBC mrblib/numeric.rb 
+      MRBC mrblib/range.rb 
+      MRBC mrblib/string.rb 
+      MRBC mrblib/symbol.rb 
+CC    build/test/mrblib/mrblib.c -> build/test/mrblib/mrblib.o
+CC    mrbgems/mruby-metaprog/src/metaprog.c -> build/test/mrbgems/mruby-metaprog/src/metaprog.o
+CC    build/test/mrbgems/mruby-metaprog/gem_init.c -> build/test/mrbgems/mruby-metaprog/gem_init.o
+CC    mrbgems/mruby-io/src/io.c -> build/test/mrbgems/mruby-io/src/io.o
+CC    mrbgems/mruby-io/src/mruby_io_gem.c -> build/test/mrbgems/mruby-io/src/mruby_io_gem.o
+CC    mrbgems/mruby-io/src/file.c -> build/test/mrbgems/mruby-io/src/file.o
+CC    mrbgems/mruby-io/src/file_test.c -> build/test/mrbgems/mruby-io/src/file_test.o
+      MRBC mrbgems/mruby-io/mrblib/file.rb 
+      MRBC mrbgems/mruby-io/mrblib/file_constants.rb 
+      MRBC mrbgems/mruby-io/mrblib/io.rb 
+      MRBC mrbgems/mruby-io/mrblib/kernel.rb 
+CC    build/test/mrbgems/mruby-io/gem_init.c -> build/test/mrbgems/mruby-io/gem_init.o
+CC    mrbgems/mruby-pack/src/pack.c -> build/test/mrbgems/mruby-pack/src/pack.o
+CC    build/test/mrbgems/mruby-pack/gem_init.c -> build/test/mrbgems/mruby-pack/gem_init.o
+CC    mrbgems/mruby-sprintf/src/sprintf.c -> build/test/mrbgems/mruby-sprintf/src/sprintf.o
+CC    mrbgems/mruby-sprintf/src/kernel.c -> build/test/mrbgems/mruby-sprintf/src/kernel.o
+      MRBC mrbgems/mruby-sprintf/mrblib/string.rb 
+CC    build/test/mrbgems/mruby-sprintf/gem_init.c -> build/test/mrbgems/mruby-sprintf/gem_init.o
+CC    mrbgems/mruby-print/src/print.c -> build/test/mrbgems/mruby-print/src/print.o
+      MRBC mrbgems/mruby-print/mrblib/print.rb 
+CC    build/test/mrbgems/mruby-print/gem_init.c -> build/test/mrbgems/mruby-print/gem_init.o
+CC    mrbgems/mruby-math/src/math.c -> build/test/mrbgems/mruby-math/src/math.o
+CC    build/test/mrbgems/mruby-math/gem_init.c -> build/test/mrbgems/mruby-math/gem_init.o
+CC    mrbgems/mruby-time/src/time.c -> build/test/mrbgems/mruby-time/src/time.o
+      MRBC mrbgems/mruby-time/mrblib/time.rb 
+CC    build/test/mrbgems/mruby-time/gem_init.c -> build/test/mrbgems/mruby-time/gem_init.o
+CC    mrbgems/mruby-struct/src/struct.c -> build/test/mrbgems/mruby-struct/src/struct.o
+      MRBC mrbgems/mruby-struct/mrblib/struct.rb 
+CC    build/test/mrbgems/mruby-struct/gem_init.c -> build/test/mrbgems/mruby-struct/gem_init.o
+      MRBC mrbgems/mruby-compar-ext/mrblib/compar.rb 
+CC    build/test/mrbgems/mruby-compar-ext/gem_init.c -> build/test/mrbgems/mruby-compar-ext/gem_init.o
+      MRBC mrbgems/mruby-enum-ext/mrblib/enum.rb 
+CC    build/test/mrbgems/mruby-enum-ext/gem_init.c -> build/test/mrbgems/mruby-enum-ext/gem_init.o
+CC    mrbgems/mruby-string-ext/src/string.c -> build/test/mrbgems/mruby-string-ext/src/string.o
+      MRBC mrbgems/mruby-string-ext/mrblib/string.rb 
+CC    build/test/mrbgems/mruby-string-ext/gem_init.c -> build/test/mrbgems/mruby-string-ext/gem_init.o
+CC    mrbgems/mruby-numeric-ext/src/numeric_ext.c -> build/test/mrbgems/mruby-numeric-ext/src/numeric_ext.o
+      MRBC mrbgems/mruby-numeric-ext/mrblib/numeric_ext.rb 
+CC    build/test/mrbgems/mruby-numeric-ext/gem_init.c -> build/test/mrbgems/mruby-numeric-ext/gem_init.o
+CC    mrbgems/mruby-array-ext/src/array.c -> build/test/mrbgems/mruby-array-ext/src/array.o
+      MRBC mrbgems/mruby-array-ext/mrblib/array.rb 
+CC    build/test/mrbgems/mruby-array-ext/gem_init.c -> build/test/mrbgems/mruby-array-ext/gem_init.o
+CC    mrbgems/mruby-hash-ext/src/hash-ext.c -> build/test/mrbgems/mruby-hash-ext/src/hash-ext.o
+      MRBC mrbgems/mruby-hash-ext/mrblib/hash.rb 
+CC    build/test/mrbgems/mruby-hash-ext/gem_init.c -> build/test/mrbgems/mruby-hash-ext/gem_init.o
+CC    mrbgems/mruby-range-ext/src/range.c -> build/test/mrbgems/mruby-range-ext/src/range.o
+      MRBC mrbgems/mruby-range-ext/mrblib/range.rb 
+CC    build/test/mrbgems/mruby-range-ext/gem_init.c -> build/test/mrbgems/mruby-range-ext/gem_init.o
+CC    mrbgems/mruby-proc-ext/src/proc.c -> build/test/mrbgems/mruby-proc-ext/src/proc.o
+      MRBC mrbgems/mruby-proc-ext/mrblib/proc.rb 
+CC    build/test/mrbgems/mruby-proc-ext/gem_init.c -> build/test/mrbgems/mruby-proc-ext/gem_init.o
+CC    mrbgems/mruby-symbol-ext/src/symbol.c -> build/test/mrbgems/mruby-symbol-ext/src/symbol.o
+      MRBC mrbgems/mruby-symbol-ext/mrblib/symbol.rb 
+CC    build/test/mrbgems/mruby-symbol-ext/gem_init.c -> build/test/mrbgems/mruby-symbol-ext/gem_init.o
+CC    mrbgems/mruby-random/src/random.c -> build/test/mrbgems/mruby-random/src/random.o
+CC    build/test/mrbgems/mruby-random/gem_init.c -> build/test/mrbgems/mruby-random/gem_init.o
+CC    mrbgems/mruby-object-ext/src/object.c -> build/test/mrbgems/mruby-object-ext/src/object.o
+      MRBC mrbgems/mruby-object-ext/mrblib/object.rb 
+CC    build/test/mrbgems/mruby-object-ext/gem_init.c -> build/test/mrbgems/mruby-object-ext/gem_init.o
+CC    mrbgems/mruby-objectspace/src/mruby_objectspace.c -> build/test/mrbgems/mruby-objectspace/src/mruby_objectspace.o
+CC    build/test/mrbgems/mruby-objectspace/gem_init.c -> build/test/mrbgems/mruby-objectspace/gem_init.o
+CC    mrbgems/mruby-fiber/src/fiber.c -> build/test/mrbgems/mruby-fiber/src/fiber.o
+CC    build/test/mrbgems/mruby-fiber/gem_init.c -> build/test/mrbgems/mruby-fiber/gem_init.o
+      MRBC mrbgems/mruby-enumerator/mrblib/enumerator.rb 
+CC    build/test/mrbgems/mruby-enumerator/gem_init.c -> build/test/mrbgems/mruby-enumerator/gem_init.o
+      MRBC mrbgems/mruby-enum-lazy/mrblib/lazy.rb 
+CC    build/test/mrbgems/mruby-enum-lazy/gem_init.c -> build/test/mrbgems/mruby-enum-lazy/gem_init.o
+      MRBC mrbgems/mruby-toplevel-ext/mrblib/toplevel.rb 
+CC    build/test/mrbgems/mruby-toplevel-ext/gem_init.c -> build/test/mrbgems/mruby-toplevel-ext/gem_init.o
+CC    mrbgems/mruby-kernel-ext/src/kernel.c -> build/test/mrbgems/mruby-kernel-ext/src/kernel.o
+CC    build/test/mrbgems/mruby-kernel-ext/gem_init.c -> build/test/mrbgems/mruby-kernel-ext/gem_init.o
+CC    mrbgems/mruby-class-ext/src/class.c -> build/test/mrbgems/mruby-class-ext/src/class.o
+      MRBC mrbgems/mruby-class-ext/mrblib/module.rb 
+CC    build/test/mrbgems/mruby-class-ext/gem_init.c -> build/test/mrbgems/mruby-class-ext/gem_init.o
+CC    mrbgems/mruby-method/src/method.c -> build/test/mrbgems/mruby-method/src/method.o
+      MRBC mrbgems/mruby-method/mrblib/kernel.rb 
+      MRBC mrbgems/mruby-method/mrblib/method.rb 
+CC    build/test/mrbgems/mruby-method/gem_init.c -> build/test/mrbgems/mruby-method/gem_init.o
+CC    mrbgems/mruby-compiler/core/codegen.c -> build/test/mrbgems/mruby-compiler/core/codegen.o
+YACC  mrbgems/mruby-compiler/core/parse.y -> build/test/mrbgems/mruby-compiler/core/y.tab.c
+CC    build/test/mrbgems/mruby-compiler/core/y.tab.c -> build/test/mrbgems/mruby-compiler/core/y.tab.o
+CC    build/repos/test/mruby-curses/src/mruby_Curses.c -> build/test/mrbgems/mruby-curses/src/mruby_Curses.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_addch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:39:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = addch(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_addnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:139:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = addnstr(native_arg1, native_arg2);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_addstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:195:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = addstr(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_assume_default_colors’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:223:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = assume_default_colors(native_arg1, native_arg2);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_attroff’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:398:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = attroff(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_attron’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:424:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = attron(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_attrset’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:450:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = attrset(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_bkgd’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:516:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = bkgd(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_border’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:579:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = border(native_arg1, native_arg2, native_arg3, native_arg4, native_arg5, native_arg6, native_arg7, native_arg8);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_bottom_panel’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:611:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct panel * native_pan = (mrb_nil_p(pan) ? NULL : mruby_unbox_panel(pan));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_box’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:650:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_clearok’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:781:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_copywin’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:939:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_curs_set’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:990:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = curs_set(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_del_curterm’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1082:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   TERMINAL * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_TERMINAL(arg1));
+   ^~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_del_panel’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1117:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct panel * native_pan = (mrb_nil_p(pan) ? NULL : mruby_unbox_panel(pan));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_delay_output’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1146:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = delay_output(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_delscreen’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1218:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   SCREEN * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_SCREEN(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_delwin’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1250:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_derwin’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1293:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_dupwin’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1374:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_echochar’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1423:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = echochar(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_getattrs’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1592:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_getbegx’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1627:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_getbegy’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1662:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_getbkgd’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1697:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_getcurx’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1752:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_getcury’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1787:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_getmaxx’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1822:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_getmaxy’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1857:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_getnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1906:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char* buffer = (char*)calloc(native_len + 1, sizeof(char));
+   ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_getparx’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1935:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_getpary’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:1970:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_halfdelay’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2048:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = halfdelay(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_hide_panel’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2146:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct panel * native_pan = (mrb_nil_p(pan) ? NULL : mruby_unbox_panel(pan));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_hline’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2177:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = hline(native_arg1, native_arg2);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_idcok’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2211:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_idlok’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2245:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_immedok’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2282:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_init_color’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2400:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = init_color(native_arg1, native_arg2, native_arg3, native_arg4);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_init_pair’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2430:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = init_pair(native_arg1, native_arg2, native_arg3);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_innstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2476:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char* buffer = (char*)calloc(native_len + 1, sizeof(char));
+   ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_insch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2500:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = insch(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_insdelln’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2526:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = insdelln(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_insertln’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2549:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = insertln();
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_insnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2581:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = insnstr(native_arg1, native_arg2);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_insstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2637:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = insstr(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_instr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2660:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char* buffer = (char*)calloc(GETSTR_BUF_SIZE, sizeof(char));
+   ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_intrflush’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2692:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_is_linetouched’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2729:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_is_wintouched’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2774:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_keyname’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2813:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const char * result = keyname(native_arg1);
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_keypad’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2847:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_leaveok’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2904:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_meta’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:2987:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mouseinterval’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3128:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mouseinterval(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_move’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3191:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = move(native_arg1, native_arg2);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_move_panel’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3227:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct panel * native_pan = (mrb_nil_p(pan) ? NULL : mruby_unbox_panel(pan));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvaddch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3260:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mvaddch(native_arg1, native_arg2, native_arg3);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvaddnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3372:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mvaddnstr(native_arg1, native_arg2, native_arg3, native_arg4);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvaddstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3436:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mvaddstr(native_arg1, native_arg2, native_arg3);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvcur’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3511:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mvcur(native_arg1, native_arg2, native_arg3, native_arg4);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvdelch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3539:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mvdelch(native_arg1, native_arg2);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvderwin’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3603:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvgetch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3634:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mvgetch(native_arg1, native_arg2);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvgetnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3664:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char* buffer = (char*)calloc(native_len + 1, sizeof(char));
+   ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvgetstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3689:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char* buffer = (char*)calloc(GETSTR_BUF_SIZE, sizeof(char));
+   ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvhline’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3719:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mvhline(native_arg1, native_arg2, native_arg3, native_arg4);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvinch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3747:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   chtype result = mvinch(native_arg1, native_arg2);
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvinnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3853:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char* buffer = (char*)calloc(native_len + 1, sizeof(char));
+   ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvinsch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3880:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mvinsch(native_arg1, native_arg2, native_arg3);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvinsnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:3944:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mvinsnstr(native_arg1, native_arg2, native_arg3, native_arg4);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvinsstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4008:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mvinsstr(native_arg1, native_arg2, native_arg3);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvinstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4036:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char* buffer = (char*)calloc(GETSTR_BUF_SIZE, sizeof(char));
+   ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvprintw’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4064:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mvprintw(native_arg1, native_arg2, "%s", native_arg3);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvscanw’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4098:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mvscanw(native_arg1, native_arg2, native_arg3);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvvline’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4130:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = mvvline(native_arg1, native_arg2, native_arg3, native_arg4);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwaddch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4168:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwaddnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4301:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwaddstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4383:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwdelch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4472:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwgetch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4550:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwgetnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4591:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_win = (mrb_nil_p(win) ? NULL : mruby_unbox__win(win));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwgetstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4627:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_win = (mrb_nil_p(win) ? NULL : mruby_unbox__win(win));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwhline’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4667:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwin’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4706:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwinch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4745:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwinnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4876:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_win = (mrb_nil_p(win) ? NULL : mruby_unbox__win(win));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwinsch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4914:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwinsnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:4996:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwinsstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5078:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwinstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5117:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_win = (mrb_nil_p(win) ? NULL : mruby_unbox__win(win));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwprintw’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5155:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwscanw’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5196:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_mvwvline’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5239:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_napms’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5264:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = napms(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_new_panel’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5328:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_win = (mrb_nil_p(win) ? NULL : mruby_unbox__win(win));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_newpad’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5359:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * result = newpad(native_arg1, native_arg2);
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_newwin’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5431:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * result = newwin(native_nlines, native_ncols, native_beginy, native_beginx);
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_nodelay’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5525:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_notimeout’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5639:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_overlay’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5680:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_overwrite’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5723:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_panel_above’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5800:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const struct panel * native_pan = (mrb_nil_p(pan) ? NULL : mruby_unbox_panel(pan));
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_panel_below’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5835:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const struct panel * native_pan = (mrb_nil_p(pan) ? NULL : mruby_unbox_panel(pan));
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_panel_hidden’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5870:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const struct panel * native_pan = (mrb_nil_p(pan) ? NULL : mruby_unbox_panel(pan));
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_panel_window’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:5940:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const struct panel * native_pan = (mrb_nil_p(pan) ? NULL : mruby_unbox_panel(pan));
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_pechochar’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:6348:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_pnoutrefresh’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:6395:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_prefresh’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:6442:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_printw’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:6471:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = printw("%s", native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_putp’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:6501:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = putp(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_redrawwin’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:6636:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_replace_panel’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:6697:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct panel * native_pan = (mrb_nil_p(pan) ? NULL : mruby_unbox_panel(pan));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_resize_term’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:6830:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = resize_term(native_arg1, native_arg2);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_scanw’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7021:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = scanw(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_scr_dump’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7051:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = scr_dump(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_scr_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7081:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = scr_init(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_scr_restore’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7111:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = scr_restore(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_scr_set’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7141:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = scr_set(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_scrl’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7167:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = scrl(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_scroll’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7199:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_scrollok’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7236:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_set_curterm’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7271:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   TERMINAL * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_TERMINAL(arg1));
+   ^~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_set_term’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7346:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   SCREEN * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_SCREEN(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_setscrreg’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7377:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = setscrreg(native_arg1, native_arg2);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_show_panel’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7504:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct panel * native_pan = (mrb_nil_p(pan) ? NULL : mruby_unbox_panel(pan));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_slk_attroff’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7640:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = slk_attroff(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_slk_attron’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7666:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = slk_attron(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_slk_attrset’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7692:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = slk_attrset(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_slk_color’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7738:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = slk_color(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_slk_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7764:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = slk_init(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_slk_label’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7790:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char * result = slk_label(native_arg1);
+   ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_slk_set’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:7884:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = slk_set(native_arg1, native_arg2, native_arg3);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_subpad’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8004:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_subwin’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8047:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_syncok’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8084:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_tgetent’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8184:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = tgetent(native_arg1, native_arg2);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_tgetflag’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8222:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = tgetflag(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_tgetnum’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8252:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = tgetnum(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_tgoto’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8321:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char * result = tgoto(native_arg1, native_arg2, native_arg3);
+   ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_tigetflag’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8351:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = tigetflag(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_tigetnum’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8381:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = tigetnum(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_tigetstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8407:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char * result = tigetstr(native_arg1);
+   ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_top_panel’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8466:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct panel * native_pan = (mrb_nil_p(pan) ? NULL : mruby_unbox_panel(pan));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_touchline’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8505:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_touchwin’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8540:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_tparm’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8591:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char * result = tparm(native_arg1, native_arg2, native_arg3, native_arg4, native_arg5, native_arg6, native_arg7, native_arg8, native_arg9, native_arg10);
+   ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_typeahead’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8690:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = typeahead(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_unctrl’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8716:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const char * result = unctrl(native_arg1);
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_ungetmouse’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8748:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   MEVENT * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox_MEVENT(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_untouchwin’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8783:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_vidattr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:8953:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = vidattr(native_arg1);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_vline’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:9018:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   int result = vline(native_arg1, native_arg2);
+   ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_waddch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:9208:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_waddnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:9329:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_waddstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:9403:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wattroff’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:9618:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wattron’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:9655:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wattrset’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:9692:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wbkgd’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:9729:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wbkgdset’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:9766:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wborder’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:9814:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wclear’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:9895:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wclrtobot’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:9930:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wclrtoeol’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:9965:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wcursyncup’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10034:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wdelch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10066:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wdeleteln’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10101:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wechochar’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10138:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wenclose’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10177:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   const WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_werase’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10207:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wgetch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10242:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wgetnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10280:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_win = (mrb_nil_p(win) ? NULL : mruby_unbox__win(win));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wgetstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10313:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_win = (mrb_nil_p(win) ? NULL : mruby_unbox__win(win));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_whline’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10350:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_winch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10385:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_winnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10504:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_win = (mrb_nil_p(win) ? NULL : mruby_unbox__win(win));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_winsch’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10538:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_winsdelln’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10575:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_winsertln’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10610:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_winsnstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10649:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_winsstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10723:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_winstr’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10758:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_win = (mrb_nil_p(win) ? NULL : mruby_unbox__win(win));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wmove’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10878:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wnoutrefresh’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10913:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wprintw’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:10970:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wredrawln’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:11009:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wrefresh’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:11044:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wresize’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:11083:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wscanw’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:11120:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wscrl’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:11157:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wsetscrreg’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:11196:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wstandend’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:11231:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wstandout’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:11266:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wsyncdown’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:11301:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wsyncup’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:11333:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wtimeout’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:11367:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wtouchln’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:11405:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c: In function ‘mrb_Curses_wvline’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-curses/src/mruby_Curses.c:11444:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   WINDOW * native_arg1 = (mrb_nil_p(arg1) ? NULL : mruby_unbox__win(arg1));
+   ^~~~~~
+CC    build/repos/test/mruby-curses/src/mruby_MEVENT.c -> build/test/mrbgems/mruby-curses/src/mruby_MEVENT.o
+CC    build/repos/test/mruby-curses/src/mruby_SCREEN.c -> build/test/mrbgems/mruby-curses/src/mruby_SCREEN.o
+CC    build/repos/test/mruby-curses/src/mruby_Curses_boxing.c -> build/test/mrbgems/mruby-curses/src/mruby_Curses_boxing.o
+CC    build/repos/test/mruby-curses/src/mruby_panel.c -> build/test/mrbgems/mruby-curses/src/mruby_panel.o
+CC    build/repos/test/mruby-curses/src/mruby_panelobs.c -> build/test/mrbgems/mruby-curses/src/mruby_panelobs.o
+CC    build/repos/test/mruby-curses/src/mruby_TERMINAL.c -> build/test/mrbgems/mruby-curses/src/mruby_TERMINAL.o
+CC    build/repos/test/mruby-curses/src/mruby_MOUSE_STATUS.c -> build/test/mrbgems/mruby-curses/src/mruby_MOUSE_STATUS.o
+CC    build/repos/test/mruby-curses/src/mruby__win.c -> build/test/mrbgems/mruby-curses/src/mruby__win.o
+CC    build/repos/test/mruby-curses/src/mruby_Curses_macro_constants.c -> build/test/mrbgems/mruby-curses/src/mruby_Curses_macro_constants.o
+      MRBC build/repos/test/mruby-curses/mrblib/curses.rb 
+      MRBC build/repos/test/mruby-curses/mrblib/cui/cui.rb 
+      MRBC build/repos/test/mruby-curses/mrblib/cui/colors.rb 
+      MRBC build/repos/test/mruby-curses/mrblib/cui/events.rb 
+      MRBC build/repos/test/mruby-curses/mrblib/cui/model.rb 
+      MRBC build/repos/test/mruby-curses/mrblib/cui/builtin_events.rb 
+      MRBC build/repos/test/mruby-curses/mrblib/cui/event_loop.rb 
+      MRBC build/repos/test/mruby-curses/mrblib/cui/window_delegates.rb 
+      MRBC build/repos/test/mruby-curses/mrblib/cui/window.rb 
+      MRBC build/repos/test/mruby-curses/mrblib/cui/window_io.rb 
+      MRBC build/repos/test/mruby-curses/mrblib/cui/text_input.rb 
+CC    build/test/mrbgems/mruby-curses/gem_init.c -> build/test/mrbgems/mruby-curses/gem_init.o
+CC    mrbgems/mruby-error/src/exception.c -> build/test/mrbgems/mruby-error/src/exception.o
+CC    build/test/mrbgems/mruby-error/gem_init.c -> build/test/mrbgems/mruby-error/gem_init.o
+CC    build/test/mrbgems/gem_init.c -> build/test/mrbgems/gem_init.o
+AR    build/test/lib/libmruby.a 
+ar: creating /home/maki/check_mruby/mruby/build/test/lib/libmruby.a
+CC    mrbgems/mruby-bin-mirb/tools/mirb/mirb.c -> build/host/mrbgems/mruby-bin-mirb/tools/mirb/mirb.o
+LD    build/host/bin/mirb 
+CC    mrbgems/mruby-bin-mruby/tools/mruby/mruby.c -> build/host/mrbgems/mruby-bin-mruby/tools/mruby/mruby.o
+LD    build/host/bin/mruby 
+CC    mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.c -> build/host/mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.o
+LD    build/host/bin/mruby-strip 
+CC    mrbgems/mruby-bin-mirb/tools/mirb/mirb.c -> build/test/mrbgems/mruby-bin-mirb/tools/mirb/mirb.o
+LD    build/test/bin/mirb 
+CC    mrbgems/mruby-bin-mruby/tools/mruby/mruby.c -> build/test/mrbgems/mruby-bin-mruby/tools/mruby/mruby.o
+LD    build/test/bin/mruby 
+CC    mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.c -> build/test/mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.o
+LD    build/test/bin/mruby-strip 
+CC    mrbgems/mruby-test/vformat.c -> build/test/mrbgems/mruby-test/vformat.o
+CC    mrbgems/mruby-test/driver.c -> build/test/mrbgems/mruby-test/driver.o
+GEN   *.rb -> build/test/mrbgems/mruby-test/mrbtest.c
+CC    build/test/mrbgems/mruby-test/mrbtest.c -> build/test/mrbgems/mruby-test/mrbtest.o
+      MRBC test/assert.rb 
+CC    build/test/mrbgems/mruby-test/assert.c -> build/test/mrbgems/mruby-test/assert.o
+      MRBC mrbgems/mruby-metaprog/test/metaprog.rb 
+CC    build/test/mrbgems/mruby-metaprog/gem_test.c -> build/test/mrbgems/mruby-metaprog/gem_test.o
+CC    mrbgems/mruby-io/test/mruby_io_test.c -> build/test/mrbgems/mruby-io/test/mruby_io_test.o
+      MRBC mrbgems/mruby-io/test/file.rb 
+      MRBC mrbgems/mruby-io/test/file_test.rb 
+      MRBC mrbgems/mruby-io/test/io.rb 
+CC    build/test/mrbgems/mruby-io/gem_test.c -> build/test/mrbgems/mruby-io/gem_test.o
+      MRBC mrbgems/mruby-pack/test/pack.rb 
+CC    build/test/mrbgems/mruby-pack/gem_test.c -> build/test/mrbgems/mruby-pack/gem_test.o
+      MRBC mrbgems/mruby-sprintf/test/sprintf.rb 
+CC    build/test/mrbgems/mruby-sprintf/gem_test.c -> build/test/mrbgems/mruby-sprintf/gem_test.o
+CC    build/test/mrbgems/mruby-print/gem_test.c -> build/test/mrbgems/mruby-print/gem_test.o
+      MRBC mrbgems/mruby-math/test/math.rb 
+CC    build/test/mrbgems/mruby-math/gem_test.c -> build/test/mrbgems/mruby-math/gem_test.o
+      MRBC mrbgems/mruby-time/test/time.rb 
+CC    build/test/mrbgems/mruby-time/gem_test.c -> build/test/mrbgems/mruby-time/gem_test.o
+      MRBC mrbgems/mruby-struct/test/struct.rb 
+CC    build/test/mrbgems/mruby-struct/gem_test.c -> build/test/mrbgems/mruby-struct/gem_test.o
+CC    build/test/mrbgems/mruby-compar-ext/gem_test.c -> build/test/mrbgems/mruby-compar-ext/gem_test.o
+      MRBC mrbgems/mruby-enum-ext/test/enum.rb 
+CC    build/test/mrbgems/mruby-enum-ext/gem_test.c -> build/test/mrbgems/mruby-enum-ext/gem_test.o
+      MRBC mrbgems/mruby-string-ext/test/numeric.rb 
+      MRBC mrbgems/mruby-string-ext/test/range.rb 
+      MRBC mrbgems/mruby-string-ext/test/string.rb 
+CC    build/test/mrbgems/mruby-string-ext/gem_test.c -> build/test/mrbgems/mruby-string-ext/gem_test.o
+      MRBC mrbgems/mruby-numeric-ext/test/numeric.rb 
+CC    build/test/mrbgems/mruby-numeric-ext/gem_test.c -> build/test/mrbgems/mruby-numeric-ext/gem_test.o
+      MRBC mrbgems/mruby-array-ext/test/array.rb 
+CC    build/test/mrbgems/mruby-array-ext/gem_test.c -> build/test/mrbgems/mruby-array-ext/gem_test.o
+      MRBC mrbgems/mruby-hash-ext/test/hash.rb 
+CC    build/test/mrbgems/mruby-hash-ext/gem_test.c -> build/test/mrbgems/mruby-hash-ext/gem_test.o
+      MRBC mrbgems/mruby-range-ext/test/range.rb 
+CC    build/test/mrbgems/mruby-range-ext/gem_test.c -> build/test/mrbgems/mruby-range-ext/gem_test.o
+CC    mrbgems/mruby-proc-ext/test/proc.c -> build/test/mrbgems/mruby-proc-ext/test/proc.o
+      MRBC mrbgems/mruby-proc-ext/test/proc.rb 
+CC    build/test/mrbgems/mruby-proc-ext/gem_test.c -> build/test/mrbgems/mruby-proc-ext/gem_test.o
+      MRBC mrbgems/mruby-symbol-ext/test/symbol.rb 
+CC    build/test/mrbgems/mruby-symbol-ext/gem_test.c -> build/test/mrbgems/mruby-symbol-ext/gem_test.o
+      MRBC mrbgems/mruby-random/test/random.rb 
+CC    build/test/mrbgems/mruby-random/gem_test.c -> build/test/mrbgems/mruby-random/gem_test.o
+      MRBC mrbgems/mruby-object-ext/test/nil.rb 
+      MRBC mrbgems/mruby-object-ext/test/object.rb 
+CC    build/test/mrbgems/mruby-object-ext/gem_test.c -> build/test/mrbgems/mruby-object-ext/gem_test.o
+      MRBC mrbgems/mruby-objectspace/test/objectspace.rb 
+CC    build/test/mrbgems/mruby-objectspace/gem_test.c -> build/test/mrbgems/mruby-objectspace/gem_test.o
+      MRBC mrbgems/mruby-fiber/test/fiber.rb 
+CC    build/test/mrbgems/mruby-fiber/gem_test.c -> build/test/mrbgems/mruby-fiber/gem_test.o
+      MRBC mrbgems/mruby-enumerator/test/enumerator.rb 
+CC    build/test/mrbgems/mruby-enumerator/gem_test.c -> build/test/mrbgems/mruby-enumerator/gem_test.o
+      MRBC mrbgems/mruby-enum-lazy/test/lazy.rb 
+CC    build/test/mrbgems/mruby-enum-lazy/gem_test.c -> build/test/mrbgems/mruby-enum-lazy/gem_test.o
+      MRBC mrbgems/mruby-toplevel-ext/test/toplevel.rb 
+CC    build/test/mrbgems/mruby-toplevel-ext/gem_test.c -> build/test/mrbgems/mruby-toplevel-ext/gem_test.o
+CC    build/test/mrbgems/mruby-bin-mirb/gem_test.c -> build/test/mrbgems/mruby-bin-mirb/gem_test.o
+CC    build/test/mrbgems/mruby-bin-mruby/gem_test.c -> build/test/mrbgems/mruby-bin-mruby/gem_test.o
+CC    build/test/mrbgems/mruby-bin-strip/gem_test.c -> build/test/mrbgems/mruby-bin-strip/gem_test.o
+      MRBC mrbgems/mruby-kernel-ext/test/kernel.rb 
+CC    build/test/mrbgems/mruby-kernel-ext/gem_test.c -> build/test/mrbgems/mruby-kernel-ext/gem_test.o
+      MRBC mrbgems/mruby-class-ext/test/module.rb 
+CC    build/test/mrbgems/mruby-class-ext/gem_test.c -> build/test/mrbgems/mruby-class-ext/gem_test.o
+      MRBC mrbgems/mruby-method/test/method.rb 
+CC    build/test/mrbgems/mruby-method/gem_test.c -> build/test/mrbgems/mruby-method/gem_test.o
+CC    build/test/mrbgems/mruby-compiler/gem_test.c -> build/test/mrbgems/mruby-compiler/gem_test.o
+CC    build/test/mrbgems/mruby-curses/gem_test.c -> build/test/mrbgems/mruby-curses/gem_test.o
+      MRBC test/t/literals.rb 
+      MRBC test/t/lang.rb 
+      MRBC test/t/ensure.rb 
+      MRBC test/t/hash.rb 
+      MRBC test/t/superclass.rb 
+      MRBC test/t/string.rb 
+      MRBC test/t/methods.rb 
+      MRBC test/t/syntax.rb 
+      MRBC test/t/enumerable.rb 
+      MRBC test/t/proc.rb 
+      MRBC test/t/iterations.rb 
+      MRBC test/t/array.rb 
+      MRBC test/t/gc.rb 
+      MRBC test/t/exception.rb 
+      MRBC test/t/typeerror.rb 
+      MRBC test/t/nameerror.rb 
+      MRBC test/t/numeric.rb 
+      MRBC test/t/rangeerror.rb 
+      MRBC test/t/object.rb 
+      MRBC test/t/bs_block.rb 
+      MRBC test/t/codegen.rb 
+      MRBC test/t/indexerror.rb 
+      MRBC test/t/localjumperror.rb 
+      MRBC test/t/standarderror.rb 
+      MRBC test/t/nil.rb 
+      MRBC test/t/nomethoderror.rb 
+      MRBC test/t/runtimeerror.rb 
+      MRBC test/t/comparable.rb 
+      MRBC test/t/true.rb 
+      MRBC test/t/argumenterror.rb 
+      MRBC test/t/bs_literal.rb 
+      MRBC test/t/vformat.rb 
+      MRBC test/t/range.rb 
+      MRBC test/t/module.rb 
+      MRBC test/t/regexperror.rb 
+      MRBC test/t/unicode.rb 
+      MRBC test/t/false.rb 
+      MRBC test/t/kernel.rb 
+      MRBC test/t/float.rb 
+      MRBC test/t/basicobject.rb 
+      MRBC test/t/integer.rb 
+      MRBC test/t/class.rb 
+      MRBC test/t/symbol.rb 
+CC    build/test/mrbgems/mruby-test/gem_test.c -> build/test/mrbgems/mruby-test/gem_test.o
+CC    mrbgems/mruby-error/test/exception.c -> build/test/mrbgems/mruby-error/test/exception.o
+      MRBC mrbgems/mruby-error/test/exception.rb 
+CC    build/test/mrbgems/mruby-error/gem_test.c -> build/test/mrbgems/mruby-error/gem_test.o
+AR    build/test/mrbgems/mruby-test/mrbtest.a 
+ar: creating /home/maki/check_mruby/mruby/build/test/mrbgems/mruby-test/mrbtest.a
+LD    build/test/bin/mrbtest 
+
+Build summary:
+
+================================================
+      Config Name: host
+ Output Directory: build/host
+         Binaries: mrbc
+    Included Gems:
+             mruby-metaprog - Meta-programming features for mruby
+             mruby-io - IO and File class
+             mruby-pack - Array#pack and String#unpack method
+             mruby-sprintf - standard Kernel#sprintf method
+             mruby-print - standard print/puts/p
+             mruby-math - standard Math module
+             mruby-time - standard Time class
+             mruby-struct - standard Struct class
+             mruby-compar-ext - Enumerable module extension
+             mruby-enum-ext - Enumerable module extension
+             mruby-string-ext - String class extension
+             mruby-numeric-ext - Numeric class extension
+             mruby-array-ext - Array class extension
+             mruby-hash-ext - Hash class extension
+             mruby-range-ext - Range class extension
+             mruby-proc-ext - Proc class extension
+             mruby-symbol-ext - Symbol class extension
+             mruby-random - Random class
+             mruby-object-ext - extensional methods shared by all objects
+             mruby-objectspace - ObjectSpace class
+             mruby-fiber - Fiber class
+             mruby-enumerator - Enumerator class
+             mruby-enum-lazy - Enumerator::Lazy class
+             mruby-toplevel-ext - toplevel object (main) methods extension
+             mruby-compiler - mruby compiler library
+             mruby-bin-mirb - mirb command
+               - Binaries: mirb
+             mruby-error - extensional error handling
+             mruby-bin-mruby - mruby command
+               - Binaries: mruby
+             mruby-bin-strip - irep dump debug section remover command
+               - Binaries: mruby-strip
+             mruby-kernel-ext - extensional function-like methods
+             mruby-class-ext - class/module extension
+             mruby-method - Method and UnboundMethod class
+             mruby-bin-mrbc - mruby compiler executable
+================================================
+
+================================================
+      Config Name: test
+ Output Directory: build/test
+         Binaries: mrbtest
+    Included Gems:
+             mruby-metaprog - Meta-programming features for mruby
+             mruby-time - standard Time class
+             mruby-io - IO and File class
+             mruby-pack - Array#pack and String#unpack method
+             mruby-sprintf - standard Kernel#sprintf method
+             mruby-print - standard print/puts/p
+             mruby-math - standard Math module
+             mruby-struct - standard Struct class
+             mruby-compar-ext - Enumerable module extension
+             mruby-enum-ext - Enumerable module extension
+             mruby-string-ext - String class extension
+             mruby-numeric-ext - Numeric class extension
+             mruby-array-ext - Array class extension
+             mruby-fiber - Fiber class
+             mruby-enumerator - Enumerator class
+             mruby-hash-ext - Hash class extension
+             mruby-range-ext - Range class extension
+             mruby-proc-ext - Proc class extension
+             mruby-symbol-ext - Symbol class extension
+             mruby-random - Random class
+             mruby-object-ext - extensional methods shared by all objects
+             mruby-objectspace - ObjectSpace class
+             mruby-enum-lazy - Enumerator::Lazy class
+             mruby-toplevel-ext - toplevel object (main) methods extension
+             mruby-compiler - mruby compiler library
+             mruby-bin-mirb - mirb command
+               - Binaries: mirb
+             mruby-error - extensional error handling
+             mruby-bin-mruby - mruby command
+               - Binaries: mruby
+             mruby-bin-strip - irep dump debug section remover command
+               - Binaries: mruby-strip
+             mruby-kernel-ext - extensional function-like methods
+             mruby-class-ext - class/module extension
+             mruby-method - Method and UnboundMethod class
+             mruby-curses - Bindings to PDCurses for MRuby
+             mruby-test - mruby test
+================================================
+
+>>> Test test <<<
+mrbtest - Embeddable Ruby Test
+
+........................................................................................?..............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Skip: File.expand_path (with ENV) (mrbgems: mruby-io)
+  Total: 1223
+     OK: 1222
+     KO: 0
+  Crash: 0
+Warning: 0
+   Skip: 1
+   Time: 0.67 seconds
+
+>>> Bintest test <<<
+bintest - Command Binary Test
+
+............................................
+  Total: 44
+     OK: 44
+     KO: 0
+  Crash: 0
+Warning: 0
+   Skip: 0
+   Time: 0.16 seconds

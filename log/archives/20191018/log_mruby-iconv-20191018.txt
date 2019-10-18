@@ -1,0 +1,290 @@
+GIT   https://github.com/mattn/mruby-iconv.git -> build/repos/test/mruby-iconv
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-iconv'...
+Cleaned up target build folder
+CC    src/variable.c -> build/host/src/variable.o
+CC    src/range.c -> build/host/src/range.o
+CC    src/codedump.c -> build/host/src/codedump.o
+CC    src/load.c -> build/host/src/load.o
+CC    src/compar.c -> build/host/src/compar.o
+CC    src/gc.c -> build/host/src/gc.o
+CC    src/backtrace.c -> build/host/src/backtrace.o
+CC    src/array.c -> build/host/src/array.o
+CC    src/print.c -> build/host/src/print.o
+CC    src/fmt_fp.c -> build/host/src/fmt_fp.o
+CC    src/init.c -> build/host/src/init.o
+CC    src/proc.c -> build/host/src/proc.o
+CC    src/debug.c -> build/host/src/debug.o
+CC    src/symbol.c -> build/host/src/symbol.o
+CC    src/version.c -> build/host/src/version.o
+CC    src/class.c -> build/host/src/class.o
+CC    src/state.c -> build/host/src/state.o
+CC    src/hash.c -> build/host/src/hash.o
+CC    src/numeric.c -> build/host/src/numeric.o
+CC    src/crc.c -> build/host/src/crc.o
+CC    src/etc.c -> build/host/src/etc.o
+CC    src/string.c -> build/host/src/string.o
+CC    src/kernel.c -> build/host/src/kernel.o
+CC    src/error.c -> build/host/src/error.o
+CC    src/vm.c -> build/host/src/vm.o
+CC    src/dump.c -> build/host/src/dump.o
+CC    src/pool.c -> build/host/src/pool.o
+CC    src/object.c -> build/host/src/object.o
+CC    src/enum.c -> build/host/src/enum.o
+CC    mrbgems/mruby-bin-mrbc/tools/mrbc/mrbc.c -> build/host/mrbgems/mruby-bin-mrbc/tools/mrbc/mrbc.o
+CC    mrbgems/mruby-compiler/core/codegen.c -> build/host/mrbgems/mruby-compiler/core/codegen.o
+YACC  mrbgems/mruby-compiler/core/parse.y -> build/host/mrbgems/mruby-compiler/core/y.tab.c
+CC    build/host/mrbgems/mruby-compiler/core/y.tab.c -> build/host/mrbgems/mruby-compiler/core/y.tab.o
+AR    build/host/lib/libmruby_core.a 
+ar: creating /home/maki/check_mruby/mruby/build/host/lib/libmruby_core.a
+LD    build/host/bin/mrbc 
+GEN   *.rb -> build/host/mrblib/mrblib.c
+      MRBC mrblib/00class.rb 
+      MRBC mrblib/10error.rb 
+      MRBC mrblib/array.rb 
+      MRBC mrblib/compar.rb 
+      MRBC mrblib/enum.rb 
+      MRBC mrblib/hash.rb 
+      MRBC mrblib/kernel.rb 
+      MRBC mrblib/numeric.rb 
+      MRBC mrblib/range.rb 
+      MRBC mrblib/string.rb 
+      MRBC mrblib/symbol.rb 
+CC    build/host/mrblib/mrblib.c -> build/host/mrblib/mrblib.o
+CC    mrbgems/mruby-metaprog/src/metaprog.c -> build/host/mrbgems/mruby-metaprog/src/metaprog.o
+CC    build/host/mrbgems/mruby-metaprog/gem_init.c -> build/host/mrbgems/mruby-metaprog/gem_init.o
+CC    mrbgems/mruby-io/src/io.c -> build/host/mrbgems/mruby-io/src/io.o
+CC    mrbgems/mruby-io/src/mruby_io_gem.c -> build/host/mrbgems/mruby-io/src/mruby_io_gem.o
+CC    mrbgems/mruby-io/src/file.c -> build/host/mrbgems/mruby-io/src/file.o
+CC    mrbgems/mruby-io/src/file_test.c -> build/host/mrbgems/mruby-io/src/file_test.o
+      MRBC mrbgems/mruby-io/mrblib/file.rb 
+      MRBC mrbgems/mruby-io/mrblib/file_constants.rb 
+      MRBC mrbgems/mruby-io/mrblib/io.rb 
+      MRBC mrbgems/mruby-io/mrblib/kernel.rb 
+CC    build/host/mrbgems/mruby-io/gem_init.c -> build/host/mrbgems/mruby-io/gem_init.o
+CC    mrbgems/mruby-pack/src/pack.c -> build/host/mrbgems/mruby-pack/src/pack.o
+CC    build/host/mrbgems/mruby-pack/gem_init.c -> build/host/mrbgems/mruby-pack/gem_init.o
+CC    mrbgems/mruby-sprintf/src/sprintf.c -> build/host/mrbgems/mruby-sprintf/src/sprintf.o
+CC    mrbgems/mruby-sprintf/src/kernel.c -> build/host/mrbgems/mruby-sprintf/src/kernel.o
+      MRBC mrbgems/mruby-sprintf/mrblib/string.rb 
+CC    build/host/mrbgems/mruby-sprintf/gem_init.c -> build/host/mrbgems/mruby-sprintf/gem_init.o
+CC    mrbgems/mruby-print/src/print.c -> build/host/mrbgems/mruby-print/src/print.o
+      MRBC mrbgems/mruby-print/mrblib/print.rb 
+CC    build/host/mrbgems/mruby-print/gem_init.c -> build/host/mrbgems/mruby-print/gem_init.o
+CC    mrbgems/mruby-math/src/math.c -> build/host/mrbgems/mruby-math/src/math.o
+CC    build/host/mrbgems/mruby-math/gem_init.c -> build/host/mrbgems/mruby-math/gem_init.o
+CC    mrbgems/mruby-time/src/time.c -> build/host/mrbgems/mruby-time/src/time.o
+      MRBC mrbgems/mruby-time/mrblib/time.rb 
+CC    build/host/mrbgems/mruby-time/gem_init.c -> build/host/mrbgems/mruby-time/gem_init.o
+CC    mrbgems/mruby-struct/src/struct.c -> build/host/mrbgems/mruby-struct/src/struct.o
+      MRBC mrbgems/mruby-struct/mrblib/struct.rb 
+CC    build/host/mrbgems/mruby-struct/gem_init.c -> build/host/mrbgems/mruby-struct/gem_init.o
+      MRBC mrbgems/mruby-compar-ext/mrblib/compar.rb 
+CC    build/host/mrbgems/mruby-compar-ext/gem_init.c -> build/host/mrbgems/mruby-compar-ext/gem_init.o
+      MRBC mrbgems/mruby-enum-ext/mrblib/enum.rb 
+CC    build/host/mrbgems/mruby-enum-ext/gem_init.c -> build/host/mrbgems/mruby-enum-ext/gem_init.o
+CC    mrbgems/mruby-string-ext/src/string.c -> build/host/mrbgems/mruby-string-ext/src/string.o
+      MRBC mrbgems/mruby-string-ext/mrblib/string.rb 
+CC    build/host/mrbgems/mruby-string-ext/gem_init.c -> build/host/mrbgems/mruby-string-ext/gem_init.o
+CC    mrbgems/mruby-numeric-ext/src/numeric_ext.c -> build/host/mrbgems/mruby-numeric-ext/src/numeric_ext.o
+      MRBC mrbgems/mruby-numeric-ext/mrblib/numeric_ext.rb 
+CC    build/host/mrbgems/mruby-numeric-ext/gem_init.c -> build/host/mrbgems/mruby-numeric-ext/gem_init.o
+CC    mrbgems/mruby-array-ext/src/array.c -> build/host/mrbgems/mruby-array-ext/src/array.o
+      MRBC mrbgems/mruby-array-ext/mrblib/array.rb 
+CC    build/host/mrbgems/mruby-array-ext/gem_init.c -> build/host/mrbgems/mruby-array-ext/gem_init.o
+CC    mrbgems/mruby-hash-ext/src/hash-ext.c -> build/host/mrbgems/mruby-hash-ext/src/hash-ext.o
+      MRBC mrbgems/mruby-hash-ext/mrblib/hash.rb 
+CC    build/host/mrbgems/mruby-hash-ext/gem_init.c -> build/host/mrbgems/mruby-hash-ext/gem_init.o
+CC    mrbgems/mruby-range-ext/src/range.c -> build/host/mrbgems/mruby-range-ext/src/range.o
+      MRBC mrbgems/mruby-range-ext/mrblib/range.rb 
+CC    build/host/mrbgems/mruby-range-ext/gem_init.c -> build/host/mrbgems/mruby-range-ext/gem_init.o
+CC    mrbgems/mruby-proc-ext/src/proc.c -> build/host/mrbgems/mruby-proc-ext/src/proc.o
+      MRBC mrbgems/mruby-proc-ext/mrblib/proc.rb 
+CC    build/host/mrbgems/mruby-proc-ext/gem_init.c -> build/host/mrbgems/mruby-proc-ext/gem_init.o
+CC    mrbgems/mruby-symbol-ext/src/symbol.c -> build/host/mrbgems/mruby-symbol-ext/src/symbol.o
+      MRBC mrbgems/mruby-symbol-ext/mrblib/symbol.rb 
+CC    build/host/mrbgems/mruby-symbol-ext/gem_init.c -> build/host/mrbgems/mruby-symbol-ext/gem_init.o
+CC    mrbgems/mruby-random/src/random.c -> build/host/mrbgems/mruby-random/src/random.o
+CC    build/host/mrbgems/mruby-random/gem_init.c -> build/host/mrbgems/mruby-random/gem_init.o
+CC    mrbgems/mruby-object-ext/src/object.c -> build/host/mrbgems/mruby-object-ext/src/object.o
+      MRBC mrbgems/mruby-object-ext/mrblib/object.rb 
+CC    build/host/mrbgems/mruby-object-ext/gem_init.c -> build/host/mrbgems/mruby-object-ext/gem_init.o
+CC    mrbgems/mruby-objectspace/src/mruby_objectspace.c -> build/host/mrbgems/mruby-objectspace/src/mruby_objectspace.o
+CC    build/host/mrbgems/mruby-objectspace/gem_init.c -> build/host/mrbgems/mruby-objectspace/gem_init.o
+CC    mrbgems/mruby-fiber/src/fiber.c -> build/host/mrbgems/mruby-fiber/src/fiber.o
+CC    build/host/mrbgems/mruby-fiber/gem_init.c -> build/host/mrbgems/mruby-fiber/gem_init.o
+      MRBC mrbgems/mruby-enumerator/mrblib/enumerator.rb 
+CC    build/host/mrbgems/mruby-enumerator/gem_init.c -> build/host/mrbgems/mruby-enumerator/gem_init.o
+      MRBC mrbgems/mruby-enum-lazy/mrblib/lazy.rb 
+CC    build/host/mrbgems/mruby-enum-lazy/gem_init.c -> build/host/mrbgems/mruby-enum-lazy/gem_init.o
+      MRBC mrbgems/mruby-toplevel-ext/mrblib/toplevel.rb 
+CC    build/host/mrbgems/mruby-toplevel-ext/gem_init.c -> build/host/mrbgems/mruby-toplevel-ext/gem_init.o
+CC    mrbgems/mruby-kernel-ext/src/kernel.c -> build/host/mrbgems/mruby-kernel-ext/src/kernel.o
+CC    build/host/mrbgems/mruby-kernel-ext/gem_init.c -> build/host/mrbgems/mruby-kernel-ext/gem_init.o
+CC    mrbgems/mruby-class-ext/src/class.c -> build/host/mrbgems/mruby-class-ext/src/class.o
+      MRBC mrbgems/mruby-class-ext/mrblib/module.rb 
+CC    build/host/mrbgems/mruby-class-ext/gem_init.c -> build/host/mrbgems/mruby-class-ext/gem_init.o
+CC    mrbgems/mruby-method/src/method.c -> build/host/mrbgems/mruby-method/src/method.o
+      MRBC mrbgems/mruby-method/mrblib/kernel.rb 
+      MRBC mrbgems/mruby-method/mrblib/method.rb 
+CC    build/host/mrbgems/mruby-method/gem_init.c -> build/host/mrbgems/mruby-method/gem_init.o
+CC    mrbgems/mruby-error/src/exception.c -> build/host/mrbgems/mruby-error/src/exception.o
+CC    build/host/mrbgems/mruby-error/gem_init.c -> build/host/mrbgems/mruby-error/gem_init.o
+CC    build/host/mrbgems/gem_init.c -> build/host/mrbgems/gem_init.o
+AR    build/host/lib/libmruby.a 
+ar: creating /home/maki/check_mruby/mruby/build/host/lib/libmruby.a
+CC    src/variable.c -> build/test/src/variable.o
+CC    src/range.c -> build/test/src/range.o
+CC    src/codedump.c -> build/test/src/codedump.o
+CC    src/load.c -> build/test/src/load.o
+CC    src/compar.c -> build/test/src/compar.o
+CC    src/gc.c -> build/test/src/gc.o
+CC    src/backtrace.c -> build/test/src/backtrace.o
+CC    src/array.c -> build/test/src/array.o
+CC    src/print.c -> build/test/src/print.o
+CC    src/fmt_fp.c -> build/test/src/fmt_fp.o
+CC    src/init.c -> build/test/src/init.o
+CC    src/proc.c -> build/test/src/proc.o
+CC    src/debug.c -> build/test/src/debug.o
+CC    src/symbol.c -> build/test/src/symbol.o
+CC    src/version.c -> build/test/src/version.o
+CC    src/class.c -> build/test/src/class.o
+CC    src/state.c -> build/test/src/state.o
+CC    src/hash.c -> build/test/src/hash.o
+CC    src/numeric.c -> build/test/src/numeric.o
+CC    src/crc.c -> build/test/src/crc.o
+CC    src/etc.c -> build/test/src/etc.o
+CC    src/string.c -> build/test/src/string.o
+CC    src/kernel.c -> build/test/src/kernel.o
+CC    src/error.c -> build/test/src/error.o
+CC    src/vm.c -> build/test/src/vm.o
+CC    src/dump.c -> build/test/src/dump.o
+CC    src/pool.c -> build/test/src/pool.o
+CC    src/object.c -> build/test/src/object.o
+CC    src/enum.c -> build/test/src/enum.o
+GEN   *.rb -> build/test/mrblib/mrblib.c
+      MRBC mrblib/00class.rb 
+      MRBC mrblib/10error.rb 
+      MRBC mrblib/array.rb 
+      MRBC mrblib/compar.rb 
+      MRBC mrblib/enum.rb 
+      MRBC mrblib/hash.rb 
+      MRBC mrblib/kernel.rb 
+      MRBC mrblib/numeric.rb 
+      MRBC mrblib/range.rb 
+      MRBC mrblib/string.rb 
+      MRBC mrblib/symbol.rb 
+CC    build/test/mrblib/mrblib.c -> build/test/mrblib/mrblib.o
+CC    mrbgems/mruby-metaprog/src/metaprog.c -> build/test/mrbgems/mruby-metaprog/src/metaprog.o
+CC    build/test/mrbgems/mruby-metaprog/gem_init.c -> build/test/mrbgems/mruby-metaprog/gem_init.o
+CC    mrbgems/mruby-io/src/io.c -> build/test/mrbgems/mruby-io/src/io.o
+CC    mrbgems/mruby-io/src/mruby_io_gem.c -> build/test/mrbgems/mruby-io/src/mruby_io_gem.o
+CC    mrbgems/mruby-io/src/file.c -> build/test/mrbgems/mruby-io/src/file.o
+CC    mrbgems/mruby-io/src/file_test.c -> build/test/mrbgems/mruby-io/src/file_test.o
+      MRBC mrbgems/mruby-io/mrblib/file.rb 
+      MRBC mrbgems/mruby-io/mrblib/file_constants.rb 
+      MRBC mrbgems/mruby-io/mrblib/io.rb 
+      MRBC mrbgems/mruby-io/mrblib/kernel.rb 
+CC    build/test/mrbgems/mruby-io/gem_init.c -> build/test/mrbgems/mruby-io/gem_init.o
+CC    mrbgems/mruby-pack/src/pack.c -> build/test/mrbgems/mruby-pack/src/pack.o
+CC    build/test/mrbgems/mruby-pack/gem_init.c -> build/test/mrbgems/mruby-pack/gem_init.o
+CC    mrbgems/mruby-sprintf/src/sprintf.c -> build/test/mrbgems/mruby-sprintf/src/sprintf.o
+CC    mrbgems/mruby-sprintf/src/kernel.c -> build/test/mrbgems/mruby-sprintf/src/kernel.o
+      MRBC mrbgems/mruby-sprintf/mrblib/string.rb 
+CC    build/test/mrbgems/mruby-sprintf/gem_init.c -> build/test/mrbgems/mruby-sprintf/gem_init.o
+CC    mrbgems/mruby-print/src/print.c -> build/test/mrbgems/mruby-print/src/print.o
+      MRBC mrbgems/mruby-print/mrblib/print.rb 
+CC    build/test/mrbgems/mruby-print/gem_init.c -> build/test/mrbgems/mruby-print/gem_init.o
+CC    mrbgems/mruby-math/src/math.c -> build/test/mrbgems/mruby-math/src/math.o
+CC    build/test/mrbgems/mruby-math/gem_init.c -> build/test/mrbgems/mruby-math/gem_init.o
+CC    mrbgems/mruby-time/src/time.c -> build/test/mrbgems/mruby-time/src/time.o
+      MRBC mrbgems/mruby-time/mrblib/time.rb 
+CC    build/test/mrbgems/mruby-time/gem_init.c -> build/test/mrbgems/mruby-time/gem_init.o
+CC    mrbgems/mruby-struct/src/struct.c -> build/test/mrbgems/mruby-struct/src/struct.o
+      MRBC mrbgems/mruby-struct/mrblib/struct.rb 
+CC    build/test/mrbgems/mruby-struct/gem_init.c -> build/test/mrbgems/mruby-struct/gem_init.o
+      MRBC mrbgems/mruby-compar-ext/mrblib/compar.rb 
+CC    build/test/mrbgems/mruby-compar-ext/gem_init.c -> build/test/mrbgems/mruby-compar-ext/gem_init.o
+      MRBC mrbgems/mruby-enum-ext/mrblib/enum.rb 
+CC    build/test/mrbgems/mruby-enum-ext/gem_init.c -> build/test/mrbgems/mruby-enum-ext/gem_init.o
+CC    mrbgems/mruby-string-ext/src/string.c -> build/test/mrbgems/mruby-string-ext/src/string.o
+      MRBC mrbgems/mruby-string-ext/mrblib/string.rb 
+CC    build/test/mrbgems/mruby-string-ext/gem_init.c -> build/test/mrbgems/mruby-string-ext/gem_init.o
+CC    mrbgems/mruby-numeric-ext/src/numeric_ext.c -> build/test/mrbgems/mruby-numeric-ext/src/numeric_ext.o
+      MRBC mrbgems/mruby-numeric-ext/mrblib/numeric_ext.rb 
+CC    build/test/mrbgems/mruby-numeric-ext/gem_init.c -> build/test/mrbgems/mruby-numeric-ext/gem_init.o
+CC    mrbgems/mruby-array-ext/src/array.c -> build/test/mrbgems/mruby-array-ext/src/array.o
+      MRBC mrbgems/mruby-array-ext/mrblib/array.rb 
+CC    build/test/mrbgems/mruby-array-ext/gem_init.c -> build/test/mrbgems/mruby-array-ext/gem_init.o
+CC    mrbgems/mruby-hash-ext/src/hash-ext.c -> build/test/mrbgems/mruby-hash-ext/src/hash-ext.o
+      MRBC mrbgems/mruby-hash-ext/mrblib/hash.rb 
+CC    build/test/mrbgems/mruby-hash-ext/gem_init.c -> build/test/mrbgems/mruby-hash-ext/gem_init.o
+CC    mrbgems/mruby-range-ext/src/range.c -> build/test/mrbgems/mruby-range-ext/src/range.o
+      MRBC mrbgems/mruby-range-ext/mrblib/range.rb 
+CC    build/test/mrbgems/mruby-range-ext/gem_init.c -> build/test/mrbgems/mruby-range-ext/gem_init.o
+CC    mrbgems/mruby-proc-ext/src/proc.c -> build/test/mrbgems/mruby-proc-ext/src/proc.o
+      MRBC mrbgems/mruby-proc-ext/mrblib/proc.rb 
+CC    build/test/mrbgems/mruby-proc-ext/gem_init.c -> build/test/mrbgems/mruby-proc-ext/gem_init.o
+CC    mrbgems/mruby-symbol-ext/src/symbol.c -> build/test/mrbgems/mruby-symbol-ext/src/symbol.o
+      MRBC mrbgems/mruby-symbol-ext/mrblib/symbol.rb 
+CC    build/test/mrbgems/mruby-symbol-ext/gem_init.c -> build/test/mrbgems/mruby-symbol-ext/gem_init.o
+CC    mrbgems/mruby-random/src/random.c -> build/test/mrbgems/mruby-random/src/random.o
+CC    build/test/mrbgems/mruby-random/gem_init.c -> build/test/mrbgems/mruby-random/gem_init.o
+CC    mrbgems/mruby-object-ext/src/object.c -> build/test/mrbgems/mruby-object-ext/src/object.o
+      MRBC mrbgems/mruby-object-ext/mrblib/object.rb 
+CC    build/test/mrbgems/mruby-object-ext/gem_init.c -> build/test/mrbgems/mruby-object-ext/gem_init.o
+CC    mrbgems/mruby-objectspace/src/mruby_objectspace.c -> build/test/mrbgems/mruby-objectspace/src/mruby_objectspace.o
+CC    build/test/mrbgems/mruby-objectspace/gem_init.c -> build/test/mrbgems/mruby-objectspace/gem_init.o
+CC    mrbgems/mruby-fiber/src/fiber.c -> build/test/mrbgems/mruby-fiber/src/fiber.o
+CC    build/test/mrbgems/mruby-fiber/gem_init.c -> build/test/mrbgems/mruby-fiber/gem_init.o
+      MRBC mrbgems/mruby-enumerator/mrblib/enumerator.rb 
+CC    build/test/mrbgems/mruby-enumerator/gem_init.c -> build/test/mrbgems/mruby-enumerator/gem_init.o
+      MRBC mrbgems/mruby-enum-lazy/mrblib/lazy.rb 
+CC    build/test/mrbgems/mruby-enum-lazy/gem_init.c -> build/test/mrbgems/mruby-enum-lazy/gem_init.o
+      MRBC mrbgems/mruby-toplevel-ext/mrblib/toplevel.rb 
+CC    build/test/mrbgems/mruby-toplevel-ext/gem_init.c -> build/test/mrbgems/mruby-toplevel-ext/gem_init.o
+CC    mrbgems/mruby-kernel-ext/src/kernel.c -> build/test/mrbgems/mruby-kernel-ext/src/kernel.o
+CC    build/test/mrbgems/mruby-kernel-ext/gem_init.c -> build/test/mrbgems/mruby-kernel-ext/gem_init.o
+CC    mrbgems/mruby-class-ext/src/class.c -> build/test/mrbgems/mruby-class-ext/src/class.o
+      MRBC mrbgems/mruby-class-ext/mrblib/module.rb 
+CC    build/test/mrbgems/mruby-class-ext/gem_init.c -> build/test/mrbgems/mruby-class-ext/gem_init.o
+CC    mrbgems/mruby-method/src/method.c -> build/test/mrbgems/mruby-method/src/method.o
+      MRBC mrbgems/mruby-method/mrblib/kernel.rb 
+      MRBC mrbgems/mruby-method/mrblib/method.rb 
+CC    build/test/mrbgems/mruby-method/gem_init.c -> build/test/mrbgems/mruby-method/gem_init.o
+CC    mrbgems/mruby-compiler/core/codegen.c -> build/test/mrbgems/mruby-compiler/core/codegen.o
+YACC  mrbgems/mruby-compiler/core/parse.y -> build/test/mrbgems/mruby-compiler/core/y.tab.c
+CC    build/test/mrbgems/mruby-compiler/core/y.tab.c -> build/test/mrbgems/mruby-compiler/core/y.tab.o
+CC    build/repos/test/mruby-iconv/src/mrb_iconv.c -> build/test/mrbgems/mruby-iconv/src/mrb_iconv.o
+CC    build/test/mrbgems/mruby-iconv/gem_init.c -> build/test/mrbgems/mruby-iconv/gem_init.o
+CC    mrbgems/mruby-error/src/exception.c -> build/test/mrbgems/mruby-error/src/exception.o
+CC    build/test/mrbgems/mruby-error/gem_init.c -> build/test/mrbgems/mruby-error/gem_init.o
+CC    build/test/mrbgems/gem_init.c -> build/test/mrbgems/gem_init.o
+AR    build/test/lib/libmruby.a 
+ar: creating /home/maki/check_mruby/mruby/build/test/lib/libmruby.a
+CC    mrbgems/mruby-bin-mirb/tools/mirb/mirb.c -> build/host/mrbgems/mruby-bin-mirb/tools/mirb/mirb.o
+LD    build/host/bin/mirb 
+CC    mrbgems/mruby-bin-mruby/tools/mruby/mruby.c -> build/host/mrbgems/mruby-bin-mruby/tools/mruby/mruby.o
+LD    build/host/bin/mruby 
+CC    mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.c -> build/host/mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.o
+LD    build/host/bin/mruby-strip 
+CC    mrbgems/mruby-bin-mirb/tools/mirb/mirb.c -> build/test/mrbgems/mruby-bin-mirb/tools/mirb/mirb.o
+LD    build/test/bin/mirb 
+/usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+/usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+rake aborted!
+Command failed with status (1): [gcc  -o /home/maki/check_mruby/mruby/build...]
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:31:in `_run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:36:in `rescue in _run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:32:in `_run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:211:in `run'
+/home/maki/check_mruby/mruby/Rakefile:79:in `block (4 levels) in <top (required)>'
+
+Caused by:
+Command failed with status (1): [gcc  -o /home/maki/check_mruby/mruby/build...]
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:33:in `_run'
+/home/maki/check_mruby/mruby/lib/mruby/build/command.rb:211:in `run'
+/home/maki/check_mruby/mruby/Rakefile:79:in `block (4 levels) in <top (required)>'
+Tasks: TOP => test => test_test => all => /home/maki/check_mruby/mruby/build/test/bin/mirb
+(See full trace by running task with --trace)

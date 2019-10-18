@@ -1,0 +1,13 @@
+GIT   https://github.com/matsumotory/mruby-geoip.git -> build/repos/test/mruby-geoip
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-geoip'...
+Cleaned up target build folder
+sh: 1: cannot create /home/maki/check_mruby/mruby/build/test/../GeoLiteCity.dat: Directory nonexistent
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   162    0   162    0     0   3115      0 --:--:-- --:--:-- --:--:--  3115
+(23) Failed writing body
+rake aborted!
+Command failed with status (2): [curl -L http://geolite.maxmind.com/downloa...]
+/home/maki/check_mruby/mruby/build/repos/test/mruby-geoip/mrbgem.rake:10:in `block (2 levels) in <top (required)>'
+Tasks: TOP => test => /home/maki/check_mruby/mruby/build/test/../GeoLiteCity.dat
+(See full trace by running task with --trace)

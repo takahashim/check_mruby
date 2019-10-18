@@ -1,0 +1,18 @@
+GIT   https://github.com/mattn/mruby-msagent.git -> build/repos/test/mruby-msagent
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-msagent'...
+rake aborted!
+mruby-msagent does not support on non-Windows OSs.
+/home/maki/check_mruby/mruby/build/repos/test/mruby-msagent/mrbgem.rake:8:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `setup'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:4:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `block in each_target'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each_target'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:1:in `<top (required)>'
+/home/maki/check_mruby/mruby/Rakefile:27:in `load'
+/home/maki/check_mruby/mruby/Rakefile:27:in `<top (required)>'
+(See full trace by running task with --trace)

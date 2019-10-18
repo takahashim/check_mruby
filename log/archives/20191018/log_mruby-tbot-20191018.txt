@@ -1,0 +1,905 @@
+GIT   https://github.com/nsheremet/mruby-tbot.git -> build/repos/test/mruby-tbot
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-tbot'...
+GIT   https://github.com/matsumotory/mruby-sleep.git -> build/repos/test/mruby-sleep
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-sleep'...
+Cleaned up target build folder
+CC    src/variable.c -> build/host/src/variable.o
+CC    src/range.c -> build/host/src/range.o
+CC    src/codedump.c -> build/host/src/codedump.o
+CC    src/load.c -> build/host/src/load.o
+CC    src/compar.c -> build/host/src/compar.o
+CC    src/gc.c -> build/host/src/gc.o
+CC    src/backtrace.c -> build/host/src/backtrace.o
+CC    src/array.c -> build/host/src/array.o
+CC    src/print.c -> build/host/src/print.o
+CC    src/fmt_fp.c -> build/host/src/fmt_fp.o
+CC    src/init.c -> build/host/src/init.o
+CC    src/proc.c -> build/host/src/proc.o
+CC    src/debug.c -> build/host/src/debug.o
+CC    src/symbol.c -> build/host/src/symbol.o
+CC    src/version.c -> build/host/src/version.o
+CC    src/class.c -> build/host/src/class.o
+CC    src/state.c -> build/host/src/state.o
+CC    src/hash.c -> build/host/src/hash.o
+CC    src/numeric.c -> build/host/src/numeric.o
+CC    src/crc.c -> build/host/src/crc.o
+CC    src/etc.c -> build/host/src/etc.o
+CC    src/string.c -> build/host/src/string.o
+CC    src/kernel.c -> build/host/src/kernel.o
+CC    src/error.c -> build/host/src/error.o
+CC    src/vm.c -> build/host/src/vm.o
+CC    src/dump.c -> build/host/src/dump.o
+CC    src/pool.c -> build/host/src/pool.o
+CC    src/object.c -> build/host/src/object.o
+CC    src/enum.c -> build/host/src/enum.o
+CC    mrbgems/mruby-bin-mrbc/tools/mrbc/mrbc.c -> build/host/mrbgems/mruby-bin-mrbc/tools/mrbc/mrbc.o
+CC    mrbgems/mruby-compiler/core/codegen.c -> build/host/mrbgems/mruby-compiler/core/codegen.o
+YACC  mrbgems/mruby-compiler/core/parse.y -> build/host/mrbgems/mruby-compiler/core/y.tab.c
+CC    build/host/mrbgems/mruby-compiler/core/y.tab.c -> build/host/mrbgems/mruby-compiler/core/y.tab.o
+AR    build/host/lib/libmruby_core.a 
+ar: creating /home/maki/check_mruby/mruby/build/host/lib/libmruby_core.a
+LD    build/host/bin/mrbc 
+GEN   *.rb -> build/host/mrblib/mrblib.c
+      MRBC mrblib/00class.rb 
+      MRBC mrblib/10error.rb 
+      MRBC mrblib/array.rb 
+      MRBC mrblib/compar.rb 
+      MRBC mrblib/enum.rb 
+      MRBC mrblib/hash.rb 
+      MRBC mrblib/kernel.rb 
+      MRBC mrblib/numeric.rb 
+      MRBC mrblib/range.rb 
+      MRBC mrblib/string.rb 
+      MRBC mrblib/symbol.rb 
+CC    build/host/mrblib/mrblib.c -> build/host/mrblib/mrblib.o
+CC    mrbgems/mruby-metaprog/src/metaprog.c -> build/host/mrbgems/mruby-metaprog/src/metaprog.o
+CC    build/host/mrbgems/mruby-metaprog/gem_init.c -> build/host/mrbgems/mruby-metaprog/gem_init.o
+CC    mrbgems/mruby-io/src/io.c -> build/host/mrbgems/mruby-io/src/io.o
+CC    mrbgems/mruby-io/src/mruby_io_gem.c -> build/host/mrbgems/mruby-io/src/mruby_io_gem.o
+CC    mrbgems/mruby-io/src/file.c -> build/host/mrbgems/mruby-io/src/file.o
+CC    mrbgems/mruby-io/src/file_test.c -> build/host/mrbgems/mruby-io/src/file_test.o
+      MRBC mrbgems/mruby-io/mrblib/file.rb 
+      MRBC mrbgems/mruby-io/mrblib/file_constants.rb 
+      MRBC mrbgems/mruby-io/mrblib/io.rb 
+      MRBC mrbgems/mruby-io/mrblib/kernel.rb 
+CC    build/host/mrbgems/mruby-io/gem_init.c -> build/host/mrbgems/mruby-io/gem_init.o
+CC    mrbgems/mruby-pack/src/pack.c -> build/host/mrbgems/mruby-pack/src/pack.o
+CC    build/host/mrbgems/mruby-pack/gem_init.c -> build/host/mrbgems/mruby-pack/gem_init.o
+CC    mrbgems/mruby-sprintf/src/sprintf.c -> build/host/mrbgems/mruby-sprintf/src/sprintf.o
+CC    mrbgems/mruby-sprintf/src/kernel.c -> build/host/mrbgems/mruby-sprintf/src/kernel.o
+      MRBC mrbgems/mruby-sprintf/mrblib/string.rb 
+CC    build/host/mrbgems/mruby-sprintf/gem_init.c -> build/host/mrbgems/mruby-sprintf/gem_init.o
+CC    mrbgems/mruby-print/src/print.c -> build/host/mrbgems/mruby-print/src/print.o
+      MRBC mrbgems/mruby-print/mrblib/print.rb 
+CC    build/host/mrbgems/mruby-print/gem_init.c -> build/host/mrbgems/mruby-print/gem_init.o
+CC    mrbgems/mruby-math/src/math.c -> build/host/mrbgems/mruby-math/src/math.o
+CC    build/host/mrbgems/mruby-math/gem_init.c -> build/host/mrbgems/mruby-math/gem_init.o
+CC    mrbgems/mruby-time/src/time.c -> build/host/mrbgems/mruby-time/src/time.o
+      MRBC mrbgems/mruby-time/mrblib/time.rb 
+CC    build/host/mrbgems/mruby-time/gem_init.c -> build/host/mrbgems/mruby-time/gem_init.o
+CC    mrbgems/mruby-struct/src/struct.c -> build/host/mrbgems/mruby-struct/src/struct.o
+      MRBC mrbgems/mruby-struct/mrblib/struct.rb 
+CC    build/host/mrbgems/mruby-struct/gem_init.c -> build/host/mrbgems/mruby-struct/gem_init.o
+      MRBC mrbgems/mruby-compar-ext/mrblib/compar.rb 
+CC    build/host/mrbgems/mruby-compar-ext/gem_init.c -> build/host/mrbgems/mruby-compar-ext/gem_init.o
+      MRBC mrbgems/mruby-enum-ext/mrblib/enum.rb 
+CC    build/host/mrbgems/mruby-enum-ext/gem_init.c -> build/host/mrbgems/mruby-enum-ext/gem_init.o
+CC    mrbgems/mruby-string-ext/src/string.c -> build/host/mrbgems/mruby-string-ext/src/string.o
+      MRBC mrbgems/mruby-string-ext/mrblib/string.rb 
+CC    build/host/mrbgems/mruby-string-ext/gem_init.c -> build/host/mrbgems/mruby-string-ext/gem_init.o
+CC    mrbgems/mruby-numeric-ext/src/numeric_ext.c -> build/host/mrbgems/mruby-numeric-ext/src/numeric_ext.o
+      MRBC mrbgems/mruby-numeric-ext/mrblib/numeric_ext.rb 
+CC    build/host/mrbgems/mruby-numeric-ext/gem_init.c -> build/host/mrbgems/mruby-numeric-ext/gem_init.o
+CC    mrbgems/mruby-array-ext/src/array.c -> build/host/mrbgems/mruby-array-ext/src/array.o
+      MRBC mrbgems/mruby-array-ext/mrblib/array.rb 
+CC    build/host/mrbgems/mruby-array-ext/gem_init.c -> build/host/mrbgems/mruby-array-ext/gem_init.o
+CC    mrbgems/mruby-hash-ext/src/hash-ext.c -> build/host/mrbgems/mruby-hash-ext/src/hash-ext.o
+      MRBC mrbgems/mruby-hash-ext/mrblib/hash.rb 
+CC    build/host/mrbgems/mruby-hash-ext/gem_init.c -> build/host/mrbgems/mruby-hash-ext/gem_init.o
+CC    mrbgems/mruby-range-ext/src/range.c -> build/host/mrbgems/mruby-range-ext/src/range.o
+      MRBC mrbgems/mruby-range-ext/mrblib/range.rb 
+CC    build/host/mrbgems/mruby-range-ext/gem_init.c -> build/host/mrbgems/mruby-range-ext/gem_init.o
+CC    mrbgems/mruby-proc-ext/src/proc.c -> build/host/mrbgems/mruby-proc-ext/src/proc.o
+      MRBC mrbgems/mruby-proc-ext/mrblib/proc.rb 
+CC    build/host/mrbgems/mruby-proc-ext/gem_init.c -> build/host/mrbgems/mruby-proc-ext/gem_init.o
+CC    mrbgems/mruby-symbol-ext/src/symbol.c -> build/host/mrbgems/mruby-symbol-ext/src/symbol.o
+      MRBC mrbgems/mruby-symbol-ext/mrblib/symbol.rb 
+CC    build/host/mrbgems/mruby-symbol-ext/gem_init.c -> build/host/mrbgems/mruby-symbol-ext/gem_init.o
+CC    mrbgems/mruby-random/src/random.c -> build/host/mrbgems/mruby-random/src/random.o
+CC    build/host/mrbgems/mruby-random/gem_init.c -> build/host/mrbgems/mruby-random/gem_init.o
+CC    mrbgems/mruby-object-ext/src/object.c -> build/host/mrbgems/mruby-object-ext/src/object.o
+      MRBC mrbgems/mruby-object-ext/mrblib/object.rb 
+CC    build/host/mrbgems/mruby-object-ext/gem_init.c -> build/host/mrbgems/mruby-object-ext/gem_init.o
+CC    mrbgems/mruby-objectspace/src/mruby_objectspace.c -> build/host/mrbgems/mruby-objectspace/src/mruby_objectspace.o
+CC    build/host/mrbgems/mruby-objectspace/gem_init.c -> build/host/mrbgems/mruby-objectspace/gem_init.o
+CC    mrbgems/mruby-fiber/src/fiber.c -> build/host/mrbgems/mruby-fiber/src/fiber.o
+CC    build/host/mrbgems/mruby-fiber/gem_init.c -> build/host/mrbgems/mruby-fiber/gem_init.o
+      MRBC mrbgems/mruby-enumerator/mrblib/enumerator.rb 
+CC    build/host/mrbgems/mruby-enumerator/gem_init.c -> build/host/mrbgems/mruby-enumerator/gem_init.o
+      MRBC mrbgems/mruby-enum-lazy/mrblib/lazy.rb 
+CC    build/host/mrbgems/mruby-enum-lazy/gem_init.c -> build/host/mrbgems/mruby-enum-lazy/gem_init.o
+      MRBC mrbgems/mruby-toplevel-ext/mrblib/toplevel.rb 
+CC    build/host/mrbgems/mruby-toplevel-ext/gem_init.c -> build/host/mrbgems/mruby-toplevel-ext/gem_init.o
+CC    mrbgems/mruby-kernel-ext/src/kernel.c -> build/host/mrbgems/mruby-kernel-ext/src/kernel.o
+CC    build/host/mrbgems/mruby-kernel-ext/gem_init.c -> build/host/mrbgems/mruby-kernel-ext/gem_init.o
+CC    mrbgems/mruby-class-ext/src/class.c -> build/host/mrbgems/mruby-class-ext/src/class.o
+      MRBC mrbgems/mruby-class-ext/mrblib/module.rb 
+CC    build/host/mrbgems/mruby-class-ext/gem_init.c -> build/host/mrbgems/mruby-class-ext/gem_init.o
+CC    mrbgems/mruby-method/src/method.c -> build/host/mrbgems/mruby-method/src/method.o
+      MRBC mrbgems/mruby-method/mrblib/kernel.rb 
+      MRBC mrbgems/mruby-method/mrblib/method.rb 
+CC    build/host/mrbgems/mruby-method/gem_init.c -> build/host/mrbgems/mruby-method/gem_init.o
+CC    mrbgems/mruby-error/src/exception.c -> build/host/mrbgems/mruby-error/src/exception.o
+CC    build/host/mrbgems/mruby-error/gem_init.c -> build/host/mrbgems/mruby-error/gem_init.o
+CC    build/host/mrbgems/gem_init.c -> build/host/mrbgems/gem_init.o
+AR    build/host/lib/libmruby.a 
+ar: creating /home/maki/check_mruby/mruby/build/host/lib/libmruby.a
+CC    src/variable.c -> build/test/src/variable.o
+CC    src/range.c -> build/test/src/range.o
+CC    src/codedump.c -> build/test/src/codedump.o
+CC    src/load.c -> build/test/src/load.o
+CC    src/compar.c -> build/test/src/compar.o
+CC    src/gc.c -> build/test/src/gc.o
+CC    src/backtrace.c -> build/test/src/backtrace.o
+CC    src/array.c -> build/test/src/array.o
+CC    src/print.c -> build/test/src/print.o
+CC    src/fmt_fp.c -> build/test/src/fmt_fp.o
+CC    src/init.c -> build/test/src/init.o
+CC    src/proc.c -> build/test/src/proc.o
+CC    src/debug.c -> build/test/src/debug.o
+CC    src/symbol.c -> build/test/src/symbol.o
+CC    src/version.c -> build/test/src/version.o
+CC    src/class.c -> build/test/src/class.o
+CC    src/state.c -> build/test/src/state.o
+CC    src/hash.c -> build/test/src/hash.o
+CC    src/numeric.c -> build/test/src/numeric.o
+CC    src/crc.c -> build/test/src/crc.o
+CC    src/etc.c -> build/test/src/etc.o
+CC    src/string.c -> build/test/src/string.o
+CC    src/kernel.c -> build/test/src/kernel.o
+CC    src/error.c -> build/test/src/error.o
+CC    src/vm.c -> build/test/src/vm.o
+CC    src/dump.c -> build/test/src/dump.o
+CC    src/pool.c -> build/test/src/pool.o
+CC    src/object.c -> build/test/src/object.o
+CC    src/enum.c -> build/test/src/enum.o
+GEN   *.rb -> build/test/mrblib/mrblib.c
+      MRBC mrblib/00class.rb 
+      MRBC mrblib/10error.rb 
+      MRBC mrblib/array.rb 
+      MRBC mrblib/compar.rb 
+      MRBC mrblib/enum.rb 
+      MRBC mrblib/hash.rb 
+      MRBC mrblib/kernel.rb 
+      MRBC mrblib/numeric.rb 
+      MRBC mrblib/range.rb 
+      MRBC mrblib/string.rb 
+      MRBC mrblib/symbol.rb 
+CC    build/test/mrblib/mrblib.c -> build/test/mrblib/mrblib.o
+CC    mrbgems/mruby-metaprog/src/metaprog.c -> build/test/mrbgems/mruby-metaprog/src/metaprog.o
+CC    build/test/mrbgems/mruby-metaprog/gem_init.c -> build/test/mrbgems/mruby-metaprog/gem_init.o
+CC    mrbgems/mruby-io/src/io.c -> build/test/mrbgems/mruby-io/src/io.o
+CC    mrbgems/mruby-io/src/mruby_io_gem.c -> build/test/mrbgems/mruby-io/src/mruby_io_gem.o
+CC    mrbgems/mruby-io/src/file.c -> build/test/mrbgems/mruby-io/src/file.o
+CC    mrbgems/mruby-io/src/file_test.c -> build/test/mrbgems/mruby-io/src/file_test.o
+      MRBC mrbgems/mruby-io/mrblib/file.rb 
+      MRBC mrbgems/mruby-io/mrblib/file_constants.rb 
+      MRBC mrbgems/mruby-io/mrblib/io.rb 
+      MRBC mrbgems/mruby-io/mrblib/kernel.rb 
+CC    build/test/mrbgems/mruby-io/gem_init.c -> build/test/mrbgems/mruby-io/gem_init.o
+CC    mrbgems/mruby-pack/src/pack.c -> build/test/mrbgems/mruby-pack/src/pack.o
+CC    build/test/mrbgems/mruby-pack/gem_init.c -> build/test/mrbgems/mruby-pack/gem_init.o
+CC    mrbgems/mruby-sprintf/src/sprintf.c -> build/test/mrbgems/mruby-sprintf/src/sprintf.o
+CC    mrbgems/mruby-sprintf/src/kernel.c -> build/test/mrbgems/mruby-sprintf/src/kernel.o
+      MRBC mrbgems/mruby-sprintf/mrblib/string.rb 
+CC    build/test/mrbgems/mruby-sprintf/gem_init.c -> build/test/mrbgems/mruby-sprintf/gem_init.o
+CC    mrbgems/mruby-print/src/print.c -> build/test/mrbgems/mruby-print/src/print.o
+      MRBC mrbgems/mruby-print/mrblib/print.rb 
+CC    build/test/mrbgems/mruby-print/gem_init.c -> build/test/mrbgems/mruby-print/gem_init.o
+CC    mrbgems/mruby-math/src/math.c -> build/test/mrbgems/mruby-math/src/math.o
+CC    build/test/mrbgems/mruby-math/gem_init.c -> build/test/mrbgems/mruby-math/gem_init.o
+CC    mrbgems/mruby-time/src/time.c -> build/test/mrbgems/mruby-time/src/time.o
+      MRBC mrbgems/mruby-time/mrblib/time.rb 
+CC    build/test/mrbgems/mruby-time/gem_init.c -> build/test/mrbgems/mruby-time/gem_init.o
+CC    mrbgems/mruby-struct/src/struct.c -> build/test/mrbgems/mruby-struct/src/struct.o
+      MRBC mrbgems/mruby-struct/mrblib/struct.rb 
+CC    build/test/mrbgems/mruby-struct/gem_init.c -> build/test/mrbgems/mruby-struct/gem_init.o
+      MRBC mrbgems/mruby-compar-ext/mrblib/compar.rb 
+CC    build/test/mrbgems/mruby-compar-ext/gem_init.c -> build/test/mrbgems/mruby-compar-ext/gem_init.o
+      MRBC mrbgems/mruby-enum-ext/mrblib/enum.rb 
+CC    build/test/mrbgems/mruby-enum-ext/gem_init.c -> build/test/mrbgems/mruby-enum-ext/gem_init.o
+CC    mrbgems/mruby-string-ext/src/string.c -> build/test/mrbgems/mruby-string-ext/src/string.o
+      MRBC mrbgems/mruby-string-ext/mrblib/string.rb 
+CC    build/test/mrbgems/mruby-string-ext/gem_init.c -> build/test/mrbgems/mruby-string-ext/gem_init.o
+CC    mrbgems/mruby-numeric-ext/src/numeric_ext.c -> build/test/mrbgems/mruby-numeric-ext/src/numeric_ext.o
+      MRBC mrbgems/mruby-numeric-ext/mrblib/numeric_ext.rb 
+CC    build/test/mrbgems/mruby-numeric-ext/gem_init.c -> build/test/mrbgems/mruby-numeric-ext/gem_init.o
+CC    mrbgems/mruby-array-ext/src/array.c -> build/test/mrbgems/mruby-array-ext/src/array.o
+      MRBC mrbgems/mruby-array-ext/mrblib/array.rb 
+CC    build/test/mrbgems/mruby-array-ext/gem_init.c -> build/test/mrbgems/mruby-array-ext/gem_init.o
+CC    mrbgems/mruby-hash-ext/src/hash-ext.c -> build/test/mrbgems/mruby-hash-ext/src/hash-ext.o
+      MRBC mrbgems/mruby-hash-ext/mrblib/hash.rb 
+CC    build/test/mrbgems/mruby-hash-ext/gem_init.c -> build/test/mrbgems/mruby-hash-ext/gem_init.o
+CC    mrbgems/mruby-range-ext/src/range.c -> build/test/mrbgems/mruby-range-ext/src/range.o
+      MRBC mrbgems/mruby-range-ext/mrblib/range.rb 
+CC    build/test/mrbgems/mruby-range-ext/gem_init.c -> build/test/mrbgems/mruby-range-ext/gem_init.o
+CC    mrbgems/mruby-proc-ext/src/proc.c -> build/test/mrbgems/mruby-proc-ext/src/proc.o
+      MRBC mrbgems/mruby-proc-ext/mrblib/proc.rb 
+CC    build/test/mrbgems/mruby-proc-ext/gem_init.c -> build/test/mrbgems/mruby-proc-ext/gem_init.o
+CC    mrbgems/mruby-symbol-ext/src/symbol.c -> build/test/mrbgems/mruby-symbol-ext/src/symbol.o
+      MRBC mrbgems/mruby-symbol-ext/mrblib/symbol.rb 
+CC    build/test/mrbgems/mruby-symbol-ext/gem_init.c -> build/test/mrbgems/mruby-symbol-ext/gem_init.o
+CC    mrbgems/mruby-random/src/random.c -> build/test/mrbgems/mruby-random/src/random.o
+CC    build/test/mrbgems/mruby-random/gem_init.c -> build/test/mrbgems/mruby-random/gem_init.o
+CC    mrbgems/mruby-object-ext/src/object.c -> build/test/mrbgems/mruby-object-ext/src/object.o
+      MRBC mrbgems/mruby-object-ext/mrblib/object.rb 
+CC    build/test/mrbgems/mruby-object-ext/gem_init.c -> build/test/mrbgems/mruby-object-ext/gem_init.o
+CC    mrbgems/mruby-objectspace/src/mruby_objectspace.c -> build/test/mrbgems/mruby-objectspace/src/mruby_objectspace.o
+CC    build/test/mrbgems/mruby-objectspace/gem_init.c -> build/test/mrbgems/mruby-objectspace/gem_init.o
+CC    mrbgems/mruby-fiber/src/fiber.c -> build/test/mrbgems/mruby-fiber/src/fiber.o
+CC    build/test/mrbgems/mruby-fiber/gem_init.c -> build/test/mrbgems/mruby-fiber/gem_init.o
+      MRBC mrbgems/mruby-enumerator/mrblib/enumerator.rb 
+CC    build/test/mrbgems/mruby-enumerator/gem_init.c -> build/test/mrbgems/mruby-enumerator/gem_init.o
+      MRBC mrbgems/mruby-enum-lazy/mrblib/lazy.rb 
+CC    build/test/mrbgems/mruby-enum-lazy/gem_init.c -> build/test/mrbgems/mruby-enum-lazy/gem_init.o
+      MRBC mrbgems/mruby-toplevel-ext/mrblib/toplevel.rb 
+CC    build/test/mrbgems/mruby-toplevel-ext/gem_init.c -> build/test/mrbgems/mruby-toplevel-ext/gem_init.o
+CC    mrbgems/mruby-kernel-ext/src/kernel.c -> build/test/mrbgems/mruby-kernel-ext/src/kernel.o
+CC    build/test/mrbgems/mruby-kernel-ext/gem_init.c -> build/test/mrbgems/mruby-kernel-ext/gem_init.o
+CC    mrbgems/mruby-class-ext/src/class.c -> build/test/mrbgems/mruby-class-ext/src/class.o
+      MRBC mrbgems/mruby-class-ext/mrblib/module.rb 
+CC    build/test/mrbgems/mruby-class-ext/gem_init.c -> build/test/mrbgems/mruby-class-ext/gem_init.o
+CC    mrbgems/mruby-method/src/method.c -> build/test/mrbgems/mruby-method/src/method.o
+      MRBC mrbgems/mruby-method/mrblib/kernel.rb 
+      MRBC mrbgems/mruby-method/mrblib/method.rb 
+CC    build/test/mrbgems/mruby-method/gem_init.c -> build/test/mrbgems/mruby-method/gem_init.o
+CC    mrbgems/mruby-compiler/core/codegen.c -> build/test/mrbgems/mruby-compiler/core/codegen.o
+YACC  mrbgems/mruby-compiler/core/parse.y -> build/test/mrbgems/mruby-compiler/core/y.tab.c
+CC    build/test/mrbgems/mruby-compiler/core/y.tab.c -> build/test/mrbgems/mruby-compiler/core/y.tab.o
+CC    build/repos/test/mruby-tbot/src/tbot.c -> build/test/mrbgems/mruby-tbot/src/tbot.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-tbot/src/tbot.c: In function ‘mrb_mruby_tbot_gem_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-tbot/src/tbot.c:27:18: warning: variable ‘sender’ set but not used [-Wunused-but-set-variable]
+   struct RClass *sender;
+                  ^~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-tbot/src/tbot.c:26:18: warning: variable ‘tbot’ set but not used [-Wunused-but-set-variable]
+   struct RClass *tbot;
+                  ^~~~
+At top level:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-tbot/src/tbot.c:20:35: warning: ‘mrb_gem_data_type’ defined but not used [-Wunused-const-variable=]
+ static const struct mrb_data_type mrb_gem_data_type = {
+                                   ^~~~~~~~~~~~~~~~~
+      MRBC build/repos/test/mruby-tbot/mrblib/bot.rb 
+      MRBC build/repos/test/mruby-tbot/mrblib/sender.rb 
+CC    build/test/mrbgems/mruby-tbot/gem_init.c -> build/test/mrbgems/mruby-tbot/gem_init.o
+CC    mrbgems/mruby-error/src/exception.c -> build/test/mrbgems/mruby-error/src/exception.o
+CC    build/test/mrbgems/mruby-error/gem_init.c -> build/test/mrbgems/mruby-error/gem_init.o
+CC    build/repos/test/mruby-smallhttp/src/http.c -> build/test/mrbgems/mruby-smallhttp/src/http.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-smallhttp/src/http.c: In function ‘mrb_mruby_smallhttp_gem_init’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-smallhttp/src/http.c:26:18: warning: variable ‘gem’ set but not used [-Wunused-but-set-variable]
+   struct RClass *gem;
+                  ^~~
+At top level:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-smallhttp/src/http.c:20:35: warning: ‘mrb_gem_data_type’ defined but not used [-Wunused-const-variable=]
+ static const struct mrb_data_type mrb_gem_data_type = {
+                                   ^~~~~~~~~~~~~~~~~
+      MRBC build/repos/test/mruby-smallhttp/mrblib/http.rb 
+      MRBC build/repos/test/mruby-smallhttp/mrblib/response.rb 
+CC    build/test/mrbgems/mruby-smallhttp/gem_init.c -> build/test/mrbgems/mruby-smallhttp/gem_init.o
+CC    build/repos/test/mruby-json/src/mrb_json.c -> build/test/mrbgems/mruby-json/src/mrb_json.o
+CC    build/repos/test/mruby-json/src/parson.c -> build/test/mrbgems/mruby-json/src/parson.o
+      MRBC build/repos/test/mruby-json/mrblib/json.rb 
+CC    build/test/mrbgems/mruby-json/gem_init.c -> build/test/mrbgems/mruby-json/gem_init.o
+CC    build/repos/test/mruby-sleep/src/mrb_sleep.c -> build/test/mrbgems/mruby-sleep/src/mrb_sleep.o
+CC    build/test/mrbgems/mruby-sleep/gem_init.c -> build/test/mrbgems/mruby-sleep/gem_init.o
+CC    build/repos/test/mruby-env/src/env.c -> build/test/mrbgems/mruby-env/src/env.o
+      MRBC build/repos/test/mruby-env/mrblib/env.rb 
+CC    build/test/mrbgems/mruby-env/gem_init.c -> build/test/mrbgems/mruby-env/gem_init.o
+CC    mrbgems/mruby-socket/src/socket.c -> build/test/mrbgems/mruby-socket/src/socket.o
+      MRBC mrbgems/mruby-socket/mrblib/socket.rb 
+CC    build/test/mrbgems/mruby-socket/gem_init.c -> build/test/mrbgems/mruby-socket/gem_init.o
+CC    build/repos/test/mruby-polarssl/src/polarssl.c -> build/test/mrbgems/mruby-polarssl/src/polarssl.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c: In function ‘mrb_ssl_close’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c:348:24: warning: variable ‘ssl’ set but not used [-Wunused-but-set-variable]
+   mbedtls_ssl_context *ssl;
+                        ^~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c: In function ‘mrb_des_encrypt’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c:543:60: warning: unused parameter ‘self’ [-Wunused-parameter]
+ static mrb_value mrb_des_encrypt(mrb_state *mrb, mrb_value self) {
+                                                            ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c: In function ‘mrb_des_decrypt’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c:571:60: warning: unused parameter ‘self’ [-Wunused-parameter]
+ static mrb_value mrb_des_decrypt(mrb_state *mrb, mrb_value self) {
+                                                            ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c: In function ‘mrb_des3_encrypt’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c:599:61: warning: unused parameter ‘self’ [-Wunused-parameter]
+ static mrb_value mrb_des3_encrypt(mrb_state *mrb, mrb_value self) {
+                                                             ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c: In function ‘mrb_des3_decrypt’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c:635:61: warning: unused parameter ‘self’ [-Wunused-parameter]
+ static mrb_value mrb_des3_decrypt(mrb_state *mrb, mrb_value self) {
+                                                             ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c: In function ‘mrb_base64_encode’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c:677:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   unsigned char buffer[RSTRING_LEN(src) * 3 + 1];
+   ^~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c:671:62: warning: unused parameter ‘self’ [-Wunused-parameter]
+ static mrb_value mrb_base64_encode(mrb_state *mrb, mrb_value self) {
+                                                              ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c: In function ‘mrb_base64_decode’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c:692:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   unsigned char buffer[RSTRING_LEN(src) * 3 + 1];
+   ^~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c:686:62: warning: unused parameter ‘self’ [-Wunused-parameter]
+ static mrb_value mrb_base64_decode(mrb_state *mrb, mrb_value self) {
+                                                              ^~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c: In function ‘mrb_mruby_polarssl_gem_final’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-polarssl/src/polarssl.c:765:46: warning: unused parameter ‘mrb’ [-Wunused-parameter]
+ void mrb_mruby_polarssl_gem_final(mrb_state *mrb) {
+                                              ^~~
+CC    build/repos/test/mruby-polarssl/polarssl/library/entropy.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/entropy.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/sha512.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/sha512.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/x509_csr.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/x509_csr.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/padlock.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/padlock.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ecdh.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ecdh.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/threading.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/threading.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/hkdf.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/hkdf.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ctr_drbg.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ctr_drbg.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ssl_tls.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ssl_tls.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/oid.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/oid.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/xtea.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/xtea.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/aes.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/aes.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/cmac.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/cmac.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/memory_buffer_alloc.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/memory_buffer_alloc.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/platform.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/platform.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/rsa_internal.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/rsa_internal.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/pkwrite.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/pkwrite.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/pem.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/pem.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/entropy_poll.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/entropy_poll.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/aria.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/aria.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/asn1write.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/asn1write.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/platform_util.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/platform_util.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/chacha20.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/chacha20.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/rsa.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/rsa.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/pkcs12.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/pkcs12.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/md5.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/md5.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/debug.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/debug.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/pk.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/pk.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/version.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/version.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/des.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/des.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/md.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/md.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/x509.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/x509.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/x509_crt.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/x509_crt.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ssl_ticket.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ssl_ticket.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ccm.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ccm.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/x509_crl.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/x509_crl.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ecp.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ecp.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/sha256.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/sha256.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/sha1.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/sha1.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/dhm.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/dhm.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ssl_cookie.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ssl_cookie.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/arc4.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/arc4.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ecp_curves.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ecp_curves.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ripemd160.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ripemd160.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/x509write_crt.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/x509write_crt.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ecdsa.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ecdsa.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ecjpake.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ecjpake.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/certs.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/certs.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/error.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/error.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ssl_ciphersuites.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ssl_ciphersuites.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/version_features.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/version_features.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ssl_srv.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ssl_srv.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/pkcs5.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/pkcs5.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/bignum.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/bignum.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ssl_cache.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ssl_cache.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/md4.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/md4.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/aesni.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/aesni.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/havege.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/havege.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/gcm.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/gcm.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/timing.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/timing.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/md_wrap.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/md_wrap.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/nist_kw.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/nist_kw.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/x509write_csr.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/x509write_csr.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/blowfish.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/blowfish.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/net_sockets.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/net_sockets.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/camellia.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/camellia.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/poly1305.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/poly1305.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/x509_create.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/x509_create.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/hmac_drbg.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/hmac_drbg.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/ssl_cli.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/ssl_cli.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/asn1parse.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/asn1parse.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/cipher_wrap.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/cipher_wrap.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/md2.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/md2.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/pkparse.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/pkparse.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/chachapoly.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/chachapoly.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/pk_wrap.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/pk_wrap.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/base64.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/base64.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/pkcs11.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/pkcs11.o
+CC    build/repos/test/mruby-polarssl/polarssl/library/cipher.c -> build/test/mrbgems/mruby-polarssl/polarssl/library/cipher.o
+      MRBC build/repos/test/mruby-polarssl/mrblib/cipher.rb 
+      MRBC build/repos/test/mruby-polarssl/mrblib/cipher/des.rb 
+      MRBC build/repos/test/mruby-polarssl/mrblib/cipher/des3.rb 
+      MRBC build/repos/test/mruby-polarssl/mrblib/cipher_error.rb 
+      MRBC build/repos/test/mruby-polarssl/mrblib/ctr_drbg.rb 
+      MRBC build/repos/test/mruby-polarssl/mrblib/pkey.rb 
+      MRBC build/repos/test/mruby-polarssl/mrblib/polarssl.rb 
+CC    build/test/mrbgems/mruby-polarssl/gem_init.c -> build/test/mrbgems/mruby-polarssl/gem_init.o
+CC    build/repos/test/mruby-regexp-pcre/src/mruby_regexp_pcre.c -> build/test/mrbgems/mruby-regexp-pcre/src/mruby_regexp_pcre.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/src/mruby_regexp_pcre.c: In function ‘regexp_pcre_match’:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/src/mruby_regexp_pcre.c:202:35: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘mrb_int {aka long int}’ [-Wformat=]
+     snprintf(sym, sizeof(sym), "$%d", i);
+                                  ~^
+                                  %ld
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_byte_order.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_byte_order.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_byte_order.c:50:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_compile.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_compile.o
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_compile.c:815:25: warning: ‘posspropstab’ defined but not used [-Wunused-const-variable=]
+ static const pcre_uint8 posspropstab[3][4] = {
+                         ^~~~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_compile.c:793:25: warning: ‘catposstab’ defined but not used [-Wunused-const-variable=]
+ static const pcre_uint8 catposstab[7][30] = {
+                         ^~~~~~~~~~
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_compile.c:771:25: warning: ‘propposstab’ defined but not used [-Wunused-const-variable=]
+ static const pcre_uint8 propposstab[PT_TABSIZE][PT_TABSIZE] = {
+                         ^~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_config.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_config.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_config.c:51:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_dfa_exec.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_dfa_exec.o
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_exec.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_exec.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_exec.c:52:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_fullinfo.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_fullinfo.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_fullinfo.c:49:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_get.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_get.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_get.c:50:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_globals.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_globals.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_globals.c:59:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_jit_compile.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_jit_compile.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_jit_compile.c:47:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_maketables.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_maketables.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_maketables.c:51:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_newline.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_newline.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_newline.c:54:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_ord2utf8.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_ord2utf8.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_ord2utf8.c:50:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_refcount.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_refcount.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_refcount.c:51:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_string_utils.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_string_utils.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_string_utils.c:49:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_study.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_study.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_study.c:49:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_tables.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_tables.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_tables.c:52:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_ucd.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_ucd.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_ucd.c:17:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_valid_utf8.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_valid_utf8.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_valid_utf8.c:49:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_version.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_version.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_version.c:49:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_xclass.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_xclass.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_xclass.c:49:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+CC    build/repos/test/mruby-regexp-pcre/pcre/pcre_chartables.c -> build/test/mrbgems/mruby-regexp-pcre/pcre/pcre_chartables.o
+In file included from /home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_chartables.c:27:0:
+/home/maki/check_mruby/mruby/build/repos/test/mruby-regexp-pcre/pcre/pcre_internal.h:388:1: warning: ‘pcre_memmove’ defined but not used [-Wunused-function]
+ pcre_memmove(void *d, const void *s, size_t n)
+ ^~~~~~~~~~~~
+      MRBC build/repos/test/mruby-regexp-pcre/mrblib/regexp_pcre.rb 
+      MRBC build/repos/test/mruby-regexp-pcre/mrblib/string_pcre.rb 
+CC    build/test/mrbgems/mruby-regexp-pcre/gem_init.c -> build/test/mrbgems/mruby-regexp-pcre/gem_init.o
+      MRBC build/repos/test/mruby-mtest/mrblib/mtest_unit.rb 
+CC    build/test/mrbgems/mruby-mtest/gem_init.c -> build/test/mrbgems/mruby-mtest/gem_init.o
+CC    build/test/mrbgems/gem_init.c -> build/test/mrbgems/gem_init.o
+AR    build/test/lib/libmruby.a 
+ar: creating /home/maki/check_mruby/mruby/build/test/lib/libmruby.a
+CC    mrbgems/mruby-bin-mirb/tools/mirb/mirb.c -> build/host/mrbgems/mruby-bin-mirb/tools/mirb/mirb.o
+LD    build/host/bin/mirb 
+CC    mrbgems/mruby-bin-mruby/tools/mruby/mruby.c -> build/host/mrbgems/mruby-bin-mruby/tools/mruby/mruby.o
+LD    build/host/bin/mruby 
+CC    mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.c -> build/host/mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.o
+LD    build/host/bin/mruby-strip 
+CC    mrbgems/mruby-bin-mirb/tools/mirb/mirb.c -> build/test/mrbgems/mruby-bin-mirb/tools/mirb/mirb.o
+LD    build/test/bin/mirb 
+CC    mrbgems/mruby-bin-mruby/tools/mruby/mruby.c -> build/test/mrbgems/mruby-bin-mruby/tools/mruby/mruby.o
+LD    build/test/bin/mruby 
+CC    mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.c -> build/test/mrbgems/mruby-bin-strip/tools/mruby-strip/mruby-strip.o
+LD    build/test/bin/mruby-strip 
+CC    mrbgems/mruby-test/vformat.c -> build/test/mrbgems/mruby-test/vformat.o
+CC    mrbgems/mruby-test/driver.c -> build/test/mrbgems/mruby-test/driver.o
+GEN   *.rb -> build/test/mrbgems/mruby-test/mrbtest.c
+CC    build/test/mrbgems/mruby-test/mrbtest.c -> build/test/mrbgems/mruby-test/mrbtest.o
+      MRBC test/assert.rb 
+CC    build/test/mrbgems/mruby-test/assert.c -> build/test/mrbgems/mruby-test/assert.o
+      MRBC mrbgems/mruby-metaprog/test/metaprog.rb 
+CC    build/test/mrbgems/mruby-metaprog/gem_test.c -> build/test/mrbgems/mruby-metaprog/gem_test.o
+CC    mrbgems/mruby-io/test/mruby_io_test.c -> build/test/mrbgems/mruby-io/test/mruby_io_test.o
+      MRBC mrbgems/mruby-io/test/file.rb 
+      MRBC mrbgems/mruby-io/test/file_test.rb 
+      MRBC mrbgems/mruby-io/test/io.rb 
+CC    build/test/mrbgems/mruby-io/gem_test.c -> build/test/mrbgems/mruby-io/gem_test.o
+      MRBC mrbgems/mruby-pack/test/pack.rb 
+CC    build/test/mrbgems/mruby-pack/gem_test.c -> build/test/mrbgems/mruby-pack/gem_test.o
+      MRBC mrbgems/mruby-sprintf/test/sprintf.rb 
+CC    build/test/mrbgems/mruby-sprintf/gem_test.c -> build/test/mrbgems/mruby-sprintf/gem_test.o
+CC    build/test/mrbgems/mruby-print/gem_test.c -> build/test/mrbgems/mruby-print/gem_test.o
+      MRBC mrbgems/mruby-math/test/math.rb 
+CC    build/test/mrbgems/mruby-math/gem_test.c -> build/test/mrbgems/mruby-math/gem_test.o
+      MRBC mrbgems/mruby-time/test/time.rb 
+CC    build/test/mrbgems/mruby-time/gem_test.c -> build/test/mrbgems/mruby-time/gem_test.o
+      MRBC mrbgems/mruby-struct/test/struct.rb 
+CC    build/test/mrbgems/mruby-struct/gem_test.c -> build/test/mrbgems/mruby-struct/gem_test.o
+CC    build/test/mrbgems/mruby-compar-ext/gem_test.c -> build/test/mrbgems/mruby-compar-ext/gem_test.o
+      MRBC mrbgems/mruby-enum-ext/test/enum.rb 
+CC    build/test/mrbgems/mruby-enum-ext/gem_test.c -> build/test/mrbgems/mruby-enum-ext/gem_test.o
+      MRBC mrbgems/mruby-string-ext/test/numeric.rb 
+      MRBC mrbgems/mruby-string-ext/test/range.rb 
+      MRBC mrbgems/mruby-string-ext/test/string.rb 
+CC    build/test/mrbgems/mruby-string-ext/gem_test.c -> build/test/mrbgems/mruby-string-ext/gem_test.o
+      MRBC mrbgems/mruby-numeric-ext/test/numeric.rb 
+CC    build/test/mrbgems/mruby-numeric-ext/gem_test.c -> build/test/mrbgems/mruby-numeric-ext/gem_test.o
+      MRBC mrbgems/mruby-array-ext/test/array.rb 
+CC    build/test/mrbgems/mruby-array-ext/gem_test.c -> build/test/mrbgems/mruby-array-ext/gem_test.o
+      MRBC mrbgems/mruby-hash-ext/test/hash.rb 
+CC    build/test/mrbgems/mruby-hash-ext/gem_test.c -> build/test/mrbgems/mruby-hash-ext/gem_test.o
+      MRBC mrbgems/mruby-range-ext/test/range.rb 
+CC    build/test/mrbgems/mruby-range-ext/gem_test.c -> build/test/mrbgems/mruby-range-ext/gem_test.o
+CC    mrbgems/mruby-proc-ext/test/proc.c -> build/test/mrbgems/mruby-proc-ext/test/proc.o
+      MRBC mrbgems/mruby-proc-ext/test/proc.rb 
+CC    build/test/mrbgems/mruby-proc-ext/gem_test.c -> build/test/mrbgems/mruby-proc-ext/gem_test.o
+      MRBC mrbgems/mruby-symbol-ext/test/symbol.rb 
+CC    build/test/mrbgems/mruby-symbol-ext/gem_test.c -> build/test/mrbgems/mruby-symbol-ext/gem_test.o
+      MRBC mrbgems/mruby-random/test/random.rb 
+CC    build/test/mrbgems/mruby-random/gem_test.c -> build/test/mrbgems/mruby-random/gem_test.o
+      MRBC mrbgems/mruby-object-ext/test/nil.rb 
+      MRBC mrbgems/mruby-object-ext/test/object.rb 
+CC    build/test/mrbgems/mruby-object-ext/gem_test.c -> build/test/mrbgems/mruby-object-ext/gem_test.o
+      MRBC mrbgems/mruby-objectspace/test/objectspace.rb 
+CC    build/test/mrbgems/mruby-objectspace/gem_test.c -> build/test/mrbgems/mruby-objectspace/gem_test.o
+      MRBC mrbgems/mruby-fiber/test/fiber.rb 
+CC    build/test/mrbgems/mruby-fiber/gem_test.c -> build/test/mrbgems/mruby-fiber/gem_test.o
+      MRBC mrbgems/mruby-enumerator/test/enumerator.rb 
+CC    build/test/mrbgems/mruby-enumerator/gem_test.c -> build/test/mrbgems/mruby-enumerator/gem_test.o
+      MRBC mrbgems/mruby-enum-lazy/test/lazy.rb 
+CC    build/test/mrbgems/mruby-enum-lazy/gem_test.c -> build/test/mrbgems/mruby-enum-lazy/gem_test.o
+      MRBC mrbgems/mruby-toplevel-ext/test/toplevel.rb 
+CC    build/test/mrbgems/mruby-toplevel-ext/gem_test.c -> build/test/mrbgems/mruby-toplevel-ext/gem_test.o
+CC    build/test/mrbgems/mruby-bin-mirb/gem_test.c -> build/test/mrbgems/mruby-bin-mirb/gem_test.o
+CC    build/test/mrbgems/mruby-bin-mruby/gem_test.c -> build/test/mrbgems/mruby-bin-mruby/gem_test.o
+CC    build/test/mrbgems/mruby-bin-strip/gem_test.c -> build/test/mrbgems/mruby-bin-strip/gem_test.o
+      MRBC mrbgems/mruby-kernel-ext/test/kernel.rb 
+CC    build/test/mrbgems/mruby-kernel-ext/gem_test.c -> build/test/mrbgems/mruby-kernel-ext/gem_test.o
+      MRBC mrbgems/mruby-class-ext/test/module.rb 
+CC    build/test/mrbgems/mruby-class-ext/gem_test.c -> build/test/mrbgems/mruby-class-ext/gem_test.o
+      MRBC mrbgems/mruby-method/test/method.rb 
+CC    build/test/mrbgems/mruby-method/gem_test.c -> build/test/mrbgems/mruby-method/gem_test.o
+CC    build/test/mrbgems/mruby-compiler/gem_test.c -> build/test/mrbgems/mruby-compiler/gem_test.o
+      MRBC build/repos/test/mruby-tbot/test/bot_test.rb 
+CC    build/test/mrbgems/mruby-tbot/gem_test.c -> build/test/mrbgems/mruby-tbot/gem_test.o
+      MRBC test/t/literals.rb 
+      MRBC test/t/lang.rb 
+      MRBC test/t/ensure.rb 
+      MRBC test/t/hash.rb 
+      MRBC test/t/superclass.rb 
+      MRBC test/t/string.rb 
+      MRBC test/t/methods.rb 
+      MRBC test/t/syntax.rb 
+      MRBC test/t/enumerable.rb 
+      MRBC test/t/proc.rb 
+      MRBC test/t/iterations.rb 
+      MRBC test/t/array.rb 
+      MRBC test/t/gc.rb 
+      MRBC test/t/exception.rb 
+      MRBC test/t/typeerror.rb 
+      MRBC test/t/nameerror.rb 
+      MRBC test/t/numeric.rb 
+      MRBC test/t/rangeerror.rb 
+      MRBC test/t/object.rb 
+      MRBC test/t/bs_block.rb 
+      MRBC test/t/codegen.rb 
+      MRBC test/t/indexerror.rb 
+      MRBC test/t/localjumperror.rb 
+      MRBC test/t/standarderror.rb 
+      MRBC test/t/nil.rb 
+      MRBC test/t/nomethoderror.rb 
+      MRBC test/t/runtimeerror.rb 
+      MRBC test/t/comparable.rb 
+      MRBC test/t/true.rb 
+      MRBC test/t/argumenterror.rb 
+      MRBC test/t/bs_literal.rb 
+      MRBC test/t/vformat.rb 
+      MRBC test/t/range.rb 
+      MRBC test/t/module.rb 
+      MRBC test/t/regexperror.rb 
+      MRBC test/t/unicode.rb 
+      MRBC test/t/false.rb 
+      MRBC test/t/kernel.rb 
+      MRBC test/t/float.rb 
+      MRBC test/t/basicobject.rb 
+      MRBC test/t/integer.rb 
+      MRBC test/t/class.rb 
+      MRBC test/t/symbol.rb 
+CC    build/test/mrbgems/mruby-test/gem_test.c -> build/test/mrbgems/mruby-test/gem_test.o
+CC    mrbgems/mruby-error/test/exception.c -> build/test/mrbgems/mruby-error/test/exception.o
+      MRBC mrbgems/mruby-error/test/exception.rb 
+CC    build/test/mrbgems/mruby-error/gem_test.c -> build/test/mrbgems/mruby-error/gem_test.o
+      MRBC build/repos/test/mruby-smallhttp/test/http.rb 
+CC    build/test/mrbgems/mruby-smallhttp/gem_test.c -> build/test/mrbgems/mruby-smallhttp/gem_test.o
+      MRBC build/repos/test/mruby-json/test/json.rb 
+CC    build/test/mrbgems/mruby-json/gem_test.c -> build/test/mrbgems/mruby-json/gem_test.o
+      MRBC build/repos/test/mruby-sleep/test/sleep_test.rb 
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sleep/test/sleep_test.rb:19:40: warning: ambiguous first argument; put parentheses or even spaces
+/home/maki/check_mruby/mruby/build/repos/test/mruby-sleep/test/sleep_test.rb:32:41: warning: ambiguous first argument; put parentheses or even spaces
+CC    build/test/mrbgems/mruby-sleep/gem_test.c -> build/test/mrbgems/mruby-sleep/gem_test.o
+      MRBC build/repos/test/mruby-env/test/env_test.rb 
+CC    build/test/mrbgems/mruby-env/gem_test.c -> build/test/mrbgems/mruby-env/gem_test.o
+CC    mrbgems/mruby-socket/test/sockettest.c -> build/test/mrbgems/mruby-socket/test/sockettest.o
+      MRBC mrbgems/mruby-socket/test/addrinfo.rb 
+      MRBC mrbgems/mruby-socket/test/basicsocket.rb 
+      MRBC mrbgems/mruby-socket/test/ipsocket.rb 
+      MRBC mrbgems/mruby-socket/test/socket.rb 
+      MRBC mrbgems/mruby-socket/test/tcpsocket.rb 
+      MRBC mrbgems/mruby-socket/test/udpsocket.rb 
+      MRBC mrbgems/mruby-socket/test/unix.rb 
+CC    build/test/mrbgems/mruby-socket/gem_test.c -> build/test/mrbgems/mruby-socket/gem_test.o
+      MRBC build/repos/test/mruby-polarssl/test/base64.rb 
+      MRBC build/repos/test/mruby-polarssl/test/cipher.rb 
+      MRBC build/repos/test/mruby-polarssl/test/ecdsa_test.rb 
+      MRBC build/repos/test/mruby-polarssl/test/polarssl.rb 
+CC    build/test/mrbgems/mruby-polarssl/gem_test.c -> build/test/mrbgems/mruby-polarssl/gem_test.o
+      MRBC build/repos/test/mruby-regexp-pcre/test/matchdata.rb 
+      MRBC build/repos/test/mruby-regexp-pcre/test/regexp.rb 
+      MRBC build/repos/test/mruby-regexp-pcre/test/string.rb 
+CC    build/test/mrbgems/mruby-regexp-pcre/gem_test.c -> build/test/mrbgems/mruby-regexp-pcre/gem_test.o
+      MRBC build/repos/test/mruby-mtest/test/mtest_unit_test.rb 
+CC    build/test/mrbgems/mruby-mtest/gem_test.c -> build/test/mrbgems/mruby-mtest/gem_test.o
+AR    build/test/mrbgems/mruby-test/mrbtest.a 
+ar: creating /home/maki/check_mruby/mruby/build/test/mrbgems/mruby-test/mrbtest.a
+LD    build/test/bin/mrbtest 
+
+Build summary:
+
+================================================
+      Config Name: host
+ Output Directory: build/host
+         Binaries: mrbc
+    Included Gems:
+             mruby-metaprog - Meta-programming features for mruby
+             mruby-io - IO and File class
+             mruby-pack - Array#pack and String#unpack method
+             mruby-sprintf - standard Kernel#sprintf method
+             mruby-print - standard print/puts/p
+             mruby-math - standard Math module
+             mruby-time - standard Time class
+             mruby-struct - standard Struct class
+             mruby-compar-ext - Enumerable module extension
+             mruby-enum-ext - Enumerable module extension
+             mruby-string-ext - String class extension
+             mruby-numeric-ext - Numeric class extension
+             mruby-array-ext - Array class extension
+             mruby-hash-ext - Hash class extension
+             mruby-range-ext - Range class extension
+             mruby-proc-ext - Proc class extension
+             mruby-symbol-ext - Symbol class extension
+             mruby-random - Random class
+             mruby-object-ext - extensional methods shared by all objects
+             mruby-objectspace - ObjectSpace class
+             mruby-fiber - Fiber class
+             mruby-enumerator - Enumerator class
+             mruby-enum-lazy - Enumerator::Lazy class
+             mruby-toplevel-ext - toplevel object (main) methods extension
+             mruby-compiler - mruby compiler library
+             mruby-bin-mirb - mirb command
+               - Binaries: mirb
+             mruby-error - extensional error handling
+             mruby-bin-mruby - mruby command
+               - Binaries: mruby
+             mruby-bin-strip - irep dump debug section remover command
+               - Binaries: mruby-strip
+             mruby-kernel-ext - extensional function-like methods
+             mruby-class-ext - class/module extension
+             mruby-method - Method and UnboundMethod class
+             mruby-bin-mrbc - mruby compiler executable
+================================================
+
+================================================
+      Config Name: test
+ Output Directory: build/test
+         Binaries: mrbtest
+    Included Gems:
+             mruby-metaprog - Meta-programming features for mruby
+             mruby-time - standard Time class
+             mruby-io - IO and File class
+             mruby-pack - Array#pack and String#unpack method
+             mruby-sprintf - standard Kernel#sprintf method
+             mruby-print - standard print/puts/p
+             mruby-math - standard Math module
+             mruby-struct - standard Struct class
+             mruby-compar-ext - Enumerable module extension
+             mruby-enum-ext - Enumerable module extension
+             mruby-string-ext - String class extension
+             mruby-numeric-ext - Numeric class extension
+             mruby-array-ext - Array class extension
+             mruby-fiber - Fiber class
+             mruby-enumerator - Enumerator class
+             mruby-hash-ext - Hash class extension
+             mruby-range-ext - Range class extension
+             mruby-proc-ext - Proc class extension
+             mruby-symbol-ext - Symbol class extension
+             mruby-random - Random class
+             mruby-object-ext - extensional methods shared by all objects
+             mruby-objectspace - ObjectSpace class
+             mruby-enum-lazy - Enumerator::Lazy class
+             mruby-toplevel-ext - toplevel object (main) methods extension
+             mruby-compiler - mruby compiler library
+             mruby-bin-mirb - mirb command
+               - Binaries: mirb
+             mruby-error - extensional error handling
+             mruby-bin-mruby - mruby command
+               - Binaries: mruby
+             mruby-bin-strip - irep dump debug section remover command
+               - Binaries: mruby-strip
+             mruby-kernel-ext - extensional function-like methods
+             mruby-class-ext - class/module extension
+             mruby-method - Method and UnboundMethod class
+             mruby-socket - standard socket class
+             mruby-mtest
+             mruby-polarssl - 2.1.2
+             mruby-regexp-pcre
+             mruby-json
+             mruby-smallhttp
+             mruby-sleep - 0.0.1
+             mruby-env
+             mruby-tbot
+             mruby-test - mruby test
+================================================
+
+>>> Test test <<<
+mrbtest - Embeddable Ruby Test
+
+........................................................................................?....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................S.....W...................WWWWWWWWWWW....WWWWWWWWWWWW..WWWWWWWWWWWWWWWWWWWWWWWW.WWWWWWWWWWW..WW.WWW...WW..WWWWWWW........................................XXXX..............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Skip: File.expand_path (with ENV) (mrbgems: mruby-io)
+MTest 1) Skipped:
+test_assert_match(Test4MTest) /home/maki/check_mruby/mruby/build/repos/test/mruby-mtest/test/mtest_unit_test.rb:51: assert_match is not defined, because Regexp is not impl. (MTest::Skip)
+
+Warn: PolarSSL::Base64 => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::Entropy => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::Entropy#new => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::Entropy#gather => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::CtrDrbg => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::CtrDrbg#new err => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::CtrDrbg#new err 2 => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::CtrDrbg#new => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::CtrDrbg#self_test => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::SSL => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::SSL#new => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::SSL#set_endpoint => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::SSL#set_authmode => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::SSL#set_rng => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::SSL#set_rng err => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::SSL#set_socket => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::SSL#handshake => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::SSL#handshake err => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::SSL#write => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::SSL#read => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::SSL#close_notify => no assertion (mrbgems: mruby-polarssl)
+Warn: PolarSSL::SSL#close => no assertion (mrbgems: mruby-polarssl)
+Warn: MatchData [15.2.16.2] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#begin [15.2.16.3.2] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#captures [15.2.16.3.3] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#end [15.2.16.3.4] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#initialize_copy [15.2.16.3.5] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#length [15.2.16.3.6] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#offset [15.2.16.3.7] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#post_match [15.2.16.3.8] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#pre_match [15.2.16.3.9] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#size [15.2.16.3.10] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#string [15.2.16.3.11] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#to_a [15.2.16.3.12] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#to_a [15.2.16.3.13] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#names => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#regexp => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: MatchData#values_at => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp [15.2.15.1] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp.compile [15.2.15.6.1] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp.escape [15.2.15.6.2] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp.last_match [15.2.15.6.3] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp.quote [15.2.15.6.4] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp#== [15.2.15.7.1] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp#=== [15.2.15.7.2] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp#=~ [15.2.15.7.3] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp#casefold? [15.2.15.7.4] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp#match [15.2.15.7.7] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp#options (literal) => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp#options => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp#source => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp#to_s => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp Literal (1) => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp Literal (2) => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp Literal (3) => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp Literal (4) => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp Literal (5): escape charactor => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp Literal (6): matching test => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: Regexp option "x" [15.2.15.1] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: String#[] [15.2.10.5.6] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: String#gsub! with Regexp [15.2.10.5.19] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: String#gsub [15.2.10.5.18] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: String#gsub! [15.2.10.5.19] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: String#rindex [15.2.10.5.31] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: String#scan [15.2.10.5.32] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: String#slice [15.2.10.5.34] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: String#slice! => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: String#split [15.2.10.5.35] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: String#sub with Regexp [15.2.10.5.36] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: String#sub! with Regexp [15.2.10.5.37] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: String#sub [15.2.10.5.36] => no assertion (mrbgems: mruby-regexp-pcre)
+Warn: String#sub! [15.2.10.5.37] => no assertion (mrbgems: mruby-regexp-pcre)
+test skip of mruby-env/test/env_test.rb
+ArgumentError: bot has access to the attributes => ArgumentError (mrbgems: mruby-tbot)
+ArgumentError: bot return response => ArgumentError (mrbgems: mruby-tbot)
+ArgumentError: bot messages required block => ArgumentError (mrbgems: mruby-tbot)
+ArgumentError: bot send messages => ArgumentError (mrbgems: mruby-tbot)
+  Total: 1415
+     OK: 1337
+     KO: 0
+  Crash: 4
+Warning: 73
+   Skip: 1
+   Time: 13.29 seconds
+rake aborted!
+Command failed with status (1): [build/test/bin/mrbtest...]
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:329:in `run_test'
+/home/maki/check_mruby/mruby/Rakefile:130:in `block (2 levels) in <top (required)>'
+Tasks: TOP => test => test_test
+(See full trace by running task with --trace)

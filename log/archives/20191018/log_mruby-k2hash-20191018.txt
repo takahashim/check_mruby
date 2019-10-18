@@ -1,0 +1,24 @@
+GIT   https://github.com/syucream/mruby-k2hash.git -> build/repos/test/mruby-k2hash
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-k2hash'...
+Cloning into 'k2hash'...
+rake aborted!
+Errno::ENOENT: No such file or directory @ dir_chdir - /home/maki/check_mruby/mruby/build/test/mrbgems/mruby-k2hash/k2hash/fullock
+/home/maki/check_mruby/mruby/build/repos/test/mruby-k2hash/mrbgem.rake:18:in `chdir'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-k2hash/mrbgem.rake:18:in `block (3 levels) in <top (required)>'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-k2hash/mrbgem.rake:16:in `chdir'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-k2hash/mrbgem.rake:16:in `block (2 levels) in <top (required)>'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-k2hash/mrbgem.rake:14:in `chdir'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-k2hash/mrbgem.rake:14:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `setup'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:4:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `block in each_target'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each_target'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:1:in `<top (required)>'
+/home/maki/check_mruby/mruby/Rakefile:27:in `load'
+/home/maki/check_mruby/mruby/Rakefile:27:in `<top (required)>'
+(See full trace by running task with --trace)

@@ -1,0 +1,20 @@
+GIT   https://github.com/listrophy/mruby-matrix.git -> build/repos/test/mruby-matrix
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-matrix'...
+rake aborted!
+Can't find /home/maki/check_mruby/mruby/mrbgems/mruby-mtest/mrbgem.rake
+/home/maki/check_mruby/mruby/lib/mruby/build/load_gems.rb:28:in `gem'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:352:in `generate_gem_table'
+/home/maki/check_mruby/mruby/mrbgems/mruby-test/mrbgem.rake:34:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `setup'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:4:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `block in each_target'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each_target'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:1:in `<top (required)>'
+/home/maki/check_mruby/mruby/Rakefile:27:in `load'
+/home/maki/check_mruby/mruby/Rakefile:27:in `<top (required)>'
+(See full trace by running task with --trace)

@@ -1,0 +1,61 @@
+GIT   https://github.com/matsumotory/mruby-http2.git -> build/repos/test/mruby-http2
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-http2'...
+mruby-http2 build: [exec] git clone https://github.com/nghttp2/nghttp2.git
+Cloning into 'nghttp2'...
+mruby-http2 build: [exec] git checkout ec519f22dcad42a06b968e24a8ee8f651464016a .
+mruby-http2 build: [exec] git submodule init
+Submodule 'third-party/mruby' (https://github.com/mruby/mruby) registered for path 'third-party/mruby'
+Submodule 'third-party/neverbleed' (https://github.com/tatsuhiro-t/neverbleed.git) registered for path 'third-party/neverbleed'
+mruby-http2 build: [exec] git submodule update
+Cloning into '/home/maki/check_mruby/mruby/build/test/mrbgems/mruby-http2/nghttp2/third-party/mruby'...
+Cloning into '/home/maki/check_mruby/mruby/build/test/mrbgems/mruby-http2/nghttp2/third-party/neverbleed'...
+Submodule path 'third-party/mruby': checked out '1c09046c13fc0a763583c6da0f1d350f6c41c4ca'
+Submodule path 'third-party/neverbleed': checked out '5cf5da80b715223d2614374aec40f2663dc68d6a'
+mruby-http2 build: [exec] autoreconf -i
+configure.ac:32: installing './compile'
+configure.ac:37: installing './config.guess'
+configure.ac:37: installing './config.sub'
+configure.ac:41: installing './install-sh'
+configure.ac:41: installing './missing'
+Makefile.am: installing './INSTALL'
+examples/Makefile.am: installing './depcomp'
+lib/Makefile.am:35: error: Libtool library used but 'LIBTOOL' is undefined
+lib/Makefile.am:35:   The usual way to define 'LIBTOOL' is to add 'LT_INIT'
+lib/Makefile.am:35:   to 'configure.ac' and run 'aclocal' and 'autoconf' again.
+lib/Makefile.am:35:   If 'LT_INIT' is in 'configure.ac', make sure
+lib/Makefile.am:35:   its definition is in aclocal's search path.
+src/Makefile.am:154: error: library used but 'RANLIB' is undefined
+src/Makefile.am:154:   The usual way to define 'RANLIB' is to add 'AC_PROG_RANLIB'
+src/Makefile.am:154:   to 'configure.ac' and run 'autoconf' again.
+src/Makefile.am:229: error: Libtool library used but 'LIBTOOL' is undefined
+src/Makefile.am:229:   The usual way to define 'LIBTOOL' is to add 'LT_INIT'
+src/Makefile.am:229:   to 'configure.ac' and run 'aclocal' and 'autoconf' again.
+src/Makefile.am:229:   If 'LT_INIT' is in 'configure.ac', make sure
+src/Makefile.am:229:   its definition is in aclocal's search path.
+parallel-tests: installing './test-driver'
+third-party/Makefile.am:30: error: Libtool library used but 'LIBTOOL' is undefined
+third-party/Makefile.am:30:   The usual way to define 'LIBTOOL' is to add 'LT_INIT'
+third-party/Makefile.am:30:   to 'configure.ac' and run 'aclocal' and 'autoconf' again.
+third-party/Makefile.am:30:   If 'LT_INIT' is in 'configure.ac', make sure
+third-party/Makefile.am:30:   its definition is in aclocal's search path.
+autoreconf: automake failed with exit status: 1
+rake aborted!
+autoreconf -i failed
+/home/maki/check_mruby/mruby/build/repos/test/mruby-http2/mrbgem.rake:27:in `block in run_command'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-http2/mrbgem.rake:25:in `run_command'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-http2/mrbgem.rake:48:in `block (2 levels) in <top (required)>'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-http2/mrbgem.rake:41:in `chdir'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-http2/mrbgem.rake:41:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `setup'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:4:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `block in each_target'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each_target'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:1:in `<top (required)>'
+/home/maki/check_mruby/mruby/Rakefile:27:in `load'
+/home/maki/check_mruby/mruby/Rakefile:27:in `<top (required)>'
+(See full trace by running task with --trace)

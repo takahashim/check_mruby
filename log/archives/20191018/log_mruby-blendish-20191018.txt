@@ -1,0 +1,27 @@
+GIT   https://github.com/IceDragon200/mruby-blendish -> build/repos/test/mruby-blendish
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-blendish'...
+GIT   https://github.com/IceDragon200/mruby-oui.git -> build/repos/test/mruby-oui
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-oui'...
+GIT   https://github.com/IceDragon200/mruby-nanovg.git -> build/repos/test/mruby-nanovg
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-nanovg'...
+GIT   https://github.com/mruby/mgem-list.git -> build/repos/test/mgem-list
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mgem-list'...
+rake aborted!
+mgem not found: mruby-glew
+/home/maki/check_mruby/mruby/lib/mruby/build/load_gems.rb:69:in `load_special_path_gem'
+/home/maki/check_mruby/mruby/lib/mruby/build/load_gems.rb:19:in `gem'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:352:in `generate_gem_table'
+/home/maki/check_mruby/mruby/mrbgems/mruby-test/mrbgem.rake:34:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `setup'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:4:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `block in each_target'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each_target'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:1:in `<top (required)>'
+/home/maki/check_mruby/mruby/Rakefile:27:in `load'
+/home/maki/check_mruby/mruby/Rakefile:27:in `<top (required)>'
+(See full trace by running task with --trace)

@@ -1,0 +1,3 @@
+GIT   https://github.com/Asmod4n/mruby-chrono.git -> build/repos/test/mruby-chrono
+Cloning into '/home/maki/check_mruby/mruby/build/repos/test/mruby-chrono'...
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h

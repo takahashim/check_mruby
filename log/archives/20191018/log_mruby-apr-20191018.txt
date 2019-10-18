@@ -1,0 +1,26 @@
+ERROR:
+  mruby-apr requires 64 bit integers. 
+  Please define the MRB_INT64 macro before building.
+Options:
+  1. Set `spec.cc.flags << '-DMRB_INT64'` in build_config.rb
+  2. Invoke rake as `rake CLFAGS=-DMRB_INT64 ...` when building mruby
+Workaround:
+  If you think you're seeing this message in error, 
+  set ENV['MRUBY_APR_IGNORE_INT_SIZE'] = 'true' to bypass
+  this check (and consider submitting a bug report!)
+rake aborted!
+MRuby-APR requires MRB_INT64 to be set
+/home/maki/check_mruby/mruby/build/repos/test/mruby-apr/mrbgem.rake:86:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `setup'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:4:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `block in each_target'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each_target'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:1:in `<top (required)>'
+/home/maki/check_mruby/mruby/Rakefile:27:in `load'
+/home/maki/check_mruby/mruby/Rakefile:27:in `<top (required)>'
+(See full trace by running task with --trace)

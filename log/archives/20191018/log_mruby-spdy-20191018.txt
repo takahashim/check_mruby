@@ -1,0 +1,31 @@
+mruby-spdy build: [exec] git clone https://github.com/tatsuhiro-t/spdylay.git
+Cloning into 'spdylay'...
+mruby-spdy build: [exec] git checkout 51f9ba3941cc43f1928cd816b1fe2215c1405652 .
+mruby-spdy build: [exec] git submodule init
+mruby-spdy build: [exec] git submodule update
+mruby-spdy build: [exec] autoreconf -i
+configure.ac:170: warning: macro 'AM_PATH_XML2' not found in library
+configure.ac:170: error: possibly undefined macro: AM_PATH_XML2
+      If this token and others are legitimate, please use m4_pattern_allow.
+      See the Autoconf documentation.
+autoreconf: /usr/bin/autoconf failed with exit status: 1
+rake aborted!
+autoreconf -i failed
+/home/maki/check_mruby/mruby/build/repos/test/mruby-spdy/mrbgem.rake:22:in `block in run_command'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-spdy/mrbgem.rake:20:in `run_command'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-spdy/mrbgem.rake:43:in `block (2 levels) in <top (required)>'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-spdy/mrbgem.rake:36:in `chdir'
+/home/maki/check_mruby/mruby/build/repos/test/mruby-spdy/mrbgem.rake:36:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:82:in `setup'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/gem.rb:314:in `each'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:4:in `block in <top (required)>'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `instance_eval'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:17:in `block in each_target'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each'
+/home/maki/check_mruby/mruby/lib/mruby/build.rb:16:in `each_target'
+/home/maki/check_mruby/mruby/tasks/mrbgems.rake:1:in `<top (required)>'
+/home/maki/check_mruby/mruby/Rakefile:27:in `load'
+/home/maki/check_mruby/mruby/Rakefile:27:in `<top (required)>'
+(See full trace by running task with --trace)
