@@ -9,7 +9,7 @@ FileUtils.mkdir_p "conf"
 if File.exist?("mruby")
   system("cd mruby && git pull")
 else
-  system("git clone --depth=1 -b master git@github.com:mruby/mruby.git")
+  system("git clone --depth=1 -b master https://github.com/mruby/mruby.git")
 end
 
 TEST_SCRIPT="run_test.sh"
@@ -55,4 +55,5 @@ end
 
 FileUtils.chmod(0755, TEST_SCRIPT)
 
-system(TEST_SCRIPT)
+puts "run #{TEST_SCRIPT}..."
+system("bash #{TEST_SCRIPT}")
