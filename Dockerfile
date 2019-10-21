@@ -1,6 +1,6 @@
 # Use the official lightweight Ruby image.
 # https://hub.docker.com/_/ruby
-FROM ruby:2.6
+FROM rubylang/ruby:2.6.5-bionic
 
 RUN set -ex && \
     \
@@ -48,12 +48,15 @@ RUN set -ex && \
             libncursesw5 \
             libgmp10 libmpc3 libmpfr6 \
             libmemcached-dev \
-            libmysqlclient-dev \
-            mysql-client \
+            libmariadb-dev-compat \
+            libmariadb-dev \
+            default-mysql-client \
             libmaxminddb0 \
             libcurl4-openssl-dev \
             liblua5.2-dev \
-            libunbound-dev
+            libunbound-dev \
+            libargtable2-dev \
+            libunwind-dev
 
 # Install production dependencies.
 WORKDIR /app
